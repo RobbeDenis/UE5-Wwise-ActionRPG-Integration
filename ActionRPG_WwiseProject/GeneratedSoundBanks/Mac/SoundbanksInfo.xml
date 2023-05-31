@@ -41,7 +41,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{59621BDF-A615-E7EF-75EB-82A681828088}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{26E139C6-1029-974C-3CBC-597B5EB58850}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -106,6 +106,10 @@
 					<ShortName>Shot.wav</ShortName>
 					<CachePath>SFX/Shot_10C4C929.wem</CachePath>
 				</File>
+				<File Id="724030898" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Death_Cry.wav</ShortName>
+					<CachePath>SFX/Death_Cry_10C4C929.wem</CachePath>
+				</File>
 				<File Id="730473686" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-003.wav</ShortName>
 					<CachePath>SFX/FS_Sand-003_10C4C929.wem</CachePath>
@@ -140,6 +144,11 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="2495770949" Name="Play_Death_Cry" ObjectPath="\Events\Default Work Unit\Play_Death_Cry" GUID="{73C1D3B6-84DF-4834-8FB2-67BA65816D2D}" DurationType="OneShot" DurationMin="5.3" DurationMax="5.3">
+					<MediaRefs>
+						<MediaRef Id="724030898"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" GUID="{F60C7D25-F5E7-44EC-BE4C-3BC28FC88BC2}" DurationType="OneShot" DurationMin="0" DurationMax="0.46769434">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -230,5 +239,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2FC57D0B-12FD-2C8D-A2F4-484753B00687}</FileHash>
+	<FileHash>{E4D2D64F-8DCF-5AFE-21F1-9C9A1A9B138A}</FileHash>
 </SoundBanksInfo>

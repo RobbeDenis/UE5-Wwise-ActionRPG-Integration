@@ -76,6 +76,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Death_Cry" ID="{73C1D3B6-84DF-4834-8FB2-67BA65816D2D}">
+					<ChildrenList>
+						<Action Name="" ID="{19CF42AE-387D-43DC-948E-8C4C453D8D0F}" ShortID="552460127">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Death_Cry" ID="{0473D1DD-EE61-47BB-BC0A-61E0F1A47BE0}" WorkUnitID="{78319BBC-D52B-4957-9515-2157E48A2787}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

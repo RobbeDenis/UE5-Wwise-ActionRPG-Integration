@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{59621BDF-A615-E7EF-75EB-82A681828088}",
+    "Hash": "{26E139C6-1029-974C-3CBC-597B5EB58850}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -136,6 +136,14 @@
       "CachePath": "SFX/Shot_10C4C929.wem"
      },
      {
+      "Id": "724030898",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Death_Cry.wav",
+      "CachePath": "SFX/Death_Cry_10C4C929.wem"
+     },
+     {
       "Id": "730473686",
       "Language": "SFX",
       "Streaming": "false",
@@ -201,6 +209,20 @@
      }
     ],
     "Events": [
+     {
+      "Id": "2495770949",
+      "Name": "Play_Death_Cry",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Death_Cry",
+      "GUID": "{73C1D3B6-84DF-4834-8FB2-67BA65816D2D}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.3",
+      "DurationMax": "5.3",
+      "MediaRefs": [
+       {
+        "Id": "724030898"
+       }
+      ]
+     },
      {
       "Id": "3854155799",
       "Name": "Play_Footsteps",
@@ -448,6 +470,6 @@
     ]
    }
   ],
-  "FileHash": "{7A2F459B-313D-2450-A37D-2A2119BFC107}"
+  "FileHash": "{488FCC41-4548-8136-CF80-CBAA586F645F}"
  }
 }

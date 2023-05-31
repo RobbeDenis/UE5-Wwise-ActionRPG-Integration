@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	390202731	Play_Grunt_Swing			\Default Work Unit\Play_Grunt_Swing	
 	1055240968	Play_GroundSlam			\Default Work Unit\Play_GroundSlam	
+	2495770949	Play_Death_Cry			\Default Work Unit\Play_Death_Cry	
 	2517823277	Play_PlayerSwing			\Default Work Unit\Play_PlayerSwing	
 	2989619110	Play_Grunt_Hit			\Default Work Unit\Play_Grunt_Hit	
 	3187507146	Play_Test			\Default Work Unit\Play_Test	
@@ -36,6 +37,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	515498122	FS_Sand-005	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Sand-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-005		39712
 	621236505	FS_Sand-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Sand-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-001		21250
 	683503367	Shot	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Shot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shot		211308
+	724030898	Death_Cry	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Death_Cry_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Death_Cry		467556
 	730473686	FS_Sand-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Sand-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-003		26316
 	767676742	FS_Sand-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Sand-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-002		28684
 	823668392	Player_Swing-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Player_Swing-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerSwing\Player_Swing-003		27454
