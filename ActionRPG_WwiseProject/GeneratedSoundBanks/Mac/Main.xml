@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{907D9BA6-491F-DE91-9C40-F79CDB020351}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{33146406-9E82-B69F-2774-6AED29BBB96A}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="539150007" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HitSound.wav</ShortName>
+					<CachePath>SFX/HitSound_10C4C929.wem</CachePath>
+				</File>
 				<File Id="683503367" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Shot.wav</ShortName>
 					<CachePath>SFX/Shot_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3187507146" Name="Play_Test" ObjectPath="\Events\Default Work Unit\Play_Test" GUID="{72C814D5-F2EE-4A26-9D04-DCB4C83E7589}" DurationType="OneShot" DurationMin="1.1973469" DurationMax="1.1973469">
+				<Event Id="3187507146" Name="Play_Test" ObjectPath="\Events\Default Work Unit\Play_Test" GUID="{72C814D5-F2EE-4A26-9D04-DCB4C83E7589}" DurationType="OneShot" DurationMin="1.4321041" DurationMax="1.4321041">
 					<MediaRefs>
+						<MediaRef Id="539150007"/>
 						<MediaRef Id="683503367"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{66FFB7DA-8FA8-4A12-113B-DBA2436531F1}</FileHash>
+	<FileHash>{29B43B80-B987-E4D5-FEA1-AF6BDA3A7530}</FileHash>
 </SoundBanksInfo>

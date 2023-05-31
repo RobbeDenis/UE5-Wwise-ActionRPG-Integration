@@ -12,6 +12,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{B2D1B990-8DB1-4709-9682-E9557BE253E8}" ShortID="138412055">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HitSound" ID="{31D3CE68-E8D0-4066-8C63-48DEBFC7813D}" WorkUnitID="{33EB04C2-FDC3-4187-98A6-35A4FFFC187E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

@@ -23,24 +23,29 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{907D9BA6-491F-DE91-9C40-F79CDB020351}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{33146406-9E82-B69F-2774-6AED29BBB96A}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="539150007" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HitSound.wav</ShortName>
+					<CachePath>SFX/HitSound_10C4C929.wem</CachePath>
+				</File>
 				<File Id="683503367" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Shot.wav</ShortName>
 					<CachePath>SFX/Shot_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3187507146" Name="Play_Test" ObjectPath="\Events\Default Work Unit\Play_Test" GUID="{72C814D5-F2EE-4A26-9D04-DCB4C83E7589}" DurationType="OneShot" DurationMin="1.1973469" DurationMax="1.1973469">
+				<Event Id="3187507146" Name="Play_Test" ObjectPath="\Events\Default Work Unit\Play_Test" GUID="{72C814D5-F2EE-4A26-9D04-DCB4C83E7589}" DurationType="OneShot" DurationMin="1.4321041" DurationMax="1.4321041">
 					<MediaRefs>
+						<MediaRef Id="539150007"/>
 						<MediaRef Id="683503367"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5A7B2358-2309-2BC5-ECB7-CAD78D506A1C}</FileHash>
+	<FileHash>{968088B4-404A-63C7-47D9-92E1FC3CC172}</FileHash>
 </SoundBanksInfo>
