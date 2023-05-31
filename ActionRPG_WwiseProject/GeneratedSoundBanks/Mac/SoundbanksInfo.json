@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}",
+    "Hash": "{07665CE1-0459-98AD-AEAA-0A893EC3A25B}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -44,10 +44,44 @@
     },
     "Busses": [
      {
+      "Id": "89505537",
+      "Name": "Gameplay",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Gameplay",
+      "GUID": "{35710773-A672-49E3-94CD-FEE992734CDD}"
+     },
+     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1069431850",
+      "Name": "Player",
+      "ObjectPath": "\\States\\Default Work Unit\\Player",
+      "GUID": "{87B4E536-9AE8-48BB-A0CF-8B42EF7E7C4E}",
+      "States": [
+       {
+        "Id": "655265632",
+        "Name": "Alive",
+        "ObjectPath": "\\States\\Default Work Unit\\Player\\Alive",
+        "GUID": "{46EF42CB-0A3A-4B30-9381-5009C43676DA}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Player\\None",
+        "GUID": "{2344529B-7E6C-4653-88D8-C07CCD441EEA}"
+       },
+       {
+        "Id": "2044049779",
+        "Name": "Dead",
+        "ObjectPath": "\\States\\Default Work Unit\\Player\\Dead",
+        "GUID": "{0536CE74-4099-4668-85B0-BC25C1594966}"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -122,7 +156,7 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{26E139C6-1029-974C-3CBC-597B5EB58850}",
+    "Hash": "{A810F1CE-26F3-0547-15B3-5972302F9926}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -582,6 +616,6 @@
     ]
    }
   ],
-  "FileHash": "{24033CE3-B004-7434-7C40-86D3D3165E94}"
+  "FileHash": "{D521E63E-D6D6-675E-607D-F0037198A8E0}"
  }
 }

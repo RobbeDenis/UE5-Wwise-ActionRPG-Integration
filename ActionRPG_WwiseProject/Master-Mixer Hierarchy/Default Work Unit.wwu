@@ -9,6 +9,32 @@
 							<ObjectRef Name="System" ID="{753FC237-F057-46EE-AEA6-CEB87F8AC746}" WorkUnitID="{4CF56E3D-31AC-4492-B6FE-D3E6C8CF3B0F}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Gameplay" ID="{35710773-A672-49E3-94CD-FEE992734CDD}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Player" ID="{87B4E536-9AE8-48BB-A0CF-8B42EF7E7C4E}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Dead" ID="{0536CE74-4099-4668-85B0-BC25C1594966}"/>
+										<CustomState Name="" ID="{F7337686-450D-4A47-8910-F193BE2AD1BA}" ShortID="360277910">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="85"/>
+												<Property Name="Volume" Type="Real64" Value="-2"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Alive" ID="{46EF42CB-0A3A-4B30-9381-5009C43676DA}"/>
+										<CustomState Name="" ID="{DD8E37EF-EEEB-4F5F-B334-AAD16D370F2C}" ShortID="60821320"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

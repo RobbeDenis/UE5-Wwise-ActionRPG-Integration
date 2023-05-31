@@ -6,12 +6,18 @@
 				<SoundcasterSession Name="New Soundcaster Session" ID="{FB067BC3-254B-4F05-9ADF-9CDC76921C57}">
 					<ModuleList>
 						<Module>
+							<ObjectRef Name="Play_Death_Cry" ID="{73C1D3B6-84DF-4834-8FB2-67BA65816D2D}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Footsteps" ID="{F60C7D25-F5E7-44EC-BE4C-3BC28FC88BC2}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Dead" ID="{0536CE74-4099-4668-85B0-BC25C1594966}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Sand" ID="{07261111-85DA-4848-9D5C-4590F83E2574}"/>
 						<CurrentSwitchRef Name="Dirt" ID="{D63A2816-2BF5-4E43-96BF-92ADF5EFD709}"/>

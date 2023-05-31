@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{07665CE1-0459-98AD-AEAA-0A893EC3A25B}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -20,8 +20,18 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="89505537" Name="Gameplay" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Gameplay" GUID="{35710773-A672-49E3-94CD-FEE992734CDD}"/>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
+			<StateGroups>
+				<StateGroup Id="1069431850" Name="Player" ObjectPath="\States\Default Work Unit\Player" GUID="{87B4E536-9AE8-48BB-A0CF-8B42EF7E7C4E}">
+					<States>
+						<State Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\Player\Alive" GUID="{46EF42CB-0A3A-4B30-9381-5009C43676DA}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Player\None" GUID="{2344529B-7E6C-4653-88D8-C07CCD441EEA}"/>
+						<State Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\Player\Dead" GUID="{0536CE74-4099-4668-85B0-BC25C1594966}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="1834394558" Name="Surface" ObjectPath="\Switches\Default Work Unit\Surface" GUID="{DAA0AC4F-CD6C-4725-9736-F10D4275C9F1}">
 					<Switches>
@@ -41,7 +51,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{26E139C6-1029-974C-3CBC-597B5EB58850}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{A810F1CE-26F3-0547-15B3-5972302F9926}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -239,5 +249,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E4D2D64F-8DCF-5AFE-21F1-9C9A1A9B138A}</FileHash>
+	<FileHash>{12A3CFBA-B176-3245-48C9-F9916DFD7D73}</FileHash>
 </SoundBanksInfo>

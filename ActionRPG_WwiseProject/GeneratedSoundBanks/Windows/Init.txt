@@ -1,4 +1,16 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1069431850	Player			\Default Work Unit\Player	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	Player			
+	748895195	None	Player			
+	2044049779	Dead	Player			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	360277910	Dead	Player	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Gameplay		
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	89505537	Gameplay			\Default Work Unit\Master Audio Bus\Gameplay	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Audio Devices	ID	Name	Type				Notes
