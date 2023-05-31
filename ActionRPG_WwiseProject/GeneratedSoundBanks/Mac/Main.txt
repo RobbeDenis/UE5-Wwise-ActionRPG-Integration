@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	2517823277	Play_PlayerSwing			\Default Work Unit\Play_PlayerSwing	
 	3187507146	Play_Test			\Default Work Unit\Play_Test	
 	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
 
@@ -13,10 +14,13 @@ Switch	ID	Name	Switch Group			Notes
 	2654748154	Water	Surface			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	120915605	Player_Swing-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Player_Swing-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerSwing\Player_Swing-002		23812
 	515498122	FS_Sand-005	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\FS_Sand-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\FS_Sand-005		39712
 	621236505	FS_Sand-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\FS_Sand-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\FS_Sand-001		21250
-	683503367	Shot	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Shot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\Shot		211308
+	683503367	Shot	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Shot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shot		211308
 	730473686	FS_Sand-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\FS_Sand-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\FS_Sand-003		26316
 	767676742	FS_Sand-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\FS_Sand-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\FS_Sand-002		28684
+	823668392	Player_Swing-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Player_Swing-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerSwing\Player_Swing-003		27454
 	876443643	FS_Sand-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\FS_Sand-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\FS_Sand-004		31348
+	1045995186	Player_Swing-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Player_Swing-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerSwing\Player_Swing-001		17328
 

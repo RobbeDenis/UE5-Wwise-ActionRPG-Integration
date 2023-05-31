@@ -25,6 +25,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_PlayerSwing" ID="{AFA713F3-4D2D-4FBC-AC0E-B6907EA6D895}">
+					<ChildrenList>
+						<Action Name="" ID="{B4C7CEA8-C88E-4847-B93C-AFBA51D4B0BB}" ShortID="801173179">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlayerSwing" ID="{8A5B330D-8AA7-4268-8291-ADC1AAD0A9E1}" WorkUnitID="{33EB04C2-FDC3-4187-98A6-35A4FFFC187E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

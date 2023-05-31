@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{E932AC60-3948-275F-71C6-65E6F86DE640}",
+    "Hash": "{C9536E2A-8908-315E-B749-9A916EE61149}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "120915605",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player_Swing-002.wav",
+      "CachePath": "SFX/Player_Swing-002_10C4C929.wem"
+     },
      {
       "Id": "515498122",
       "Language": "SFX",
@@ -56,12 +64,28 @@
       "CachePath": "SFX/FS_Sand-002_10C4C929.wem"
      },
      {
+      "Id": "823668392",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player_Swing-003.wav",
+      "CachePath": "SFX/Player_Swing-003_10C4C929.wem"
+     },
+     {
       "Id": "876443643",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Sand-004.wav",
       "CachePath": "SFX/FS_Sand-004_10C4C929.wem"
+     },
+     {
+      "Id": "1045995186",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player_Swing-001.wav",
+      "CachePath": "SFX/Player_Swing-001_10C4C929.wem"
      }
     ],
     "Events": [
@@ -72,7 +96,7 @@
       "GUID": "{F60C7D25-F5E7-44EC-BE4C-3BC28FC88BC2}",
       "DurationType": "OneShot",
       "DurationMin": "0",
-      "DurationMax": "1.1973469",
+      "DurationMax": "0.46769434",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -98,20 +122,26 @@
           "Id": "876443643"
          }
         ]
+       }
+      ]
+     },
+     {
+      "Id": "2517823277",
+      "Name": "Play_PlayerSwing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_PlayerSwing",
+      "GUID": "{AFA713F3-4D2D-4FBC-AC0E-B6907EA6D895}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.19313008",
+      "DurationMax": "0.32862577",
+      "MediaRefs": [
+       {
+        "Id": "120915605"
        },
        {
-        "SwitchValue": {
-         "GroupType": "Switch",
-         "GroupId": "1834394558",
-         "Id": "2195636714",
-         "GUID": "{99AE1BB1-0840-4DA3-8906-184B4A011CBE}",
-         "Default": "true"
-        },
-        "MediaRefs": [
-         {
-          "Id": "683503367"
-         }
-        ]
+        "Id": "823668392"
+       },
+       {
+        "Id": "1045995186"
        }
       ]
      },
@@ -172,6 +202,6 @@
     ]
    }
   ],
-  "FileHash": "{2E4D0645-1A5F-4918-D1E5-5F685AAADF67}"
+  "FileHash": "{BBDD0B86-AB1E-1D9C-0A51-06D3AB071EAB}"
  }
 }

@@ -34,11 +34,15 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{E932AC60-3948-275F-71C6-65E6F86DE640}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{C9536E2A-8908-315E-B749-9A916EE61149}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="120915605" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Swing-002.wav</ShortName>
+					<CachePath>SFX/Player_Swing-002_10C4C929.wem</CachePath>
+				</File>
 				<File Id="515498122" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-005.wav</ShortName>
 					<CachePath>SFX/FS_Sand-005_10C4C929.wem</CachePath>
@@ -59,13 +63,21 @@
 					<ShortName>FS_Sand-002.wav</ShortName>
 					<CachePath>SFX/FS_Sand-002_10C4C929.wem</CachePath>
 				</File>
+				<File Id="823668392" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Swing-003.wav</ShortName>
+					<CachePath>SFX/Player_Swing-003_10C4C929.wem</CachePath>
+				</File>
 				<File Id="876443643" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-004.wav</ShortName>
 					<CachePath>SFX/FS_Sand-004_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1045995186" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Swing-001.wav</ShortName>
+					<CachePath>SFX/Player_Swing-001_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" GUID="{F60C7D25-F5E7-44EC-BE4C-3BC28FC88BC2}" DurationType="OneShot" DurationMin="0" DurationMax="1.1973469">
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" GUID="{F60C7D25-F5E7-44EC-BE4C-3BC28FC88BC2}" DurationType="OneShot" DurationMin="0" DurationMax="0.46769434">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="803837735" GUID="{07261111-85DA-4848-9D5C-4590F83E2574}"/>
@@ -77,13 +89,14 @@
 								<MediaRef Id="876443643"/>
 							</MediaRefs>
 						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2195636714" GUID="{99AE1BB1-0840-4DA3-8906-184B4A011CBE}" Default="true"/>
-							<MediaRefs>
-								<MediaRef Id="683503367"/>
-							</MediaRefs>
-						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="2517823277" Name="Play_PlayerSwing" ObjectPath="\Events\Default Work Unit\Play_PlayerSwing" GUID="{AFA713F3-4D2D-4FBC-AC0E-B6907EA6D895}" DurationType="OneShot" DurationMin="0.19313008" DurationMax="0.32862577">
+					<MediaRefs>
+						<MediaRef Id="120915605"/>
+						<MediaRef Id="823668392"/>
+						<MediaRef Id="1045995186"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="3187507146" Name="Play_Test" ObjectPath="\Events\Default Work Unit\Play_Test" GUID="{72C814D5-F2EE-4A26-9D04-DCB4C83E7589}" DurationType="OneShot" DurationMin="1.1973469" DurationMax="1.1973469">
 					<MediaRefs>
@@ -104,5 +117,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{92D0E57F-052E-387C-FAA3-83A22B618BE7}</FileHash>
+	<FileHash>{836458B7-0E8B-DE20-0892-B8096A359B47}</FileHash>
 </SoundBanksInfo>
