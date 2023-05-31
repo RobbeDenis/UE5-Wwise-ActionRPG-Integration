@@ -122,11 +122,19 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{80E9704A-B1D0-AFB7-1384-297B09D80C48}",
+    "Hash": "{49A7885A-9B5A-2EA2-352A-2CB4447802E8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "13622979",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grunt_Hit-003.wav",
+      "CachePath": "SFX/Grunt_Hit-003_10C4C929.wem"
+     },
      {
       "Id": "31203274",
       "Language": "SFX",
@@ -158,6 +166,14 @@
       "Location": "Memory",
       "ShortName": "GroundSlam-004.wav",
       "CachePath": "SFX/GroundSlam-004_10C4C929.wem"
+     },
+     {
+      "Id": "255433557",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grunt_Hit-002.wav",
+      "CachePath": "SFX/Grunt_Hit-002_10C4C929.wem"
      },
      {
       "Id": "353512300",
@@ -230,6 +246,14 @@
       "Location": "Memory",
       "ShortName": "Player_Swing-003.wav",
       "CachePath": "SFX/Player_Swing-003_10C4C929.wem"
+     },
+     {
+      "Id": "867752228",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grunt_Hit-001.wav",
+      "CachePath": "SFX/Grunt_Hit-001_10C4C929.wem"
      },
      {
       "Id": "876443643",
@@ -359,6 +383,26 @@
       ]
      },
      {
+      "Id": "2989619110",
+      "Name": "Play_Grunt_Hit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Grunt_Hit",
+      "GUID": "{37E88AAD-7729-4CB0-BB5D-F4390FA81F32}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.49063492",
+      "DurationMax": "0.6789569",
+      "MediaRefs": [
+       {
+        "Id": "13622979"
+       },
+       {
+        "Id": "255433557"
+       },
+       {
+        "Id": "867752228"
+       }
+      ]
+     },
+     {
       "Id": "2517823277",
       "Name": "Play_PlayerSwing",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_PlayerSwing",
@@ -461,6 +505,6 @@
     ]
    }
   ],
-  "FileHash": "{87017D53-3531-9924-4504-6055C276685A}"
+  "FileHash": "{EA72DE61-4EF3-2D6A-6905-126F748A2229}"
  }
 }

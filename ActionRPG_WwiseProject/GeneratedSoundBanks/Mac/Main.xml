@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{80E9704A-B1D0-AFB7-1384-297B09D80C48}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{49A7885A-9B5A-2EA2-352A-2CB4447802E8}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="13622979" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grunt_Hit-003.wav</ShortName>
+					<CachePath>SFX/Grunt_Hit-003_10C4C929.wem</CachePath>
+				</File>
 				<File Id="31203274" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dirt_Impact.wav</ShortName>
 					<CachePath>SFX/Dirt_Impact_10C4C929.wem</CachePath>
@@ -21,6 +25,10 @@
 				<File Id="160212660" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GroundSlam-004.wav</ShortName>
 					<CachePath>SFX/GroundSlam-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="255433557" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grunt_Hit-002.wav</ShortName>
+					<CachePath>SFX/Grunt_Hit-002_10C4C929.wem</CachePath>
 				</File>
 				<File Id="353512300" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GroundSlam-003.wav</ShortName>
@@ -57,6 +65,10 @@
 				<File Id="823668392" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Swing-003.wav</ShortName>
 					<CachePath>SFX/Player_Swing-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="867752228" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grunt_Hit-001.wav</ShortName>
+					<CachePath>SFX/Grunt_Hit-001_10C4C929.wem</CachePath>
 				</File>
 				<File Id="876443643" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-004.wav</ShortName>
@@ -114,6 +126,13 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="2989619110" Name="Play_Grunt_Hit" ObjectPath="\Events\Default Work Unit\Play_Grunt_Hit" GUID="{37E88AAD-7729-4CB0-BB5D-F4390FA81F32}" DurationType="OneShot" DurationMin="0.49063492" DurationMax="0.6789569">
+					<MediaRefs>
+						<MediaRef Id="13622979"/>
+						<MediaRef Id="255433557"/>
+						<MediaRef Id="867752228"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2517823277" Name="Play_PlayerSwing" ObjectPath="\Events\Default Work Unit\Play_PlayerSwing" GUID="{AFA713F3-4D2D-4FBC-AC0E-B6907EA6D895}" DurationType="OneShot" DurationMin="0.19313008" DurationMax="0.32862577">
 					<MediaRefs>
 						<MediaRef Id="120915605"/>
@@ -147,5 +166,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4939F1C6-46D1-74CC-EB07-5E27E99DC85F}</FileHash>
+	<FileHash>{F59CD875-EB4C-638C-7B36-3D1D34FC0FE1}</FileHash>
 </SoundBanksInfo>

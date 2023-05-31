@@ -54,6 +54,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Grunt_Hit" ID="{37E88AAD-7729-4CB0-BB5D-F4390FA81F32}">
+					<ChildrenList>
+						<Action Name="" ID="{5E1B1FA3-D576-4295-94A9-FA5875A87C36}" ShortID="458856022">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grunt_Hit" ID="{062848F3-D079-4734-92B4-571609D88197}" WorkUnitID="{78319BBC-D52B-4957-9515-2157E48A2787}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
