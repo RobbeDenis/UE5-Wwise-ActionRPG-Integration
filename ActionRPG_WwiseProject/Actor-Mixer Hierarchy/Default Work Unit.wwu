@@ -47,6 +47,252 @@
 						<ActiveSource Name="HitSound" ID="{D2FEBD72-406C-4472-BA8B-C630B7016A50}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<SwitchContainer Name="Footsteps" ID="{69C8AF63-68D1-4FEB-BAA6-D41270CEE3BE}" ShortID="713270333">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Dirt" ID="{99AE1BB1-0840-4DA3-8906-184B4A011CBE}" WorkUnitID="{A0404599-0CB4-46FE-92E6-B5F3C8CE9CEA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Surface" ID="{DAA0AC4F-CD6C-4725-9736-F10D4275C9F1}" WorkUnitID="{A0404599-0CB4-46FE-92E6-B5F3C8CE9CEA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Sand" ID="{34D9B54A-8B67-46EF-B870-E50B9F1C1E7A}" ShortID="54691960">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{54490D9E-874F-4722-BFFC-0D33CD318631}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="70"/>
+													<Property Name="Min" Type="Real64" Value="-70"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FS_Sand-001" ID="{5ACE9B90-5DEF-42EE-B8B8-7689C44532E7}" ShortID="529349856">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Sand-001" ID="{8ECE2774-9151-4D28-B7BC-228CEB4E9B98}">
+											<Language>SFX</Language>
+											<AudioFile>FS_Sand-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="621236505"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Sand-001" ID="{8ECE2774-9151-4D28-B7BC-228CEB4E9B98}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS_Sand-002" ID="{9C4A9FA3-E313-4F20-8044-378661E95B11}" ShortID="688536311">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Sand-002" ID="{629A240B-6311-4AAC-9D43-95A990CBCFA6}">
+											<Language>SFX</Language>
+											<AudioFile>FS_Sand-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="767676742"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Sand-002" ID="{629A240B-6311-4AAC-9D43-95A990CBCFA6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS_Sand-003" ID="{B6553F14-46BB-42F6-AB46-9692EF59BC50}" ShortID="290539991">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Sand-003" ID="{9EB34D23-6D4A-429D-AAC3-1537DDDD96B2}">
+											<Language>SFX</Language>
+											<AudioFile>FS_Sand-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="730473686"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Sand-003" ID="{9EB34D23-6D4A-429D-AAC3-1537DDDD96B2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS_Sand-004" ID="{265B8FF2-C715-457D-9FC1-34E6F5CB05DE}" ShortID="333205637">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Sand-004" ID="{A2DE5935-4958-4FCF-8E6E-63B48D1EBBEB}">
+											<Language>SFX</Language>
+											<AudioFile>FS_Sand-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="876443643"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Sand-004" ID="{A2DE5935-4958-4FCF-8E6E-63B48D1EBBEB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS_Sand-005" ID="{4EFB6C5D-A1C2-4563-A7EF-6658767D5FCD}" ShortID="864664553">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Sand-005" ID="{828ACA43-5552-4021-927B-4C031154B79B}">
+											<Language>SFX</Language>
+											<AudioFile>FS_Sand-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="515498122"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Sand-005" ID="{828ACA43-5552-4021-927B-4C031154B79B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Dirt" ID="{9B2901F3-CF03-4B37-BD55-CA93524EAF15}" ShortID="481397612">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Water" ID="{8208ABB0-CCDB-4AFC-9E91-E29A97D38E4F}" ShortID="6727566">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Mud" ID="{1F4834C7-4A37-4B7B-B50B-1991DB0F8B9D}" ShortID="1072471066">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Stone" ID="{8CB859CC-EF63-4C58-A3BB-CAB7D71D1A24}" ShortID="291648639">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Sand" ID="{34D9B54A-8B67-46EF-B870-E50B9F1C1E7A}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Water" ID="{8208ABB0-CCDB-4AFC-9E91-E29A97D38E4F}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Mud" ID="{1F4834C7-4A37-4B7B-B50B-1991DB0F8B9D}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Stone" ID="{8CB859CC-EF63-4C58-A3BB-CAB7D71D1A24}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Dirt" ID="{9B2901F3-CF03-4B37-BD55-CA93524EAF15}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Sand" ID="{07261111-85DA-4848-9D5C-4590F83E2574}"/>
+								<ItemList>
+									<ItemRef Name="Sand" ID="{34D9B54A-8B67-46EF-B870-E50B9F1C1E7A}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Stone" ID="{81127D2F-33FA-4645-B673-AAE14C0A3834}"/>
+								<ItemList>
+									<ItemRef Name="Stone" ID="{8CB859CC-EF63-4C58-A3BB-CAB7D71D1A24}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Water" ID="{B9EA5374-CA9F-4D4B-A504-D33B42796948}"/>
+								<ItemList>
+									<ItemRef Name="Water" ID="{8208ABB0-CCDB-4AFC-9E91-E29A97D38E4F}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Mud" ID="{F56F098E-C950-4E09-9E48-305F3D9917D2}"/>
+								<ItemList>
+									<ItemRef Name="Mud" ID="{1F4834C7-4A37-4B7B-B50B-1991DB0F8B9D}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dirt" ID="{99AE1BB1-0840-4DA3-8906-184B4A011CBE}"/>
+								<ItemList>
+									<ItemRef Name="Dirt" ID="{9B2901F3-CF03-4B37-BD55-CA93524EAF15}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

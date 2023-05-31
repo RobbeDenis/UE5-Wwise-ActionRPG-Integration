@@ -10,19 +10,11 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{33146406-9E82-B69F-2774-6AED29BBB96A}",
+    "Hash": "{907D9BA6-491F-DE91-9C40-F79CDB020351}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
-     {
-      "Id": "539150007",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "HitSound.wav",
-      "CachePath": "SFX/HitSound_10C4C929.wem"
-     },
      {
       "Id": "683503367",
       "Language": "SFX",
@@ -39,12 +31,9 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Test",
       "GUID": "{72C814D5-F2EE-4A26-9D04-DCB4C83E7589}",
       "DurationType": "OneShot",
-      "DurationMin": "1.4321041",
-      "DurationMax": "1.4321041",
+      "DurationMin": "1.1973469",
+      "DurationMax": "1.1973469",
       "MediaRefs": [
-       {
-        "Id": "539150007"
-       },
        {
         "Id": "683503367"
        }
@@ -53,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{60FF8DE5-7BF3-D8D6-9CD8-B96966CFF57E}"
+  "FileHash": "{20DBC7E2-8F90-AE12-8A74-EA3879ECF8E3}"
  }
 }

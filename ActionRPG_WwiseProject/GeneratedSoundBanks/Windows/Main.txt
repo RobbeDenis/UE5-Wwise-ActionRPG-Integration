@@ -2,6 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	3187507146	Play_Test			\Default Work Unit\Play_Test	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	539150007	HitSound	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\HitSound_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\HitSound		83060
 	683503367	Shot	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Shot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shot		211308
 

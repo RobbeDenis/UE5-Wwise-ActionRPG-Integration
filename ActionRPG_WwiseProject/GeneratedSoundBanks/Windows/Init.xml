@@ -14,7 +14,18 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="1834394558" Name="Surface" ObjectPath="\Switches\Default Work Unit\Surface" GUID="{DAA0AC4F-CD6C-4725-9736-F10D4275C9F1}">
+					<Switches>
+						<Switch Id="712897245" Name="Mud" ObjectPath="\Switches\Default Work Unit\Surface\Mud" GUID="{F56F098E-C950-4E09-9E48-305F3D9917D2}"/>
+						<Switch Id="803837735" Name="Sand" ObjectPath="\Switches\Default Work Unit\Surface\Sand" GUID="{07261111-85DA-4848-9D5C-4590F83E2574}"/>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Surface\Stone" GUID="{81127D2F-33FA-4645-B673-AAE14C0A3834}"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Surface\Dirt" GUID="{99AE1BB1-0840-4DA3-8906-184B4A011CBE}"/>
+						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\Surface\Water" GUID="{B9EA5374-CA9F-4D4B-A504-D33B42796948}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F70927A5-A9E5-7A21-7B5F-F42D4387AF6E}</FileHash>
+	<FileHash>{5122738F-FCE9-AE01-0B7E-4632605D2574}</FileHash>
 </SoundBanksInfo>
