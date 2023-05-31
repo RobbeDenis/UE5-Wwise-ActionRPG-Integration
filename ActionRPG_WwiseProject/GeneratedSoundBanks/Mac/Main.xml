@@ -1,24 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{907D9BA6-491F-DE91-9C40-F79CDB020351}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{E932AC60-3948-275F-71C6-65E6F86DE640}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="515498122" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Sand-005.wav</ShortName>
+					<CachePath>SFX/FS_Sand-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="621236505" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Sand-001.wav</ShortName>
+					<CachePath>SFX/FS_Sand-001_10C4C929.wem</CachePath>
+				</File>
 				<File Id="683503367" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Shot.wav</ShortName>
 					<CachePath>SFX/Shot_10C4C929.wem</CachePath>
 				</File>
+				<File Id="730473686" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Sand-003.wav</ShortName>
+					<CachePath>SFX/FS_Sand-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="767676742" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Sand-002.wav</ShortName>
+					<CachePath>SFX/FS_Sand-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="876443643" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Sand-004.wav</ShortName>
+					<CachePath>SFX/FS_Sand-004_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" GUID="{F60C7D25-F5E7-44EC-BE4C-3BC28FC88BC2}" DurationType="OneShot" DurationMin="0" DurationMax="1.1973469">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="803837735" GUID="{07261111-85DA-4848-9D5C-4590F83E2574}"/>
+							<MediaRefs>
+								<MediaRef Id="515498122"/>
+								<MediaRef Id="621236505"/>
+								<MediaRef Id="730473686"/>
+								<MediaRef Id="767676742"/>
+								<MediaRef Id="876443643"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2195636714" GUID="{99AE1BB1-0840-4DA3-8906-184B4A011CBE}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="683503367"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="3187507146" Name="Play_Test" ObjectPath="\Events\Default Work Unit\Play_Test" GUID="{72C814D5-F2EE-4A26-9D04-DCB4C83E7589}" DurationType="OneShot" DurationMin="1.1973469" DurationMax="1.1973469">
 					<MediaRefs>
 						<MediaRef Id="683503367"/>
 					</MediaRefs>
 				</Event>
 			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="1834394558" Name="Surface" ObjectPath="\Switches\Default Work Unit\Surface" GUID="{DAA0AC4F-CD6C-4725-9736-F10D4275C9F1}">
+					<Switches>
+						<Switch Id="712897245" Name="Mud" ObjectPath="\Switches\Default Work Unit\Surface\Mud" GUID="{F56F098E-C950-4E09-9E48-305F3D9917D2}"/>
+						<Switch Id="803837735" Name="Sand" ObjectPath="\Switches\Default Work Unit\Surface\Sand" GUID="{07261111-85DA-4848-9D5C-4590F83E2574}"/>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Surface\Stone" GUID="{81127D2F-33FA-4645-B673-AAE14C0A3834}"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Surface\Dirt" GUID="{99AE1BB1-0840-4DA3-8906-184B4A011CBE}"/>
+						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\Surface\Water" GUID="{B9EA5374-CA9F-4D4B-A504-D33B42796948}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{66FFB7DA-8FA8-4A12-113B-DBA2436531F1}</FileHash>
+	<FileHash>{DBD8C2FB-7587-D423-9EF9-70A256EDEA86}</FileHash>
 </SoundBanksInfo>

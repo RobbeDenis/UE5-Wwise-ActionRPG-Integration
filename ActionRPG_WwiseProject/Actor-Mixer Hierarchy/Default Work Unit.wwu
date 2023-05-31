@@ -209,6 +209,30 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Shot" ID="{1C05B6EE-1144-42EC-8F46-A63C402A79F2}" ShortID="592352987">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shot" ID="{BA4619A5-ED21-42B2-9DF1-E2D63021404C}">
+											<Language>SFX</Language>
+											<AudioFile>Shot.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="683503367"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Shot" ID="{BA4619A5-ED21-42B2-9DF1-E2D63021404C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Water" ID="{8208ABB0-CCDB-4AFC-9E91-E29A97D38E4F}" ShortID="6727566">
 							<ReferenceList>

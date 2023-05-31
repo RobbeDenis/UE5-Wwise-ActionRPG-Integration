@@ -96,11 +96,27 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{907D9BA6-491F-DE91-9C40-F79CDB020351}",
+    "Hash": "{E932AC60-3948-275F-71C6-65E6F86DE640}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "515498122",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Sand-005.wav",
+      "CachePath": "SFX/FS_Sand-005_10C4C929.wem"
+     },
+     {
+      "Id": "621236505",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Sand-001.wav",
+      "CachePath": "SFX/FS_Sand-001_10C4C929.wem"
+     },
      {
       "Id": "683503367",
       "Language": "SFX",
@@ -108,9 +124,83 @@
       "Location": "Memory",
       "ShortName": "Shot.wav",
       "CachePath": "SFX/Shot_10C4C929.wem"
+     },
+     {
+      "Id": "730473686",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Sand-003.wav",
+      "CachePath": "SFX/FS_Sand-003_10C4C929.wem"
+     },
+     {
+      "Id": "767676742",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Sand-002.wav",
+      "CachePath": "SFX/FS_Sand-002_10C4C929.wem"
+     },
+     {
+      "Id": "876443643",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Sand-004.wav",
+      "CachePath": "SFX/FS_Sand-004_10C4C929.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "3854155799",
+      "Name": "Play_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
+      "GUID": "{F60C7D25-F5E7-44EC-BE4C-3BC28FC88BC2}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "1.1973469",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "803837735",
+         "GUID": "{07261111-85DA-4848-9D5C-4590F83E2574}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "515498122"
+         },
+         {
+          "Id": "621236505"
+         },
+         {
+          "Id": "730473686"
+         },
+         {
+          "Id": "767676742"
+         },
+         {
+          "Id": "876443643"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "2195636714",
+         "GUID": "{99AE1BB1-0840-4DA3-8906-184B4A011CBE}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "683503367"
+         }
+        ]
+       }
+      ]
+     },
      {
       "Id": "3187507146",
       "Name": "Play_Test",
@@ -125,9 +215,49 @@
        }
       ]
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1834394558",
+      "Name": "Surface",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Surface",
+      "GUID": "{DAA0AC4F-CD6C-4725-9736-F10D4275C9F1}",
+      "Switches": [
+       {
+        "Id": "712897245",
+        "Name": "Mud",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Mud",
+        "GUID": "{F56F098E-C950-4E09-9E48-305F3D9917D2}"
+       },
+       {
+        "Id": "803837735",
+        "Name": "Sand",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Sand",
+        "GUID": "{07261111-85DA-4848-9D5C-4590F83E2574}"
+       },
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Stone",
+        "GUID": "{81127D2F-33FA-4645-B673-AAE14C0A3834}"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Dirt",
+        "GUID": "{99AE1BB1-0840-4DA3-8906-184B4A011CBE}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Water",
+        "GUID": "{B9EA5374-CA9F-4D4B-A504-D33B42796948}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{38DC01D1-E27D-15B3-E811-A0E080492E42}"
+  "FileHash": "{6064252F-AD24-C443-F389-C8FCDD31B354}"
  }
 }
