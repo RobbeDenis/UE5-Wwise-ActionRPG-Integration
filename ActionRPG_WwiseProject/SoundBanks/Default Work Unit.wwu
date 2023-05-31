@@ -9,6 +9,7 @@
 						<ObjectRef Name="Play_GroundSlam" ID="{156CA5F1-0D54-4975-AF58-D2814988E804}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Test" ID="{72C814D5-F2EE-4A26-9D04-DCB4C83E7589}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Grunt_Hit" ID="{37E88AAD-7729-4CB0-BB5D-F4390FA81F32}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Grunt_Swing" ID="{370F6A5C-2EF0-4E9B-92B4-58522F85F30B}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_PlayerSwing" ID="{AFA713F3-4D2D-4FBC-AC0E-B6907EA6D895}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

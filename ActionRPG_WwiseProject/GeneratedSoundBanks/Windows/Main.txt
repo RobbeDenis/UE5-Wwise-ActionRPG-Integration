@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	390202731	Play_Grunt_Swing			\Default Work Unit\Play_Grunt_Swing	
 	1055240968	Play_GroundSlam			\Default Work Unit\Play_GroundSlam	
 	2517823277	Play_PlayerSwing			\Default Work Unit\Play_PlayerSwing	
 	2989619110	Play_Grunt_Hit			\Default Work Unit\Play_Grunt_Hit	
@@ -24,8 +25,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	31203274	Dirt_Impact	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Dirt_Impact_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Impact\Dirt\Dirt_Impact		34916
 	120915605	Player_Swing-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Player_Swing-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerSwing\Player_Swing-002		23812
 	132058878	GroundSlam-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\GroundSlam-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Low\GroundSlam-001		261884
+	150671417	Grunt-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Grunt-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\Grunt-003		49488
 	160212660	GroundSlam-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\GroundSlam-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Low\GroundSlam-004		255884
 	255433557	Grunt_Hit-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Grunt_Hit-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Hit\Grunt_Hit-002		55012
+	276472349	Grunt-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Grunt-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\Grunt-002		30876
+	280510783	Grunt-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Grunt-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\Grunt-004		52072
 	353512300	GroundSlam-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\GroundSlam-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Low\GroundSlam-003		259764
 	462682426	Water_Impact	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Water_Impact_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Impact\Water\Water_Impact		73522
 	468771132	GroundSlam-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\GroundSlam-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Low\GroundSlam-002		243294
@@ -39,4 +43,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	876443643	FS_Sand-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Sand-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-004		31348
 	937589626	Stone_Impact	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Stone_Impact_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Impact\Stone\Stone_Impact		38926
 	1045995186	Player_Swing-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Player_Swing-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerSwing\Player_Swing-001		17328
+	1072310648	Grunt-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Grunt-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\Grunt-001		49488
 

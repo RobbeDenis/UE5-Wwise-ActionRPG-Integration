@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{49A7885A-9B5A-2EA2-352A-2CB4447802E8}",
+    "Hash": "{59621BDF-A615-E7EF-75EB-82A681828088}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -48,6 +48,14 @@
       "CachePath": "SFX/GroundSlam-001_10C4C929.wem"
      },
      {
+      "Id": "150671417",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grunt-003.wav",
+      "CachePath": "SFX/Grunt-003_10C4C929.wem"
+     },
+     {
       "Id": "160212660",
       "Language": "SFX",
       "Streaming": "false",
@@ -62,6 +70,22 @@
       "Location": "Memory",
       "ShortName": "Grunt_Hit-002.wav",
       "CachePath": "SFX/Grunt_Hit-002_10C4C929.wem"
+     },
+     {
+      "Id": "276472349",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grunt-002.wav",
+      "CachePath": "SFX/Grunt-002_10C4C929.wem"
+     },
+     {
+      "Id": "280510783",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grunt-004.wav",
+      "CachePath": "SFX/Grunt-004_10C4C929.wem"
      },
      {
       "Id": "353512300",
@@ -166,6 +190,14 @@
       "Location": "Memory",
       "ShortName": "Player_Swing-001.wav",
       "CachePath": "SFX/Player_Swing-001_10C4C929.wem"
+     },
+     {
+      "Id": "1072310648",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grunt-001.wav",
+      "CachePath": "SFX/Grunt-001_10C4C929.wem"
      }
     ],
     "Events": [
@@ -291,6 +323,29 @@
       ]
      },
      {
+      "Id": "390202731",
+      "Name": "Play_Grunt_Swing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Grunt_Swing",
+      "GUID": "{370F6A5C-2EF0-4E9B-92B4-58522F85F30B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3489796",
+      "DurationMax": "0.58929706",
+      "MediaRefs": [
+       {
+        "Id": "150671417"
+       },
+       {
+        "Id": "276472349"
+       },
+       {
+        "Id": "280510783"
+       },
+       {
+        "Id": "1072310648"
+       }
+      ]
+     },
+     {
       "Id": "2517823277",
       "Name": "Play_PlayerSwing",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_PlayerSwing",
@@ -393,6 +448,6 @@
     ]
    }
   ],
-  "FileHash": "{FA38E81F-900B-2156-C892-8C33EBA66EFD}"
+  "FileHash": "{7A2F459B-313D-2450-A37D-2A2119BFC107}"
  }
 }
