@@ -19,7 +19,7 @@
 						<Action Name="" ID="{499AE730-84BA-4814-AC3C-2F6F768B8461}" ShortID="1039983227">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Footsteps" ID="{69C8AF63-68D1-4FEB-BAA6-D41270CEE3BE}" WorkUnitID="{33EB04C2-FDC3-4187-98A6-35A4FFFC187E}"/>
+									<ObjectRef Name="Footsteps" ID="{69C8AF63-68D1-4FEB-BAA6-D41270CEE3BE}" WorkUnitID="{78319BBC-D52B-4957-9515-2157E48A2787}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -30,7 +30,25 @@
 						<Action Name="" ID="{B4C7CEA8-C88E-4847-B93C-AFBA51D4B0BB}" ShortID="801173179">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="PlayerSwing" ID="{8A5B330D-8AA7-4268-8291-ADC1AAD0A9E1}" WorkUnitID="{33EB04C2-FDC3-4187-98A6-35A4FFFC187E}"/>
+									<ObjectRef Name="PlayerSwing" ID="{8A5B330D-8AA7-4268-8291-ADC1AAD0A9E1}" WorkUnitID="{78319BBC-D52B-4957-9515-2157E48A2787}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GroundSlam" ID="{156CA5F1-0D54-4975-AF58-D2814988E804}">
+					<ChildrenList>
+						<Action Name="" ID="{FBB42C19-04BA-4FE6-A4F0-01E0865DE198}" ShortID="405728217">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GroundSlam_Low" ID="{05670C42-1CEE-4E8D-A856-B6CDF8244721}" WorkUnitID="{D9230E75-056F-407D-9899-EBEE7446B1A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{263C3996-E5A4-457C-B3EA-21C443C1B870}" ShortID="443988006">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GroundSlam_Impact" ID="{ED36791B-9F8D-4B9A-BFD5-B4DE1352B50E}" WorkUnitID="{D9230E75-056F-407D-9899-EBEE7446B1A4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

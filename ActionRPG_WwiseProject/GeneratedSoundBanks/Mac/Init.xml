@@ -24,8 +24,15 @@
 						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\Surface\Water" GUID="{B9EA5374-CA9F-4D4B-A504-D33B42796948}"/>
 					</Switches>
 				</SwitchGroup>
+				<SwitchGroup Id="3257506471" Name="Impact" ObjectPath="\Switches\Default Work Unit\Impact" GUID="{F15315EE-20B4-4E71-A6F0-2E2ECBEA8B7A}">
+					<Switches>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Impact\Stone" GUID="{21EFE8C6-1AF6-4D9A-8F2C-D46DBAAC54F8}"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Impact\Dirt" GUID="{D63A2816-2BF5-4E43-96BF-92ADF5EFD709}"/>
+						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\Impact\Water" GUID="{76A15951-554F-417A-B26F-034713D0CAB1}"/>
+					</Switches>
+				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B29CD4A6-37C2-202B-11B5-6860F6BD2F5D}</FileHash>
+	<FileHash>{3F9C83AC-52E2-7C63-2CC7-339F72A3B4DD}</FileHash>
 </SoundBanksInfo>

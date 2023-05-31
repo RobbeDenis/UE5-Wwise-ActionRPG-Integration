@@ -12,6 +12,13 @@
 						<Switch Name="Stone" ID="{81127D2F-33FA-4645-B673-AAE14C0A3834}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Impact" ID="{F15315EE-20B4-4E71-A6F0-2E2ECBEA8B7A}">
+					<ChildrenList>
+						<Switch Name="Stone" ID="{21EFE8C6-1AF6-4D9A-8F2C-D46DBAAC54F8}"/>
+						<Switch Name="Water" ID="{76A15951-554F-417A-B26F-034713D0CAB1}"/>
+						<Switch Name="Dirt" ID="{D63A2816-2BF5-4E43-96BF-92ADF5EFD709}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

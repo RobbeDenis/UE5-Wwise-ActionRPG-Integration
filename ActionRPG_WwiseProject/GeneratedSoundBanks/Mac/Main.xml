@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{C9536E2A-8908-315E-B749-9A916EE61149}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{80E9704A-B1D0-AFB7-1384-297B09D80C48}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="31203274" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dirt_Impact.wav</ShortName>
+					<CachePath>SFX/Dirt_Impact_10C4C929.wem</CachePath>
+				</File>
 				<File Id="120915605" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Swing-002.wav</ShortName>
 					<CachePath>SFX/Player_Swing-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="132058878" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GroundSlam-001.wav</ShortName>
+					<CachePath>SFX/GroundSlam-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="160212660" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GroundSlam-004.wav</ShortName>
+					<CachePath>SFX/GroundSlam-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="353512300" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GroundSlam-003.wav</ShortName>
+					<CachePath>SFX/GroundSlam-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="462682426" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water_Impact.wav</ShortName>
+					<CachePath>SFX/Water_Impact_10C4C929.wem</CachePath>
+				</File>
+				<File Id="468771132" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GroundSlam-002.wav</ShortName>
+					<CachePath>SFX/GroundSlam-002_10C4C929.wem</CachePath>
 				</File>
 				<File Id="515498122" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-005.wav</ShortName>
@@ -38,6 +62,10 @@
 					<ShortName>FS_Sand-004.wav</ShortName>
 					<CachePath>SFX/FS_Sand-004_10C4C929.wem</CachePath>
 				</File>
+				<File Id="937589626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stone_Impact.wav</ShortName>
+					<CachePath>SFX/Stone_Impact_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1045995186" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Swing-001.wav</ShortName>
 					<CachePath>SFX/Player_Swing-001_10C4C929.wem</CachePath>
@@ -54,6 +82,34 @@
 								<MediaRef Id="730473686"/>
 								<MediaRef Id="767676742"/>
 								<MediaRef Id="876443643"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1055240968" Name="Play_GroundSlam" ObjectPath="\Events\Default Work Unit\Play_GroundSlam" GUID="{156CA5F1-0D54-4975-AF58-D2814988E804}" DurationType="OneShot" DurationMin="2.725676" DurationMax="3.002606">
+					<MediaRefs>
+						<MediaRef Id="132058878"/>
+						<MediaRef Id="160212660"/>
+						<MediaRef Id="353512300"/>
+						<MediaRef Id="468771132"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3257506471" Id="2195636714" GUID="{D63A2816-2BF5-4E43-96BF-92ADF5EFD709}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="31203274"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3257506471" Id="2654748154" GUID="{76A15951-554F-417A-B26F-034713D0CAB1}"/>
+							<MediaRefs>
+								<MediaRef Id="462682426"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3257506471" Id="1216965916" GUID="{21EFE8C6-1AF6-4D9A-8F2C-D46DBAAC54F8}"/>
+							<MediaRefs>
+								<MediaRef Id="937589626"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -81,8 +137,15 @@
 						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\Surface\Water" GUID="{B9EA5374-CA9F-4D4B-A504-D33B42796948}"/>
 					</Switches>
 				</SwitchGroup>
+				<SwitchGroup Id="3257506471" Name="Impact" ObjectPath="\Switches\Default Work Unit\Impact" GUID="{F15315EE-20B4-4E71-A6F0-2E2ECBEA8B7A}">
+					<Switches>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Impact\Stone" GUID="{21EFE8C6-1AF6-4D9A-8F2C-D46DBAAC54F8}"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Impact\Dirt" GUID="{D63A2816-2BF5-4E43-96BF-92ADF5EFD709}"/>
+						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\Impact\Water" GUID="{76A15951-554F-417A-B26F-034713D0CAB1}"/>
+					</Switches>
+				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BC222FDD-9331-04AF-58BD-064C63FAD51B}</FileHash>
+	<FileHash>{4939F1C6-46D1-74CC-EB07-5E27E99DC85F}</FileHash>
 </SoundBanksInfo>

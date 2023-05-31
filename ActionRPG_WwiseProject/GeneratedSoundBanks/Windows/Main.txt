@@ -1,10 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1055240968	Play_GroundSlam			\Default Work Unit\Play_GroundSlam	
 	2517823277	Play_PlayerSwing			\Default Work Unit\Play_PlayerSwing	
 	3187507146	Play_Test			\Default Work Unit\Play_Test	
 	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	1834394558	Surface			\Default Work Unit\Surface	
+	3257506471	Impact			\Default Work Unit\Impact	
 
 Switch	ID	Name	Switch Group			Notes
 	712897245	Mud	Surface			
@@ -12,15 +14,25 @@ Switch	ID	Name	Switch Group			Notes
 	1216965916	Stone	Surface			
 	2195636714	Dirt	Surface			
 	2654748154	Water	Surface			
+	1216965916	Stone	Impact			
+	2195636714	Dirt	Impact			
+	2654748154	Water	Impact			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	120915605	Player_Swing-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Player_Swing-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerSwing\Player_Swing-002		23812
-	515498122	FS_Sand-005	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Sand-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\FS_Sand-005		39712
-	621236505	FS_Sand-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Sand-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\FS_Sand-001		21250
+	31203274	Dirt_Impact	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Dirt_Impact_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Impact\Dirt\Dirt_Impact		34916
+	120915605	Player_Swing-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Player_Swing-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerSwing\Player_Swing-002		23812
+	132058878	GroundSlam-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\GroundSlam-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Low\GroundSlam-001		261884
+	160212660	GroundSlam-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\GroundSlam-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Low\GroundSlam-004		255884
+	353512300	GroundSlam-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\GroundSlam-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Low\GroundSlam-003		259764
+	462682426	Water_Impact	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Water_Impact_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Impact\Water\Water_Impact		73522
+	468771132	GroundSlam-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\GroundSlam-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Low\GroundSlam-002		243294
+	515498122	FS_Sand-005	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Sand-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-005		39712
+	621236505	FS_Sand-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Sand-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-001		21250
 	683503367	Shot	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Shot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shot		211308
-	730473686	FS_Sand-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Sand-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\FS_Sand-003		26316
-	767676742	FS_Sand-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Sand-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\FS_Sand-002		28684
-	823668392	Player_Swing-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Player_Swing-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerSwing\Player_Swing-003		27454
-	876443643	FS_Sand-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Sand-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\FS_Sand-004		31348
-	1045995186	Player_Swing-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Player_Swing-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerSwing\Player_Swing-001		17328
+	730473686	FS_Sand-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Sand-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-003		26316
+	767676742	FS_Sand-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Sand-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-002		28684
+	823668392	Player_Swing-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Player_Swing-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerSwing\Player_Swing-003		27454
+	876443643	FS_Sand-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Sand-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-004		31348
+	937589626	Stone_Impact	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Stone_Impact_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Impact\Stone\Stone_Impact		38926
+	1045995186	Player_Swing-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Player_Swing-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerSwing\Player_Swing-001		17328
 

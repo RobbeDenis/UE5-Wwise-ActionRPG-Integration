@@ -80,10 +80,36 @@
         "GUID": "{B9EA5374-CA9F-4D4B-A504-D33B42796948}"
        }
       ]
+     },
+     {
+      "Id": "3257506471",
+      "Name": "Impact",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Impact",
+      "GUID": "{F15315EE-20B4-4E71-A6F0-2E2ECBEA8B7A}",
+      "Switches": [
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Impact\\Stone",
+        "GUID": "{21EFE8C6-1AF6-4D9A-8F2C-D46DBAAC54F8}"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Impact\\Dirt",
+        "GUID": "{D63A2816-2BF5-4E43-96BF-92ADF5EFD709}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Impact\\Water",
+        "GUID": "{76A15951-554F-417A-B26F-034713D0CAB1}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{20DCE144-3A5D-CFA2-321B-C72196B65434}"
+  "FileHash": "{800368D1-C10D-1C7B-1944-7F37663B2E0C}"
  }
 }

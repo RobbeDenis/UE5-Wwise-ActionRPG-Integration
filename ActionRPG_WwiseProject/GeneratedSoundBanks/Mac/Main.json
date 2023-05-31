@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{C9536E2A-8908-315E-B749-9A916EE61149}",
+    "Hash": "{80E9704A-B1D0-AFB7-1384-297B09D80C48}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "31203274",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dirt_Impact.wav",
+      "CachePath": "SFX/Dirt_Impact_10C4C929.wem"
+     },
      {
       "Id": "120915605",
       "Language": "SFX",
@@ -22,6 +30,46 @@
       "Location": "Memory",
       "ShortName": "Player_Swing-002.wav",
       "CachePath": "SFX/Player_Swing-002_10C4C929.wem"
+     },
+     {
+      "Id": "132058878",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GroundSlam-001.wav",
+      "CachePath": "SFX/GroundSlam-001_10C4C929.wem"
+     },
+     {
+      "Id": "160212660",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GroundSlam-004.wav",
+      "CachePath": "SFX/GroundSlam-004_10C4C929.wem"
+     },
+     {
+      "Id": "353512300",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GroundSlam-003.wav",
+      "CachePath": "SFX/GroundSlam-003_10C4C929.wem"
+     },
+     {
+      "Id": "462682426",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Water_Impact.wav",
+      "CachePath": "SFX/Water_Impact_10C4C929.wem"
+     },
+     {
+      "Id": "468771132",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GroundSlam-002.wav",
+      "CachePath": "SFX/GroundSlam-002_10C4C929.wem"
      },
      {
       "Id": "515498122",
@@ -80,6 +128,14 @@
       "CachePath": "SFX/FS_Sand-004_10C4C929.wem"
      },
      {
+      "Id": "937589626",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stone_Impact.wav",
+      "CachePath": "SFX/Stone_Impact_10C4C929.wem"
+     },
+     {
       "Id": "1045995186",
       "Language": "SFX",
       "Streaming": "false",
@@ -120,6 +176,71 @@
          },
          {
           "Id": "876443643"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1055240968",
+      "Name": "Play_GroundSlam",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_GroundSlam",
+      "GUID": "{156CA5F1-0D54-4975-AF58-D2814988E804}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.725676",
+      "DurationMax": "3.002606",
+      "MediaRefs": [
+       {
+        "Id": "132058878"
+       },
+       {
+        "Id": "160212660"
+       },
+       {
+        "Id": "353512300"
+       },
+       {
+        "Id": "468771132"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3257506471",
+         "Id": "2195636714",
+         "GUID": "{D63A2816-2BF5-4E43-96BF-92ADF5EFD709}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "31203274"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3257506471",
+         "Id": "2654748154",
+         "GUID": "{76A15951-554F-417A-B26F-034713D0CAB1}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "462682426"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3257506471",
+         "Id": "1216965916",
+         "GUID": "{21EFE8C6-1AF6-4D9A-8F2C-D46DBAAC54F8}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "937589626"
          }
         ]
        }
@@ -198,10 +319,36 @@
         "GUID": "{B9EA5374-CA9F-4D4B-A504-D33B42796948}"
        }
       ]
+     },
+     {
+      "Id": "3257506471",
+      "Name": "Impact",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Impact",
+      "GUID": "{F15315EE-20B4-4E71-A6F0-2E2ECBEA8B7A}",
+      "Switches": [
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Impact\\Stone",
+        "GUID": "{21EFE8C6-1AF6-4D9A-8F2C-D46DBAAC54F8}"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Impact\\Dirt",
+        "GUID": "{D63A2816-2BF5-4E43-96BF-92ADF5EFD709}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Impact\\Water",
+        "GUID": "{76A15951-554F-417A-B26F-034713D0CAB1}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{89263119-610B-569B-6C29-68CC1068BEA3}"
+  "FileHash": "{151AAABC-46F4-F130-E945-AE9D46E76325}"
  }
 }
