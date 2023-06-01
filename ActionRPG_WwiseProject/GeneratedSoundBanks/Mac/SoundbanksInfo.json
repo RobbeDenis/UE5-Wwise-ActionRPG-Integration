@@ -210,7 +210,7 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{8835FF9B-653A-37DD-AC14-F0926FC6F1B9}",
+    "Hash": "{81F9B5BE-9569-1CA4-3DED-E3B8C81097D8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -238,6 +238,14 @@
       "Location": "Memory",
       "ShortName": "Goblin_Hit-003.wav",
       "CachePath": "SFX/Goblin_Hit-003_10C4C929.wem"
+     },
+     {
+      "Id": "124337950",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Goblin_HitGrunt-002.wav",
+      "CachePath": "SFX/Goblin_HitGrunt-002_10C4C929.wem"
      },
      {
       "Id": "126572019",
@@ -288,6 +296,14 @@
       "CachePath": "SFX/GroundSlam-004_10C4C929.wem"
      },
      {
+      "Id": "177184956",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Goblin_SwingGrunt-004.wav",
+      "CachePath": "SFX/Goblin_SwingGrunt-004_10C4C929.wem"
+     },
+     {
       "Id": "189293494",
       "Language": "SFX",
       "Streaming": "false",
@@ -312,6 +328,14 @@
       "CachePath": "SFX/Grunt_Hit-002_10C4C929.wem"
      },
      {
+      "Id": "272739410",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Goblin_SwingGrunt-005.wav",
+      "CachePath": "SFX/Goblin_SwingGrunt-005_10C4C929.wem"
+     },
+     {
       "Id": "276472349",
       "Language": "SFX",
       "Streaming": "false",
@@ -334,6 +358,14 @@
       "Location": "Memory",
       "ShortName": "Roll-001.wav",
       "CachePath": "SFX/Roll-001_10C4C929.wem"
+     },
+     {
+      "Id": "304137325",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Goblin_SwingGrunt-003.wav",
+      "CachePath": "SFX/Goblin_SwingGrunt-003_10C4C929.wem"
      },
      {
       "Id": "324544122",
@@ -382,6 +414,22 @@
       "Location": "Memory",
       "ShortName": "Soul.wav",
       "CachePath": "SFX/Soul_10C4C929.wem"
+     },
+     {
+      "Id": "414051185",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Goblin_SwingGrunt-001.wav",
+      "CachePath": "SFX/Goblin_SwingGrunt-001_10C4C929.wem"
+     },
+     {
+      "Id": "414075697",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Goblin_HitGrunt-001.wav",
+      "CachePath": "SFX/Goblin_HitGrunt-001_10C4C929.wem"
      },
      {
       "Id": "424450536",
@@ -438,6 +486,14 @@
       "Location": "Memory",
       "ShortName": "FS_Sand-005.wav",
       "CachePath": "SFX/FS_Sand-005_10C4C929.wem"
+     },
+     {
+      "Id": "543332638",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Goblin_HitGrunt-004.wav",
+      "CachePath": "SFX/Goblin_HitGrunt-004_10C4C929.wem"
      },
      {
       "Id": "587868897",
@@ -602,6 +658,30 @@
       "CachePath": "SFX/Fire_campfire_looped_28A37B2F.wem"
      },
      {
+      "Id": "878471934",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Goblin_HitGrunt-003.wav",
+      "CachePath": "SFX/Goblin_HitGrunt-003_10C4C929.wem"
+     },
+     {
+      "Id": "900859556",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Goblin_SwingGrunt-002.wav",
+      "CachePath": "SFX/Goblin_SwingGrunt-002_10C4C929.wem"
+     },
+     {
+      "Id": "902316126",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Goblin_SwingGrunt-006.wav",
+      "CachePath": "SFX/Goblin_SwingGrunt-006_10C4C929.wem"
+     },
+     {
       "Id": "924407592",
       "Language": "SFX",
       "Streaming": "false",
@@ -665,6 +745,22 @@
        "Name": "Silence",
        "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Player\\Grunt_Swing\\None-002\\Silence",
        "GUID": "{F637D481-18E6-4CDF-916B-B6BCBED76C32}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
+      },
+      {
+       "Id": "769512910",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Goblin\\Goblin_HitGrunt\\New Sound SFX_01\\Silence",
+       "GUID": "{1A638881-209D-443B-AA28-2E394F799449}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
+      },
+      {
+       "Id": "930266521",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Goblin\\Goblin_HitGrunt\\New Sound SFX\\Silence",
+       "GUID": "{C8FC8F3F-7462-4786-8A8A-4C53BFB9DDF8}",
        "LibName": "Wwise Silence",
        "LibId": "6619138"
       }
@@ -789,19 +885,70 @@
       "GUID": "{88D2793B-0B11-4B43-9418-705193C74F91}",
       "DurationType": "OneShot",
       "DurationMin": "0.35871154",
-      "DurationMax": "0.82803667",
+      "DurationMax": "1.122462",
       "MediaRefs": [
        {
         "Id": "98455453"
        },
        {
+        "Id": "124337950"
+       },
+       {
         "Id": "324544122"
+       },
+       {
+        "Id": "414075697"
+       },
+       {
+        "Id": "543332638"
        },
        {
         "Id": "631851801"
        },
        {
+        "Id": "878471934"
+       },
+       {
         "Id": "924407592"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "769512910"
+        },
+        {
+         "Id": "930266521"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2355713830",
+      "Name": "Play_Goblin_SwingGrunt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Goblin_SwingGrunt",
+      "GUID": "{2E89F717-9215-43A4-ADA0-EC4D34E498A0}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.16810793",
+      "DurationMax": "0.59272546",
+      "MediaRefs": [
+       {
+        "Id": "177184956"
+       },
+       {
+        "Id": "272739410"
+       },
+       {
+        "Id": "304137325"
+       },
+       {
+        "Id": "414051185"
+       },
+       {
+        "Id": "900859556"
+       },
+       {
+        "Id": "902316126"
        }
       ]
      },
@@ -1163,6 +1310,6 @@
     ]
    }
   ],
-  "FileHash": "{34ADC977-E5ED-A477-961E-553CD528544B}"
+  "FileHash": "{2DBFD913-1106-BC12-974E-295FBC492F35}"
  }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{8835FF9B-653A-37DD-AC14-F0926FC6F1B9}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{81F9B5BE-9569-1CA4-3DED-E3B8C81097D8}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -17,6 +17,10 @@
 				<File Id="98455453" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Goblin_Hit-003.wav</ShortName>
 					<CachePath>SFX/Goblin_Hit-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="124337950" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_HitGrunt-002.wav</ShortName>
+					<CachePath>SFX/Goblin_HitGrunt-002_10C4C929.wem</CachePath>
 				</File>
 				<File Id="126572019" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fire_campfire_looped.wav</ShortName>
@@ -42,6 +46,10 @@
 					<ShortName>GroundSlam-004.wav</ShortName>
 					<CachePath>SFX/GroundSlam-004_10C4C929.wem</CachePath>
 				</File>
+				<File Id="177184956" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_SwingGrunt-004.wav</ShortName>
+					<CachePath>SFX/Goblin_SwingGrunt-004_10C4C929.wem</CachePath>
+				</File>
 				<File Id="189293494" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DeathWhisle-004.wav</ShortName>
 					<CachePath>SFX/DeathWhisle-004_10C4C929.wem</CachePath>
@@ -54,6 +62,10 @@
 					<ShortName>Grunt_Hit-002.wav</ShortName>
 					<CachePath>SFX/Grunt_Hit-002_10C4C929.wem</CachePath>
 				</File>
+				<File Id="272739410" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_SwingGrunt-005.wav</ShortName>
+					<CachePath>SFX/Goblin_SwingGrunt-005_10C4C929.wem</CachePath>
+				</File>
 				<File Id="276472349" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grunt-002.wav</ShortName>
 					<CachePath>SFX/Grunt-002_10C4C929.wem</CachePath>
@@ -65,6 +77,10 @@
 				<File Id="292023544" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Roll-001.wav</ShortName>
 					<CachePath>SFX/Roll-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="304137325" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_SwingGrunt-003.wav</ShortName>
+					<CachePath>SFX/Goblin_SwingGrunt-003_10C4C929.wem</CachePath>
 				</File>
 				<File Id="324544122" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Goblin_Hit-004.wav</ShortName>
@@ -89,6 +105,14 @@
 				<File Id="403653278" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soul.wav</ShortName>
 					<CachePath>SFX/Soul_10C4C929.wem</CachePath>
+				</File>
+				<File Id="414051185" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_SwingGrunt-001.wav</ShortName>
+					<CachePath>SFX/Goblin_SwingGrunt-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="414075697" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_HitGrunt-001.wav</ShortName>
+					<CachePath>SFX/Goblin_HitGrunt-001_10C4C929.wem</CachePath>
 				</File>
 				<File Id="424450536" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Roll-002.wav</ShortName>
@@ -117,6 +141,10 @@
 				<File Id="515498122" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-005.wav</ShortName>
 					<CachePath>SFX/FS_Sand-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="543332638" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_HitGrunt-004.wav</ShortName>
+					<CachePath>SFX/Goblin_HitGrunt-004_10C4C929.wem</CachePath>
 				</File>
 				<File Id="587868897" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rock_Impact_Tail.wav</ShortName>
@@ -200,6 +228,18 @@
 					<ShortName>Fire_campfire_looped.wav</ShortName>
 					<CachePath>SFX/Fire_campfire_looped_28A37B2F.wem</CachePath>
 				</File>
+				<File Id="878471934" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_HitGrunt-003.wav</ShortName>
+					<CachePath>SFX/Goblin_HitGrunt-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="900859556" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_SwingGrunt-002.wav</ShortName>
+					<CachePath>SFX/Goblin_SwingGrunt-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="902316126" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_SwingGrunt-006.wav</ShortName>
+					<CachePath>SFX/Goblin_SwingGrunt-006_10C4C929.wem</CachePath>
+				</File>
 				<File Id="924407592" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Goblin_Hit-002.wav</ShortName>
 					<CachePath>SFX/Goblin_Hit-002_10C4C929.wem</CachePath>
@@ -229,6 +269,8 @@
 				<Custom>
 					<Plugin Id="257343408" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\None-001\Silence" GUID="{597F46D7-0A3C-4B47-8F27-6ED1FA5A1ED7}" LibName="Wwise Silence" LibId="6619138"/>
 					<Plugin Id="518936202" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\None-002\Silence" GUID="{F637D481-18E6-4CDF-916B-B6BCBED76C32}" LibName="Wwise Silence" LibId="6619138"/>
+					<Plugin Id="769512910" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_HitGrunt\New Sound SFX_01\Silence" GUID="{1A638881-209D-443B-AA28-2E394F799449}" LibName="Wwise Silence" LibId="6619138"/>
+					<Plugin Id="930266521" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_HitGrunt\New Sound SFX\Silence" GUID="{C8FC8F3F-7462-4786-8A8A-4C53BFB9DDF8}" LibName="Wwise Silence" LibId="6619138"/>
 				</Custom>
 			</Plugins>
 			<Events>
@@ -272,12 +314,32 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="76150229" Name="Play_Goblin_Hit" ObjectPath="\Events\Default Work Unit\Play_Goblin_Hit" GUID="{88D2793B-0B11-4B43-9418-705193C74F91}" DurationType="OneShot" DurationMin="0.35871154" DurationMax="0.82803667">
+				<Event Id="76150229" Name="Play_Goblin_Hit" ObjectPath="\Events\Default Work Unit\Play_Goblin_Hit" GUID="{88D2793B-0B11-4B43-9418-705193C74F91}" DurationType="OneShot" DurationMin="0.35871154" DurationMax="1.122462">
 					<MediaRefs>
 						<MediaRef Id="98455453"/>
+						<MediaRef Id="124337950"/>
 						<MediaRef Id="324544122"/>
+						<MediaRef Id="414075697"/>
+						<MediaRef Id="543332638"/>
 						<MediaRef Id="631851801"/>
+						<MediaRef Id="878471934"/>
 						<MediaRef Id="924407592"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="769512910"/>
+							<PluginRef Id="930266521"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="2355713830" Name="Play_Goblin_SwingGrunt" ObjectPath="\Events\Default Work Unit\Play_Goblin_SwingGrunt" GUID="{2E89F717-9215-43A4-ADA0-EC4D34E498A0}" DurationType="OneShot" DurationMin="0.16810793" DurationMax="0.59272546">
+					<MediaRefs>
+						<MediaRef Id="177184956"/>
+						<MediaRef Id="272739410"/>
+						<MediaRef Id="304137325"/>
+						<MediaRef Id="414051185"/>
+						<MediaRef Id="900859556"/>
+						<MediaRef Id="902316126"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1055240968" Name="Play_GroundSlam" ObjectPath="\Events\Default Work Unit\Play_GroundSlam" GUID="{156CA5F1-0D54-4975-AF58-D2814988E804}" DurationType="OneShot" DurationMin="3.345854" DurationMax="3.345854">
@@ -413,5 +475,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FF892DEF-45F3-E6CA-2DB5-04DF4679C783}</FileHash>
+	<FileHash>{EE05253C-00CD-1B7B-48E6-A31F519EAB8C}</FileHash>
 </SoundBanksInfo>

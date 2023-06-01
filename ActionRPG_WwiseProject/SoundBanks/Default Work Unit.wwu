@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Roll" ID="{15BD5FA2-3632-4298-AF18-6DE42A2CC5EE}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Pickup_Soul" ID="{E98FAC64-537B-4345-8875-2012A4F0FFD4}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Goblin_SwingGrunt" ID="{2E89F717-9215-43A4-ADA0-EC4D34E498A0}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footsteps" ID="{F60C7D25-F5E7-44EC-BE4C-3BC28FC88BC2}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Consume_Pot" ID="{4350D16C-4077-4664-84DC-590102EF49CC}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_RandomDeathWhisle" ID="{BCEDE4E9-3AF8-47C6-83F2-8964D204FB00}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>

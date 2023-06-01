@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	876482232	Play_Pickup_Soul			\Default Work Unit\Play_Pickup_Soul	
 	1055240968	Play_GroundSlam			\Default Work Unit\Play_GroundSlam	
 	1661060282	Play_DeathWhisleLow			\Default Work Unit\Play_DeathWhisleLow	
+	2355713830	Play_Goblin_SwingGrunt			\Default Work Unit\Play_Goblin_SwingGrunt	
 	2495770949	Play_Death_Cry			\Default Work Unit\Play_Death_Cry	
 	2517823277	Play_PlayerSwing			\Default Work Unit\Play_PlayerSwing	
 	2719919427	Play_Roll			\Default Work Unit\Play_Roll	
@@ -32,29 +33,37 @@ Switch	ID	Name	Switch Group			Notes
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	257343408	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\None-001\Silence	
 	518936202	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\None-002\Silence	
+	769512910	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_HitGrunt\New Sound SFX_01\Silence	
+	930266521	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_HitGrunt\New Sound SFX\Silence	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	13622979	Grunt_Hit-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Grunt_Hit-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Hit\Grunt_Hit-003		59980
 	31203274	Dirt_Impact	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Dirt_Impact_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Impact\Dirt_Impact		100860
 	98455453	Goblin_Hit-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Goblin_Hit-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_Hit\Goblin_Hit-003		75126
+	124337950	Goblin_HitGrunt-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Goblin_HitGrunt-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_HitGrunt\Goblin_HitGrunt-002		18678
 	126572019	Fire_campfire_looped_04	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Fire_campfire_looped_451D858D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Campfire\Fire_campfire_looped_04		1449536
 	132058878	GroundSlam-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\GroundSlam-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Low\GroundSlam-001		261884
 	150671417	Grunt-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Grunt-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\Grunt-003		49488
 	154883674	DeathWhisle-005	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\DeathWhisle-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\RandomDeathWhisle\DeathWhisle-005		202708
 	159760995	DeathWhisle-009	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\DeathWhisle-009_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\RandomDeathWhisle\DeathWhisle-009		125910
 	160212660	GroundSlam-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\GroundSlam-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Low\GroundSlam-004		255884
+	177184956	Goblin_SwingGrunt-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Goblin_SwingGrunt-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_SwingGrunt\Goblin_SwingGrunt-004		21106
 	189293494	DeathWhisle-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\DeathWhisle-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\RandomDeathWhisle\DeathWhisle-004		270652
 	214131361	Axe_Woosh-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Axe_Woosh-003_200A8291.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerSwing\Axe_Woosh-003		82770
 	255433557	Grunt_Hit-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Grunt_Hit-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Hit\Grunt_Hit-002		55012
+	272739410	Goblin_SwingGrunt-005	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Goblin_SwingGrunt-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_SwingGrunt\Goblin_SwingGrunt-005		19278
 	276472349	Grunt-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Grunt-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\Grunt-002		30876
 	280510783	Grunt-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Grunt-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\Grunt-004		52072
 	292023544	Roll-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Roll-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Roll\Roll-001		51946
+	304137325	Goblin_SwingGrunt-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Goblin_SwingGrunt-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_SwingGrunt\Goblin_SwingGrunt-003		53804
 	324544122	Goblin_Hit-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Goblin_Hit-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_Hit\Goblin_Hit-004		36580
 	327556540	DeathWhisle-007	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\DeathWhisle-007_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\RandomDeathWhisle\DeathWhisle-007		158952
 	327704554	Roll-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Roll-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Roll\Roll-003		47134
 	351961489	DeathWhisle-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\DeathWhisle-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\RandomDeathWhisle\DeathWhisle-003		239138
 	353512300	GroundSlam-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\GroundSlam-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Low\GroundSlam-003		259764
 	403653278	Pickup_Soul	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Soul_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Pickup_Soul		87582
+	414051185	Goblin_SwingGrunt-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Goblin_SwingGrunt-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_SwingGrunt\Goblin_SwingGrunt-001		32966
+	414075697	Goblin_HitGrunt-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Goblin_HitGrunt-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_HitGrunt\Goblin_HitGrunt-001		13126
 	424450536	Roll-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Roll-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Roll\Roll-002		47364
 	443029432	DeathWhisle-010	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\DeathWhisle-010_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\RandomDeathWhisle\DeathWhisle-010		124164
 	462682426	Water_Impact	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Water_Impact_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Impact\Water_Impact		282050
@@ -62,6 +71,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	468771132	GroundSlam-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\GroundSlam-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Low\GroundSlam-002		243294
 	501518518	Fire_campfire_looped_01	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Fire_campfire_looped_0AFC011F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Campfire\Fire_campfire_looped_01		1823584
 	515498122	FS_Sand-005	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Sand-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-005		39712
+	543332638	Goblin_HitGrunt-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Goblin_HitGrunt-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_HitGrunt\Goblin_HitGrunt-004		32350
 	587868897	Rock_Impact_Tail	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Rock_Impact_Tail_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Tail\Rock_Impact_Tail		311698
 	594466621	DeathWhisle-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\DeathWhisle-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\RandomDeathWhisle\DeathWhisle-001		118920
 	621236505	FS_Sand-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Sand-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-001		21250
@@ -82,6 +92,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	867752228	Grunt_Hit-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Grunt_Hit-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Hit\Grunt_Hit-001		43370
 	876443643	FS_Sand-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Sand-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-004		31348
 	877945358	Fire_campfire_looped_05	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Fire_campfire_looped_28A37B2F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Campfire\Fire_campfire_looped_05		788270
+	878471934	Goblin_HitGrunt-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Goblin_HitGrunt-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_HitGrunt\Goblin_HitGrunt-003		14838
+	900859556	Goblin_SwingGrunt-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Goblin_SwingGrunt-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_SwingGrunt\Goblin_SwingGrunt-002		38836
+	902316126	Goblin_SwingGrunt-006	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Goblin_SwingGrunt-006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_SwingGrunt\Goblin_SwingGrunt-006		17194
 	924407592	Goblin_Hit-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Goblin_Hit-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_Hit\Goblin_Hit-002		42262
 	964898346	Fire_campfire_looped	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Fire_campfire_looped_177AA162.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Campfire\Fire_campfire_looped		1776828
 	1029893350	Axe_Woosh-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Axe_Woosh-002_561844A0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerSwing\Axe_Woosh-002		82188
