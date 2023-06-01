@@ -675,6 +675,11 @@
 											</ModifierList>
 										</Property>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -794,7 +799,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<RandomSequenceContainer Name="Water" ID="{8E4652A4-7A3D-431B-A7E6-0070A3EB39ED}" ShortID="239877709">
+										<Sound Name="Dirt_Impact" ID="{C5FF6E58-620C-42BE-89E9-093355FA0B90}" ShortID="413024314">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
@@ -804,128 +809,104 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Water_Impact" ID="{C58C0096-DCA0-48C5-96CA-6D2DA685BE3A}" ShortID="34717062">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Water_Impact" ID="{EBCC56FE-6445-4EAE-8570-4496BBCE57F1}">
-															<Language>SFX</Language>
-															<AudioFile>Water_Impact.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="462682426"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Water_Impact" ID="{EBCC56FE-6445-4EAE-8570-4496BBCE57F1}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
+												<AudioFileSource Name="Dirt_Impact" ID="{A1D10BF5-FBCA-493E-A4C2-AB5D06B7C75D}">
+													<Language>SFX</Language>
+													<AudioFile>Dirt_Impact.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="31203274"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Stone" ID="{5EE7ED2E-D3E4-43FD-84F2-A966B2832DD8}" ShortID="760072545">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="Stone_Impact" ID="{08DE1A6D-D700-401F-AB3B-D4FAB92E277F}" ShortID="402269557">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Stone_Impact" ID="{E6728128-8E54-4A9A-A779-613157AFD8BC}">
-															<Language>SFX</Language>
-															<AudioFile>Stone_Impact.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="937589626"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Stone_Impact" ID="{E6728128-8E54-4A9A-A779-613157AFD8BC}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Dirt" ID="{F842A664-478F-4DE8-A619-D99BE4AE731C}" ShortID="864004125">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="Dirt_Impact" ID="{8B68709D-01D3-4679-BCD2-3CA9BCBE9207}" ShortID="899963475">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Dirt_Impact" ID="{3B128A74-FE65-4C88-8E8D-843D4F175EDE}">
-															<Language>SFX</Language>
-															<AudioFile>Dirt_Impact.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="31203274"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Dirt_Impact" ID="{3B128A74-FE65-4C88-8E8D-843D4F175EDE}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
+											<ActiveSourceList>
+												<ActiveSource Name="Dirt_Impact" ID="{A1D10BF5-FBCA-493E-A4C2-AB5D06B7C75D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
-												<ItemRef Name="Stone" ID="{5EE7ED2E-D3E4-43FD-84F2-A966B2832DD8}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="Dirt" ID="{F842A664-478F-4DE8-A619-D99BE4AE731C}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="Water" ID="{8E4652A4-7A3D-431B-A7E6-0070A3EB39ED}"/>
+												<ItemRef Name="Dirt_Impact" ID="{C5FF6E58-620C-42BE-89E9-093355FA0B90}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
 											<Grouping>
 												<SwitchRef Name="Dirt" ID="{D63A2816-2BF5-4E43-96BF-92ADF5EFD709}"/>
 												<ItemList>
-													<ItemRef Name="Dirt" ID="{F842A664-478F-4DE8-A619-D99BE4AE731C}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Water" ID="{76A15951-554F-417A-B26F-034713D0CAB1}"/>
-												<ItemList>
-													<ItemRef Name="Water" ID="{8E4652A4-7A3D-431B-A7E6-0070A3EB39ED}"/>
+													<ItemRef Name="Dirt_Impact" ID="{C5FF6E58-620C-42BE-89E9-093355FA0B90}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
 												<SwitchRef Name="Stone" ID="{21EFE8C6-1AF6-4D9A-8F2C-D46DBAAC54F8}"/>
 												<ItemList>
-													<ItemRef Name="Stone" ID="{5EE7ED2E-D3E4-43FD-84F2-A966B2832DD8}"/>
+													<ItemRef Name="Dirt_Impact" ID="{C5FF6E58-620C-42BE-89E9-093355FA0B90}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="GroundSlam_Tail" ID="{6D59217E-7544-44ED-98EE-CD1FF5F9A012}" ShortID="872762317">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Dirt" ID="{D63A2816-2BF5-4E43-96BF-92ADF5EFD709}" WorkUnitID="{A0404599-0CB4-46FE-92E6-B5F3C8CE9CEA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Impact" ID="{F15315EE-20B4-4E71-A6F0-2E2ECBEA8B7A}" WorkUnitID="{A0404599-0CB4-46FE-92E6-B5F3C8CE9CEA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Rock_Impact_Tail" ID="{2ED93A60-3D7D-4EED-B2BA-B2DDBC9AD81A}" ShortID="168410573">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Rock_Impact_Tail" ID="{D7F14DDB-7E03-48A3-BB5E-BD4C5CDA69B3}">
+													<Language>SFX</Language>
+													<AudioFile>Rock_Impact_Tail.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="587868897"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Rock_Impact_Tail" ID="{D7F14DDB-7E03-48A3-BB5E-BD4C5CDA69B3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Rock_Impact_Tail" ID="{2ED93A60-3D7D-4EED-B2BA-B2DDBC9AD81A}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Dirt" ID="{D63A2816-2BF5-4E43-96BF-92ADF5EFD709}"/>
+												<ItemList>
+													<ItemRef Name="Rock_Impact_Tail" ID="{2ED93A60-3D7D-4EED-B2BA-B2DDBC9AD81A}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Stone" ID="{21EFE8C6-1AF6-4D9A-8F2C-D46DBAAC54F8}"/>
+												<ItemList>
+													<ItemRef Name="Rock_Impact_Tail" ID="{2ED93A60-3D7D-4EED-B2BA-B2DDBC9AD81A}"/>
 												</ItemList>
 											</Grouping>
 										</GroupingList>
