@@ -177,6 +177,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Goblin_Hit" ID="{88D2793B-0B11-4B43-9418-705193C74F91}">
+					<ChildrenList>
+						<Action Name="" ID="{6FD3D7BA-E7E5-4C69-B07B-C1A707AD0F5E}" ShortID="452043528">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Goblin_Hit" ID="{4D980DBA-A961-4E72-BB48-1CE8B931D9A4}" WorkUnitID="{33EB04C2-FDC3-4187-98A6-35A4FFFC187E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

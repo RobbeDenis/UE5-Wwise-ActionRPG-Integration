@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{481C0465-34EA-EA31-6268-95A4E75EB1CD}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{8835FF9B-653A-37DD-AC14-F0926FC6F1B9}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -13,6 +13,10 @@
 				<File Id="31203274" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dirt_Impact.wav</ShortName>
 					<CachePath>SFX/Dirt_Impact_10C4C929.wem</CachePath>
+				</File>
+				<File Id="98455453" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_Hit-003.wav</ShortName>
+					<CachePath>SFX/Goblin_Hit-003_10C4C929.wem</CachePath>
 				</File>
 				<File Id="126572019" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fire_campfire_looped.wav</ShortName>
@@ -61,6 +65,10 @@
 				<File Id="292023544" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Roll-001.wav</ShortName>
 					<CachePath>SFX/Roll-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="324544122" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_Hit-004.wav</ShortName>
+					<CachePath>SFX/Goblin_Hit-004_10C4C929.wem</CachePath>
 				</File>
 				<File Id="327556540" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DeathWhisle-007.wav</ShortName>
@@ -122,6 +130,10 @@
 					<ShortName>FS_Sand-001.wav</ShortName>
 					<CachePath>SFX/FS_Sand-001_10C4C929.wem</CachePath>
 				</File>
+				<File Id="631851801" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_Hit-001.wav</ShortName>
+					<CachePath>SFX/Goblin_Hit-001_10C4C929.wem</CachePath>
+				</File>
 				<File Id="655223332" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Axe_Woosh-004.wav</ShortName>
 					<CachePath>SFX/Axe_Woosh-004_7935DE21.wem</CachePath>
@@ -132,7 +144,7 @@
 				</File>
 				<File Id="683503367" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Shot.wav</ShortName>
-					<CachePath>SFX/Shot_10C4C929.wem</CachePath>
+					<CachePath>SFX/Shot_A60E7EF7.wem</CachePath>
 				</File>
 				<File Id="724030898" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Death_Cry.wav</ShortName>
@@ -188,6 +200,10 @@
 					<ShortName>Fire_campfire_looped.wav</ShortName>
 					<CachePath>SFX/Fire_campfire_looped_28A37B2F.wem</CachePath>
 				</File>
+				<File Id="924407592" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_Hit-002.wav</ShortName>
+					<CachePath>SFX/Goblin_Hit-002_10C4C929.wem</CachePath>
+				</File>
 				<File Id="964898346" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fire_campfire_looped.wav</ShortName>
 					<CachePath>SFX/Fire_campfire_looped_177AA162.wem</CachePath>
@@ -209,6 +225,12 @@
 					<CachePath>SFX/Grunt-001_10C4C929.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="257343408" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\None-001\Silence" GUID="{597F46D7-0A3C-4B47-8F27-6ED1FA5A1ED7}" LibName="Wwise Silence" LibId="6619138"/>
+					<Plugin Id="518936202" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\None-002\Silence" GUID="{F637D481-18E6-4CDF-916B-B6BCBED76C32}" LibName="Wwise Silence" LibId="6619138"/>
+				</Custom>
+			</Plugins>
 			<Events>
 				<Event Id="4000411161" Name="Play_Campfire" ObjectPath="\Events\Default Work Unit\Play_Campfire" GUID="{B5E84B6B-D27A-47DE-8110-AB244A8386AB}" MaxAttenuation="1350" DurationType="OneShot" DurationMin="102.32407" DurationMax="102.32407">
 					<MediaRefs>
@@ -249,6 +271,14 @@
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="76150229" Name="Play_Goblin_Hit" ObjectPath="\Events\Default Work Unit\Play_Goblin_Hit" GUID="{88D2793B-0B11-4B43-9418-705193C74F91}" DurationType="OneShot" DurationMin="0.35871154" DurationMax="0.82803667">
+					<MediaRefs>
+						<MediaRef Id="98455453"/>
+						<MediaRef Id="324544122"/>
+						<MediaRef Id="631851801"/>
+						<MediaRef Id="924407592"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="1055240968" Name="Play_GroundSlam" ObjectPath="\Events\Default Work Unit\Play_GroundSlam" GUID="{156CA5F1-0D54-4975-AF58-D2814988E804}" DurationType="OneShot" DurationMin="3.345854" DurationMax="3.345854">
 					<MediaRefs>
@@ -297,13 +327,19 @@
 						<MediaRef Id="867752228"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="390202731" Name="Play_Grunt_Swing" ObjectPath="\Events\Default Work Unit\Play_Grunt_Swing" GUID="{370F6A5C-2EF0-4E9B-92B4-58522F85F30B}" DurationType="OneShot" DurationMin="0.32939285" DurationMax="0.6243385">
+				<Event Id="390202731" Name="Play_Grunt_Swing" ObjectPath="\Events\Default Work Unit\Play_Grunt_Swing" GUID="{370F6A5C-2EF0-4E9B-92B4-58522F85F30B}" DurationType="OneShot" DurationMin="0.32939285" DurationMax="1.0594631">
 					<MediaRefs>
 						<MediaRef Id="150671417"/>
 						<MediaRef Id="276472349"/>
 						<MediaRef Id="280510783"/>
 						<MediaRef Id="1072310648"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="257343408"/>
+							<PluginRef Id="518936202"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="3128913152" Name="Play_Pickup_Item" ObjectPath="\Events\Default Work Unit\Play_Pickup_Item" GUID="{1BF7DE81-21DD-4880-9D2B-651089A08519}" DurationType="OneShot" DurationMin="0.9350279" DurationMax="0.9906275">
 					<MediaRefs>
@@ -348,7 +384,7 @@
 						<MediaRef Id="1033455963"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3187507146" Name="Play_Test" ObjectPath="\Events\Default Work Unit\Play_Test" GUID="{72C814D5-F2EE-4A26-9D04-DCB4C83E7589}" DurationType="OneShot" DurationMin="1.1973469" DurationMax="1.1973469">
+				<Event Id="3187507146" Name="Play_Test" ObjectPath="\Events\Default Work Unit\Play_Test" GUID="{72C814D5-F2EE-4A26-9D04-DCB4C83E7589}" DurationType="OneShot" DurationMin="0.9964848" DurationMax="0.9964848">
 					<MediaRefs>
 						<MediaRef Id="683503367"/>
 					</MediaRefs>
@@ -377,5 +413,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BC237BA5-145E-E1F3-709D-F4592E534F61}</FileHash>
+	<FileHash>{60E6C2D7-BFC5-CB5C-438D-D43F1BDC8978}</FileHash>
 </SoundBanksInfo>
