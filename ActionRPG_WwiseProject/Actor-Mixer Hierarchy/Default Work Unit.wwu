@@ -11,6 +11,9 @@
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
 						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="OpenCave_Reverb" ID="{6C93671D-1FB3-4167-8C0E-D3BA1142FA69}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Shot" ID="{EE2D8B9D-3150-47BC-86BC-F9B581B93CD4}">
@@ -27,6 +30,7 @@
 				</Sound>
 				<WorkUnit Name="Player" ID="{78319BBC-D52B-4957-9515-2157E48A2787}" PersistMode="Reference"/>
 				<WorkUnit Name="Items" ID="{462E596C-A96D-4F68-BAEE-AF7067B53E58}" PersistMode="Reference"/>
+				<WorkUnit Name="Ambient" ID="{2889ABAB-7B92-47FC-B551-DCD96D3A1F7D}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

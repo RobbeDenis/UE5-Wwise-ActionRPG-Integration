@@ -98,6 +98,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Campfire" ID="{B5E84B6B-D27A-47DE-8110-AB244A8386AB}">
+					<ChildrenList>
+						<Action Name="" ID="{4AC849EF-2915-4351-9C43-D7AD21C54EBC}" ShortID="663297055">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Campfire" ID="{B88E8C51-5D34-43B8-9026-FC19B4F513DA}" WorkUnitID="{2889ABAB-7B92-47FC-B551-DCD96D3A1F7D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

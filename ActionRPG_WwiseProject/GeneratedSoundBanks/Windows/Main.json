@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{EEE54E14-1AEA-5F9A-2059-9227D4A78DD6}",
+    "Hash": "{B7DE9FD8-C0D6-78B9-F6A4-982484A8F1E1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -38,6 +38,14 @@
       "Location": "Memory",
       "ShortName": "Player_Swing-002.wav",
       "CachePath": "SFX/Player_Swing-002_10C4C929.wem"
+     },
+     {
+      "Id": "126572019",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fire_campfire_looped.wav",
+      "CachePath": "SFX/Fire_campfire_looped_C24D5CCD.wem"
      },
      {
       "Id": "132058878",
@@ -104,12 +112,28 @@
       "CachePath": "SFX/Water_Impact_10C4C929.wem"
      },
      {
+      "Id": "463423689",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fire_campfire_looped.wav",
+      "CachePath": "SFX/Fire_campfire_looped_2BD1DFF7.wem"
+     },
+     {
       "Id": "468771132",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "GroundSlam-002.wav",
       "CachePath": "SFX/GroundSlam-002_10C4C929.wem"
+     },
+     {
+      "Id": "501518518",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fire_campfire_looped.wav",
+      "CachePath": "SFX/Fire_campfire_looped_751EBD36.wem"
      },
      {
       "Id": "515498122",
@@ -176,6 +200,14 @@
       "CachePath": "SFX/Player_Swing-003_10C4C929.wem"
      },
      {
+      "Id": "852612398",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fire_campfire_looped.wav",
+      "CachePath": "SFX/Fire_campfire_looped_3AB27DD3.wem"
+     },
+     {
       "Id": "867752228",
       "Language": "SFX",
       "Streaming": "false",
@@ -192,12 +224,36 @@
       "CachePath": "SFX/FS_Sand-004_10C4C929.wem"
      },
      {
+      "Id": "877945358",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fire_campfire_looped.wav",
+      "CachePath": "SFX/Fire_campfire_looped_108FFB06.wem"
+     },
+     {
       "Id": "937589626",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Stone_Impact.wav",
       "CachePath": "SFX/Stone_Impact_10C4C929.wem"
+     },
+     {
+      "Id": "964898346",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fire_campfire_looped.wav",
+      "CachePath": "SFX/Fire_campfire_looped_8F939083.wem"
+     },
+     {
+      "Id": "1030431893",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fire_campfire_looped.wav",
+      "CachePath": "SFX/Fire_campfire_looped_33D3BB3E.wem"
      },
      {
       "Id": "1045995186",
@@ -217,6 +273,37 @@
      }
     ],
     "Events": [
+     {
+      "Id": "4000411161",
+      "Name": "Play_Campfire",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Campfire",
+      "GUID": "{B5E84B6B-D27A-47DE-8110-AB244A8386AB}",
+      "MaxAttenuation": "1350",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "126572019"
+       },
+       {
+        "Id": "463423689"
+       },
+       {
+        "Id": "501518518"
+       },
+       {
+        "Id": "852612398"
+       },
+       {
+        "Id": "877945358"
+       },
+       {
+        "Id": "964898346"
+       },
+       {
+        "Id": "1030431893"
+       }
+      ]
+     },
      {
       "Id": "2495770949",
       "Name": "Play_Death_Cry",
@@ -338,7 +425,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Grunt_Hit",
       "GUID": "{37E88AAD-7729-4CB0-BB5D-F4390FA81F32}",
       "DurationType": "OneShot",
-      "DurationMin": "0.49063492",
+      "DurationMin": "0.46309766",
       "DurationMax": "0.6789569",
       "MediaRefs": [
        {
@@ -358,8 +445,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Grunt_Swing",
       "GUID": "{370F6A5C-2EF0-4E9B-92B4-58522F85F30B}",
       "DurationType": "OneShot",
-      "DurationMin": "0.3489796",
-      "DurationMax": "0.58929706",
+      "DurationMin": "0.32939285",
+      "DurationMax": "0.6243385",
       "MediaRefs": [
        {
         "Id": "150671417"
@@ -420,6 +507,14 @@
       "MediaRefs": [
        {
         "Id": "683503367"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "3717191513",
+        "Name": "OpenCave_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Gameplay\\OpenCave_Reverb",
+        "GUID": "{6C93671D-1FB3-4167-8C0E-D3BA1142FA69}"
        }
       ]
      }
@@ -492,6 +587,6 @@
     ]
    }
   ],
-  "FileHash": "{DF3E4A7C-1BF0-EFF9-A165-1E61576E9263}"
+  "FileHash": "{961BBBD7-8DBB-7A09-AE9A-654277956C84}"
  }
 }

@@ -4,6 +4,9 @@
 		<WorkUnit Name="Weapon" ID="{D9230E75-056F-407D-9899-EBEE7446B1A4}" OwnerID="{78319BBC-D52B-4957-9515-2157E48A2787}" PersistMode="Nested">
 			<ChildrenList>
 				<SwitchContainer Name="GroundSlam_Impact" ID="{ED36791B-9F8D-4B9A-BFD5-B4DE1352B50E}" ShortID="47031437">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
@@ -171,6 +174,7 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

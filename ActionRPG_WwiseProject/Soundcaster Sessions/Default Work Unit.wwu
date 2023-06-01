@@ -24,7 +24,7 @@
 						<CurrentStateRef Name="Dead" ID="{0536CE74-4099-4668-85B0-BC25C1594966}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Sand" ID="{07261111-85DA-4848-9D5C-4590F83E2574}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{99AE1BB1-0840-4DA3-8906-184B4A011CBE}"/>
 						<CurrentSwitchRef Name="Dirt" ID="{D63A2816-2BF5-4E43-96BF-92ADF5EFD709}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

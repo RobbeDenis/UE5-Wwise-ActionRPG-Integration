@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2889ABAB-7B92-47FC-B551-DCD96D3A1F7D}" SchemaVersion="110" RootDocumentID="{33EB04C2-FDC3-4187-98A6-35A4FFFC187E}" ParentDocumentID="{33EB04C2-FDC3-4187-98A6-35A4FFFC187E}">
+	<AudioObjects>
+		<WorkUnit Name="Ambient" ID="{2889ABAB-7B92-47FC-B551-DCD96D3A1F7D}" OwnerID="{33EB04C2-FDC3-4187-98A6-35A4FFFC187E}" PersistMode="Nested">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Campfire" ID="{B88E8C51-5D34-43B8-9026-FC19B4F513DA}" ShortID="95728919">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Campfire" ID="{C3F19995-AC3B-4F6A-ABB5-0F71247D9623}" WorkUnitID="{4EF613E5-CDCA-47BF-8435-DA4358A1E94E}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Fire_campfire_looped" ID="{37AB8439-7736-4B09-8CA7-27700A449CEB}" ShortID="281576223">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Campfire" ID="{C3F19995-AC3B-4F6A-ABB5-0F71247D9623}" WorkUnitID="{4EF613E5-CDCA-47BF-8435-DA4358A1E94E}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fire_campfire_looped" ID="{23984B9F-8F45-44B3-B902-9789F45478C6}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="20.1443562610229"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Fire_campfire_looped.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="964898346"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fire_campfire_looped" ID="{23984B9F-8F45-44B3-B902-9789F45478C6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Fire_campfire_looped_01" ID="{04E7D093-EA3D-4B8C-8027-1FB5DC92B14E}" ShortID="695610121">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Campfire" ID="{C3F19995-AC3B-4F6A-ABB5-0F71247D9623}" WorkUnitID="{4EF613E5-CDCA-47BF-8435-DA4358A1E94E}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fire_campfire_looped" ID="{43997B9D-4516-4D65-8FB0-D333137E6867}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="19.4627802973041"/>
+										<Property Name="TrimEnd" Type="Real64" Value="40.1372511967749"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Fire_campfire_looped.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="501518518"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fire_campfire_looped" ID="{43997B9D-4516-4D65-8FB0-D333137E6867}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Fire_campfire_looped_02" ID="{73CA00B2-A356-4EAD-87EA-6268DC3E4A9C}" ShortID="1044835208">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Campfire" ID="{C3F19995-AC3B-4F6A-ABB5-0F71247D9623}" WorkUnitID="{4EF613E5-CDCA-47BF-8435-DA4358A1E94E}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fire_campfire_looped" ID="{49544302-30F5-484E-879A-3381006B6928}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="39.3042139077852"/>
+										<Property Name="TrimEnd" Type="Real64" Value="59.5243008314437"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Fire_campfire_looped.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1030431893"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fire_campfire_looped" ID="{49544302-30F5-484E-879A-3381006B6928}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Fire_campfire_looped_03" ID="{0C8247D3-8F0B-47DA-B8DB-DCCC9111F7C4}" ShortID="823345238">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Campfire" ID="{C3F19995-AC3B-4F6A-ABB5-0F71247D9623}" WorkUnitID="{4EF613E5-CDCA-47BF-8435-DA4358A1E94E}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fire_campfire_looped" ID="{ABEFF1A0-90D6-4EBE-B642-DD88A42365A6}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="57.1009196271101"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="57.1009196271101"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Fire_campfire_looped.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="463423689"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fire_campfire_looped" ID="{ABEFF1A0-90D6-4EBE-B642-DD88A42365A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Fire_campfire_looped_04" ID="{8B8D9B36-7565-4940-B828-C9F5F470E050}" ShortID="177792157">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Campfire" ID="{C3F19995-AC3B-4F6A-ABB5-0F71247D9623}" WorkUnitID="{4EF613E5-CDCA-47BF-8435-DA4358A1E94E}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fire_campfire_looped" ID="{9DEB3F8D-67E5-4809-9816-44E43ED33D43}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="9.84498614260519"/>
+										<Property Name="TrimEnd" Type="Real64" Value="26.2785399344923"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Fire_campfire_looped.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="126572019"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fire_campfire_looped" ID="{9DEB3F8D-67E5-4809-9816-44E43ED33D43}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Fire_campfire_looped_05" ID="{79FA30C4-FDA9-4CF7-B584-16A05FF40111}" ShortID="413315376">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Campfire" ID="{C3F19995-AC3B-4F6A-ABB5-0F71247D9623}" WorkUnitID="{4EF613E5-CDCA-47BF-8435-DA4358A1E94E}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fire_campfire_looped" ID="{1829C442-A365-4444-8E92-8334C81747B2}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="32.6399155958679"/>
+										<Property Name="TrimEnd" Type="Real64" Value="41.5761337868481"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Fire_campfire_looped.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="877945358"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fire_campfire_looped" ID="{1829C442-A365-4444-8E92-8334C81747B2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Fire_campfire_looped_06" ID="{EED06B18-4299-4ED6-B8F6-51F5ADD114F3}" ShortID="480762815">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Campfire" ID="{C3F19995-AC3B-4F6A-ABB5-0F71247D9623}" WorkUnitID="{4EF613E5-CDCA-47BF-8435-DA4358A1E94E}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fire_campfire_looped" ID="{BA9FCCB6-DBC5-42A0-B283-D6A1ACC38709}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="8.8604875283447"/>
+										<Property Name="TrimEnd" Type="Real64" Value="21.3560468631897"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Fire_campfire_looped.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="852612398"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fire_campfire_looped" ID="{BA9FCCB6-DBC5-42A0-B283-D6A1ACC38709}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

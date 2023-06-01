@@ -11,6 +11,15 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Gameplay" ID="{35710773-A672-49E3-94CD-FEE992734CDD}">
+							<ChildrenList>
+								<AuxBus Name="OpenCave_Reverb" ID="{6C93671D-1FB3-4167-8C0E-D3BA1142FA69}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
 									<StateGroupInfo>
