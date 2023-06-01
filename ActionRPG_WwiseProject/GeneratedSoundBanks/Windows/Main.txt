@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1661060282	Play_DeathWhisleLow			\Default Work Unit\Play_DeathWhisleLow	
 	2495770949	Play_Death_Cry			\Default Work Unit\Play_Death_Cry	
 	2517823277	Play_PlayerSwing			\Default Work Unit\Play_PlayerSwing	
+	2719919427	Play_Roll			\Default Work Unit\Play_Roll	
 	2989619110	Play_Grunt_Hit			\Default Work Unit\Play_Grunt_Hit	
 	3128913152	Play_Pickup_Item			\Default Work Unit\Play_Pickup_Item	
 	3187507146	Play_Test			\Default Work Unit\Play_Test	
@@ -39,9 +40,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	255433557	Grunt_Hit-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Grunt_Hit-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Hit\Grunt_Hit-002		55012
 	276472349	Grunt-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Grunt-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\Grunt-002		30876
 	280510783	Grunt-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Grunt-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\Grunt-004		52072
+	292023544	Roll-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Roll-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Roll\Roll-001		51946
 	327556540	DeathWhisle-007	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\DeathWhisle-007_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\RandomDeathWhisle\DeathWhisle-007		158952
+	327704554	Roll-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Roll-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Roll\Roll-003		47134
 	351961489	DeathWhisle-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\DeathWhisle-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\RandomDeathWhisle\DeathWhisle-003		239138
 	353512300	GroundSlam-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\GroundSlam-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Low\GroundSlam-003		259764
+	424450536	Roll-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Roll-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Roll\Roll-002		47364
 	443029432	DeathWhisle-010	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\DeathWhisle-010_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\RandomDeathWhisle\DeathWhisle-010		124164
 	462682426	Water_Impact	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Water_Impact_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Impact\Water_Impact		282050
 	463423689	Fire_campfire_looped_03	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Fire_campfire_looped_38EB4FBD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Campfire\Fire_campfire_looped_03		1095524
@@ -69,6 +73,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	964898346	Fire_campfire_looped	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Fire_campfire_looped_177AA162.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Campfire\Fire_campfire_looped		1776828
 	1029893350	Axe_Woosh-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Axe_Woosh-002_561844A0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerSwing\Axe_Woosh-002		82188
 	1030431893	Fire_campfire_looped_02	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Fire_campfire_looped_7A9B7E06.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Campfire\Fire_campfire_looped_02		1783508
+	1033455963	Roll-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Roll-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Roll\Roll-004		51406
 	1072310648	Grunt-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Grunt-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\Grunt-001		49488
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes

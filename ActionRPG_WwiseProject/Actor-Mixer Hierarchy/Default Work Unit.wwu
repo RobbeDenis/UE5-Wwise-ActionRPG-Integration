@@ -970,6 +970,121 @@
 								<ActiveSource Name="Death_Cry" ID="{42B24194-5CCD-4196-88B9-24B1ACED4595}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Roll" ID="{8CE28133-B120-4645-8242-D807E6B260EA}" ShortID="879055217">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1B52E887-6C90-4FF7-B4B0-6D9825CBD924}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Roll-001" ID="{D55BA7DC-2509-4BEB-8BFB-4687C3D5F191}" ShortID="668330734">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Roll-001" ID="{3BF53592-0434-4FB7-AEFD-26428CF12843}">
+											<Language>SFX</Language>
+											<AudioFile>Roll-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="292023544"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Roll-001" ID="{3BF53592-0434-4FB7-AEFD-26428CF12843}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Roll-002" ID="{95EF5F5D-918C-4E05-B69B-A2C16044DB21}" ShortID="381501612">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Roll-002" ID="{CB575A0C-E2E5-4F33-8217-2EC5D6F38789}">
+											<Language>SFX</Language>
+											<AudioFile>Roll-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="424450536"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Roll-002" ID="{CB575A0C-E2E5-4F33-8217-2EC5D6F38789}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Roll-003" ID="{530A3129-C3D7-4C4F-95E9-59F28B350162}" ShortID="194929079">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Roll-003" ID="{64AFE58D-4FB2-4E83-AB76-850E4EBCFB47}">
+											<Language>SFX</Language>
+											<AudioFile>Roll-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="327704554"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Roll-003" ID="{64AFE58D-4FB2-4E83-AB76-850E4EBCFB47}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Roll-004" ID="{EA3F6D52-AA9C-4D96-AD70-2BC9C6AC622E}" ShortID="919866120">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Roll-004" ID="{33F88A54-7B91-4D30-82B4-6EC2A719F568}">
+											<Language>SFX</Language>
+											<AudioFile>Roll-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1033455963"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Roll-004" ID="{33F88A54-7B91-4D30-82B4-6EC2A719F568}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Items" ID="{D546BDBC-95B1-4F3C-86E7-5BF5FE0E8B95}" ShortID="204423618">

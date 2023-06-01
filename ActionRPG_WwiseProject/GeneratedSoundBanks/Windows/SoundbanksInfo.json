@@ -210,7 +210,7 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{406BD9D7-A9E2-79F1-A146-3C663E1978E0}",
+    "Hash": "{7E9FA3D5-B0C6-3E6F-E19E-3CE8180D3C5C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -320,12 +320,28 @@
       "CachePath": "SFX/Grunt-004_10C4C929.wem"
      },
      {
+      "Id": "292023544",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Roll-001.wav",
+      "CachePath": "SFX/Roll-001_10C4C929.wem"
+     },
+     {
       "Id": "327556540",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "DeathWhisle-007.wav",
       "CachePath": "SFX/DeathWhisle-007_10C4C929.wem"
+     },
+     {
+      "Id": "327704554",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Roll-003.wav",
+      "CachePath": "SFX/Roll-003_10C4C929.wem"
      },
      {
       "Id": "351961489",
@@ -342,6 +358,14 @@
       "Location": "Memory",
       "ShortName": "GroundSlam-003.wav",
       "CachePath": "SFX/GroundSlam-003_10C4C929.wem"
+     },
+     {
+      "Id": "424450536",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Roll-002.wav",
+      "CachePath": "SFX/Roll-002_10C4C929.wem"
      },
      {
       "Id": "443029432",
@@ -560,6 +584,14 @@
       "Location": "Memory",
       "ShortName": "Fire_campfire_looped.wav",
       "CachePath": "SFX/Fire_campfire_looped_7A9B7E06.wem"
+     },
+     {
+      "Id": "1033455963",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Roll-004.wav",
+      "CachePath": "SFX/Roll-004_10C4C929.wem"
      },
      {
       "Id": "1072310648",
@@ -889,6 +921,29 @@
       ]
      },
      {
+      "Id": "2719919427",
+      "Name": "Play_Roll",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Roll",
+      "GUID": "{15BD5FA2-3632-4298-AF18-6DE42A2CC5EE}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.46247873",
+      "DurationMax": "0.57222044",
+      "MediaRefs": [
+       {
+        "Id": "292023544"
+       },
+       {
+        "Id": "327704554"
+       },
+       {
+        "Id": "424450536"
+       },
+       {
+        "Id": "1033455963"
+       }
+      ]
+     },
+     {
       "Id": "3187507146",
       "Name": "Play_Test",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Test",
@@ -979,6 +1034,6 @@
     ]
    }
   ],
-  "FileHash": "{DF62A755-6B69-A28A-A08F-31903CDCC59C}"
+  "FileHash": "{431A49C2-B45D-175D-CDB0-BE164EC8E424}"
  }
 }
