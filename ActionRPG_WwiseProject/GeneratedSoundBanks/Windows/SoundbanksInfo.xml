@@ -74,7 +74,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{6A5538DC-A42F-D3CB-ED70-B3EF9768D155}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{C81DC49F-8BC4-76B9-5A4E-9C76574FE812}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -89,11 +89,15 @@
 				</File>
 				<File Id="33923621" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Dirt-003.wav</ShortName>
-					<CachePath>SFX/FS_Dirt-003_E3EE6E83.wem</CachePath>
+					<CachePath>SFX/FS_Dirt-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="75816713" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Dirt-008.wav</ShortName>
+					<CachePath>SFX/FS_Dirt-008_10C4C929.wem</CachePath>
 				</File>
 				<File Id="89571094" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Dirt-002.wav</ShortName>
-					<CachePath>SFX/FS_Dirt-002_1C8381BD.wem</CachePath>
+					<CachePath>SFX/FS_Dirt-002_6D629569.wem</CachePath>
 				</File>
 				<File Id="98455453" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Goblin_Hit-003.wav</ShortName>
@@ -106,6 +110,10 @@
 				<File Id="126572019" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fire_campfire_looped.wav</ShortName>
 					<CachePath>SFX/Fire_campfire_looped_451D858D.wem</CachePath>
+				</File>
+				<File Id="127295719" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Dirt-006.wav</ShortName>
+					<CachePath>SFX/FS_Dirt-006_10C4C929.wem</CachePath>
 				</File>
 				<File Id="132058878" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GroundSlam-001.wav</ShortName>
@@ -134,6 +142,10 @@
 				<File Id="189293494" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DeathWhisle-004.wav</ShortName>
 					<CachePath>SFX/DeathWhisle-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="204730486" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Dirt-009.wav</ShortName>
+					<CachePath>SFX/FS_Dirt-009_10C4C929.wem</CachePath>
 				</File>
 				<File Id="214131361" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Axe_Woosh-003.wav</ShortName>
@@ -225,7 +237,7 @@
 				</File>
 				<File Id="515498122" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-005.wav</ShortName>
-					<CachePath>SFX/FS_Sand-005_10C4C929.wem</CachePath>
+					<CachePath>SFX/FS_Sand-005_975436C1.wem</CachePath>
 				</File>
 				<File Id="543332638" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Goblin_HitGrunt-004.wav</ShortName>
@@ -238,6 +250,10 @@
 				<File Id="594466621" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DeathWhisle-001.wav</ShortName>
 					<CachePath>SFX/DeathWhisle-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="619938227" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Dirt-007.wav</ShortName>
+					<CachePath>SFX/FS_Dirt-007_4E8974D4.wem</CachePath>
 				</File>
 				<File Id="621236505" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-001.wav</ShortName>
@@ -265,7 +281,7 @@
 				</File>
 				<File Id="730473686" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-003.wav</ShortName>
-					<CachePath>SFX/FS_Sand-003_10C4C929.wem</CachePath>
+					<CachePath>SFX/FS_Sand-003_EE252982.wem</CachePath>
 				</File>
 				<File Id="739363478" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Axe_Woosh-001.wav</ShortName>
@@ -277,7 +293,11 @@
 				</File>
 				<File Id="767676742" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-002.wav</ShortName>
-					<CachePath>SFX/FS_Sand-002_10C4C929.wem</CachePath>
+					<CachePath>SFX/FS_Sand-002_0DCFD865.wem</CachePath>
+				</File>
+				<File Id="782509230" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Dirt-010.wav</ShortName>
+					<CachePath>SFX/FS_Dirt-010_9FF36FA3.wem</CachePath>
 				</File>
 				<File Id="797124082" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW.wav</ShortName>
@@ -307,7 +327,7 @@
 				</File>
 				<File Id="876443643" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-004.wav</ShortName>
-					<CachePath>SFX/FS_Sand-004_10C4C929.wem</CachePath>
+					<CachePath>SFX/FS_Sand-004_AC4E9533.wem</CachePath>
 				</File>
 				<File Id="877945358" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fire_campfire_looped.wav</ShortName>
@@ -327,7 +347,7 @@
 				</File>
 				<File Id="916982560" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Dirt-005.wav</ShortName>
-					<CachePath>SFX/FS_Dirt-005_C9452DEC.wem</CachePath>
+					<CachePath>SFX/FS_Dirt-005_10C4C929.wem</CachePath>
 				</File>
 				<File Id="924407592" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Goblin_Hit-002.wav</ShortName>
@@ -339,7 +359,7 @@
 				</File>
 				<File Id="984305080" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Dirt-001.wav</ShortName>
-					<CachePath>SFX/FS_Dirt-001_A1F1066C.wem</CachePath>
+					<CachePath>SFX/FS_Dirt-001_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1029893350" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Axe_Woosh-002.wav</ShortName>
@@ -393,7 +413,7 @@
 						<MediaRef Id="797124082"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" GUID="{F60C7D25-F5E7-44EC-BE4C-3BC28FC88BC2}" DurationType="OneShot" DurationMin="0" DurationMax="0.46769434">
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" GUID="{F60C7D25-F5E7-44EC-BE4C-3BC28FC88BC2}" DurationType="OneShot" DurationMin="0" DurationMax="0.43254086">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="803837735" GUID="{07261111-85DA-4848-9D5C-4590F83E2574}"/>
@@ -409,8 +429,13 @@
 							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2195636714" GUID="{99AE1BB1-0840-4DA3-8906-184B4A011CBE}" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="33923621"/>
+								<MediaRef Id="75816713"/>
 								<MediaRef Id="89571094"/>
+								<MediaRef Id="127295719"/>
+								<MediaRef Id="204730486"/>
 								<MediaRef Id="260312320"/>
+								<MediaRef Id="619938227"/>
+								<MediaRef Id="782509230"/>
 								<MediaRef Id="916982560"/>
 								<MediaRef Id="984305080"/>
 							</MediaRefs>
@@ -578,5 +603,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{37CF30E0-4159-3FF0-C7D7-8EE3D704AA2A}</FileHash>
+	<FileHash>{80C78179-3154-CCF9-08C9-C78471E71E43}</FileHash>
 </SoundBanksInfo>

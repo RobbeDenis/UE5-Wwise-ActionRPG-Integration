@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{6A5538DC-A42F-D3CB-ED70-B3EF9768D155}",
+    "Hash": "{C81DC49F-8BC4-76B9-5A4E-9C76574FE812}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -37,7 +37,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Dirt-003.wav",
-      "CachePath": "SFX/FS_Dirt-003_E3EE6E83.wem"
+      "CachePath": "SFX/FS_Dirt-003_10C4C929.wem"
+     },
+     {
+      "Id": "75816713",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Dirt-008.wav",
+      "CachePath": "SFX/FS_Dirt-008_10C4C929.wem"
      },
      {
       "Id": "89571094",
@@ -45,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Dirt-002.wav",
-      "CachePath": "SFX/FS_Dirt-002_1C8381BD.wem"
+      "CachePath": "SFX/FS_Dirt-002_6D629569.wem"
      },
      {
       "Id": "98455453",
@@ -70,6 +78,14 @@
       "Location": "Memory",
       "ShortName": "Fire_campfire_looped.wav",
       "CachePath": "SFX/Fire_campfire_looped_451D858D.wem"
+     },
+     {
+      "Id": "127295719",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Dirt-006.wav",
+      "CachePath": "SFX/FS_Dirt-006_10C4C929.wem"
      },
      {
       "Id": "132058878",
@@ -126,6 +142,14 @@
       "Location": "Memory",
       "ShortName": "DeathWhisle-004.wav",
       "CachePath": "SFX/DeathWhisle-004_10C4C929.wem"
+     },
+     {
+      "Id": "204730486",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Dirt-009.wav",
+      "CachePath": "SFX/FS_Dirt-009_10C4C929.wem"
      },
      {
       "Id": "214131361",
@@ -309,7 +333,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Sand-005.wav",
-      "CachePath": "SFX/FS_Sand-005_10C4C929.wem"
+      "CachePath": "SFX/FS_Sand-005_975436C1.wem"
      },
      {
       "Id": "543332638",
@@ -334,6 +358,14 @@
       "Location": "Memory",
       "ShortName": "DeathWhisle-001.wav",
       "CachePath": "SFX/DeathWhisle-001_10C4C929.wem"
+     },
+     {
+      "Id": "619938227",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Dirt-007.wav",
+      "CachePath": "SFX/FS_Dirt-007_4E8974D4.wem"
      },
      {
       "Id": "621236505",
@@ -389,7 +421,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Sand-003.wav",
-      "CachePath": "SFX/FS_Sand-003_10C4C929.wem"
+      "CachePath": "SFX/FS_Sand-003_EE252982.wem"
      },
      {
       "Id": "739363478",
@@ -413,7 +445,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Sand-002.wav",
-      "CachePath": "SFX/FS_Sand-002_10C4C929.wem"
+      "CachePath": "SFX/FS_Sand-002_0DCFD865.wem"
+     },
+     {
+      "Id": "782509230",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Dirt-010.wav",
+      "CachePath": "SFX/FS_Dirt-010_9FF36FA3.wem"
      },
      {
       "Id": "797124082",
@@ -471,7 +511,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Sand-004.wav",
-      "CachePath": "SFX/FS_Sand-004_10C4C929.wem"
+      "CachePath": "SFX/FS_Sand-004_AC4E9533.wem"
      },
      {
       "Id": "877945358",
@@ -511,7 +551,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Dirt-005.wav",
-      "CachePath": "SFX/FS_Dirt-005_C9452DEC.wem"
+      "CachePath": "SFX/FS_Dirt-005_10C4C929.wem"
      },
      {
       "Id": "924407592",
@@ -535,7 +575,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Dirt-001.wav",
-      "CachePath": "SFX/FS_Dirt-001_A1F1066C.wem"
+      "CachePath": "SFX/FS_Dirt-001_10C4C929.wem"
      },
      {
       "Id": "1029893350",
@@ -689,7 +729,7 @@
       "GUID": "{F60C7D25-F5E7-44EC-BE4C-3BC28FC88BC2}",
       "DurationType": "OneShot",
       "DurationMin": "0",
-      "DurationMax": "0.46769434",
+      "DurationMax": "0.43254086",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -729,10 +769,25 @@
           "Id": "33923621"
          },
          {
+          "Id": "75816713"
+         },
+         {
           "Id": "89571094"
          },
          {
+          "Id": "127295719"
+         },
+         {
+          "Id": "204730486"
+         },
+         {
           "Id": "260312320"
+         },
+         {
+          "Id": "619938227"
+         },
+         {
+          "Id": "782509230"
          },
          {
           "Id": "916982560"
@@ -1176,6 +1231,6 @@
     ]
    }
   ],
-  "FileHash": "{402334DA-2650-F75F-267A-3315858F7408}"
+  "FileHash": "{FD05E2A9-4959-B454-399C-44D0B591476F}"
  }
 }
