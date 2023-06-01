@@ -10,6 +10,10 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_GroundSlam" ID="{156CA5F1-0D54-4975-AF58-D2814988E804}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Footsteps" ID="{F60C7D25-F5E7-44EC-BE4C-3BC28FC88BC2}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -33,7 +37,7 @@
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Dirt" ID="{99AE1BB1-0840-4DA3-8906-184B4A011CBE}"/>
-						<CurrentSwitchRef Name="Dirt" ID="{D63A2816-2BF5-4E43-96BF-92ADF5EFD709}"/>
+						<CurrentSwitchRef Name="Water" ID="{76A15951-554F-417A-B26F-034713D0CAB1}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
