@@ -10,6 +10,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2989619110	Play_Grunt_Hit			\Default Work Unit\Play_Grunt_Hit	
 	3128913152	Play_Pickup_Item			\Default Work Unit\Play_Pickup_Item	
 	3187507146	Play_Test			\Default Work Unit\Play_Test	
+	3442516748	Play_Consume_Pot			\Default Work Unit\Play_Consume_Pot	
 	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
 	4000411161	Play_Campfire			\Default Work Unit\Play_Campfire	
 
@@ -67,6 +68,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	767676742	FS_Sand-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\FS_Sand-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-002		28684
 	797124082	AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW_C9E8E480.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\DeathWhisleLow\AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW		8096
 	802194300	Pickup_Item	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Pickup_Item_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Pickup_Item		84982
+	822063392	Consume_Pot	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Consume_Pot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Consume_Pot		153080
 	849268683	DeathWhisle-006	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\DeathWhisle-006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\RandomDeathWhisle\DeathWhisle-006		159112
 	852612398	Fire_campfire_looped_06	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Fire_campfire_looped_F4C21E0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Campfire\Fire_campfire_looped_06		1102204
 	867752228	Grunt_Hit-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Grunt_Hit-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Hit\Grunt_Hit-001		43370

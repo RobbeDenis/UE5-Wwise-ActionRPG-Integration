@@ -74,7 +74,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{180D0E77-D95E-CFA4-C050-5657EDCC0824}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{481C0465-34EA-EA31-6268-95A4E75EB1CD}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -237,6 +237,10 @@
 					<ShortName>Pickup_Item.wav</ShortName>
 					<CachePath>SFX/Pickup_Item_10C4C929.wem</CachePath>
 				</File>
+				<File Id="822063392" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Consume_Pot.wav</ShortName>
+					<CachePath>SFX/Consume_Pot_10C4C929.wem</CachePath>
+				</File>
 				<File Id="849268683" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DeathWhisle-006.wav</ShortName>
 					<CachePath>SFX/DeathWhisle-006_10C4C929.wem</CachePath>
@@ -288,6 +292,11 @@
 						<MediaRef Id="877945358"/>
 						<MediaRef Id="964898346"/>
 						<MediaRef Id="1030431893"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3442516748" Name="Play_Consume_Pot" ObjectPath="\Events\Default Work Unit\Play_Consume_Pot" GUID="{4350D16C-4077-4664-84DC-590102EF49CC}" DurationType="OneShot" DurationMin="1.5935833" DurationMax="1.5935833">
+					<MediaRefs>
+						<MediaRef Id="822063392"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2495770949" Name="Play_Death_Cry" ObjectPath="\Events\Default Work Unit\Play_Death_Cry" GUID="{73C1D3B6-84DF-4834-8FB2-67BA65816D2D}" DurationType="OneShot" DurationMin="5.3" DurationMax="5.3">
@@ -374,7 +383,7 @@
 						<MediaRef Id="802194300"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="876482232" Name="Play_Pickup_Soul" ObjectPath="\Events\Default Work Unit\Play_Pickup_Soul" GUID="{E98FAC64-537B-4345-8875-2012A4F0FFD4}" DurationType="OneShot" DurationMin="0.68271303" DurationMax="1.2164563">
+				<Event Id="876482232" Name="Play_Pickup_Soul" ObjectPath="\Events\Default Work Unit\Play_Pickup_Soul" GUID="{E98FAC64-537B-4345-8875-2012A4F0FFD4}" DurationType="OneShot" DurationMin="0.81188715" DurationMax="1.2164563">
 					<MediaRefs>
 						<MediaRef Id="403653278"/>
 					</MediaRefs>
@@ -441,5 +450,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9D7FCC8D-F5EB-ECE5-B8D0-E8E2782FFB64}</FileHash>
+	<FileHash>{A9F35F8D-A5C9-B1F2-384D-9EF8C0F327D9}</FileHash>
 </SoundBanksInfo>

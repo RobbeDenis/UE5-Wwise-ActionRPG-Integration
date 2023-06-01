@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{180D0E77-D95E-CFA4-C050-5657EDCC0824}",
+    "Hash": "{481C0465-34EA-EA31-6268-95A4E75EB1CD}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -330,6 +330,14 @@
       "CachePath": "SFX/Pickup_Item_10C4C929.wem"
      },
      {
+      "Id": "822063392",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Consume_Pot.wav",
+      "CachePath": "SFX/Consume_Pot_10C4C929.wem"
+     },
+     {
       "Id": "849268683",
       "Language": "SFX",
       "Streaming": "false",
@@ -441,6 +449,20 @@
        },
        {
         "Id": "1030431893"
+       }
+      ]
+     },
+     {
+      "Id": "3442516748",
+      "Name": "Play_Consume_Pot",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Consume_Pot",
+      "GUID": "{4350D16C-4077-4664-84DC-590102EF49CC}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5935833",
+      "DurationMax": "1.5935833",
+      "MediaRefs": [
+       {
+        "Id": "822063392"
        }
       ]
      },
@@ -663,7 +685,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Pickup_Soul",
       "GUID": "{E98FAC64-537B-4345-8875-2012A4F0FFD4}",
       "DurationType": "OneShot",
-      "DurationMin": "0.68271303",
+      "DurationMin": "0.81188715",
       "DurationMax": "1.2164563",
       "MediaRefs": [
        {
@@ -856,6 +878,6 @@
     ]
    }
   ],
-  "FileHash": "{CA5C3CC4-01A2-1D33-6A12-F55A890BB555}"
+  "FileHash": "{485536F2-6CB7-09A9-7D3E-C8DFD5FEA49A}"
  }
 }
