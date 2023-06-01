@@ -26,6 +26,7 @@
 					</ActiveSourceList>
 				</Sound>
 				<WorkUnit Name="Player" ID="{78319BBC-D52B-4957-9515-2157E48A2787}" PersistMode="Reference"/>
+				<WorkUnit Name="Items" ID="{462E596C-A96D-4F68-BAEE-AF7067B53E58}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

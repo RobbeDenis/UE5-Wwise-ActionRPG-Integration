@@ -13,7 +13,7 @@
 						<Transition>
 							<StartState Name="Alive" ID="{46EF42CB-0A3A-4B30-9381-5009C43676DA}"/>
 							<EndState Name="Dead" ID="{0536CE74-4099-4668-85B0-BC25C1594966}"/>
-							<Time>3.5</Time>
+							<Time>5</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>

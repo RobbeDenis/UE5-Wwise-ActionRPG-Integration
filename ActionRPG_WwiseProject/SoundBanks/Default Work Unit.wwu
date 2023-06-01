@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Footsteps" ID="{F60C7D25-F5E7-44EC-BE4C-3BC28FC88BC2}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Death_Cry" ID="{73C1D3B6-84DF-4834-8FB2-67BA65816D2D}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Pickup_Item" ID="{1BF7DE81-21DD-4880-9D2B-651089A08519}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GroundSlam" ID="{156CA5F1-0D54-4975-AF58-D2814988E804}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Test" ID="{72C814D5-F2EE-4A26-9D04-DCB4C83E7589}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Grunt_Hit" ID="{37E88AAD-7729-4CB0-BB5D-F4390FA81F32}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>

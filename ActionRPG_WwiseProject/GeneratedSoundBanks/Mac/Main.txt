@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2495770949	Play_Death_Cry			\Default Work Unit\Play_Death_Cry	
 	2517823277	Play_PlayerSwing			\Default Work Unit\Play_PlayerSwing	
 	2989619110	Play_Grunt_Hit			\Default Work Unit\Play_Grunt_Hit	
+	3128913152	Play_Pickup_Item			\Default Work Unit\Play_Pickup_Item	
 	3187507146	Play_Test			\Default Work Unit\Play_Test	
 	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
 
@@ -40,6 +41,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	724030898	Death_Cry	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Death_Cry_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Death_Cry		467556
 	730473686	FS_Sand-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\FS_Sand-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-003		26316
 	767676742	FS_Sand-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\FS_Sand-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-002		28684
+	802194300	Pickup_Item	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Pickup_Item_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Pickup_Item		84982
 	823668392	Player_Swing-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Player_Swing-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerSwing\Player_Swing-003		27454
 	867752228	Grunt_Hit-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Grunt_Hit-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Hit\Grunt_Hit-001		43370
 	876443643	FS_Sand-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\FS_Sand-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-004		31348

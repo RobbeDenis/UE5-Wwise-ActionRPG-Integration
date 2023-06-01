@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{A810F1CE-26F3-0547-15B3-5972302F9926}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{EEE54E14-1AEA-5F9A-2059-9227D4A78DD6}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -77,6 +77,10 @@
 				<File Id="767676742" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-002.wav</ShortName>
 					<CachePath>SFX/FS_Sand-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="802194300" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pickup_Item.wav</ShortName>
+					<CachePath>SFX/Pickup_Item_10C4C929.wem</CachePath>
 				</File>
 				<File Id="823668392" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Swing-003.wav</ShortName>
@@ -166,6 +170,11 @@
 						<MediaRef Id="1072310648"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3128913152" Name="Play_Pickup_Item" ObjectPath="\Events\Default Work Unit\Play_Pickup_Item" GUID="{1BF7DE81-21DD-4880-9D2B-651089A08519}" DurationType="OneShot" DurationMin="0.9350279" DurationMax="0.9906275">
+					<MediaRefs>
+						<MediaRef Id="802194300"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2517823277" Name="Play_PlayerSwing" ObjectPath="\Events\Default Work Unit\Play_PlayerSwing" GUID="{AFA713F3-4D2D-4FBC-AC0E-B6907EA6D895}" DurationType="OneShot" DurationMin="0.19313008" DurationMax="0.32862577">
 					<MediaRefs>
 						<MediaRef Id="120915605"/>
@@ -199,5 +208,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{744156D0-66CA-2554-DBDC-2F40FC2A38C1}</FileHash>
+	<FileHash>{D8161930-CC3F-FF04-780B-281645CFCCBB}</FileHash>
 </SoundBanksInfo>
