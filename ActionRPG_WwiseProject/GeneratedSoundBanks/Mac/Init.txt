@@ -15,9 +15,11 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	3717191513	OpenCave_Reverb			\Default Work Unit\Master Audio Bus\Gameplay\OpenCave_Reverb	
+	4263088964	DeathWhisle_Reverb			\Default Work Unit\Master Audio Bus\Gameplay\DeathWhisle_Reverb	
 
 Effect plug-ins	ID	Name	Type				Notes
 	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	3442768367	Hall_Large_Dark	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

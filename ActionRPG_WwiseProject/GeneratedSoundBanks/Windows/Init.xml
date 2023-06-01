@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{506C1BD1-95E0-213B-59C0-48ADC9D0A1C3}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{F6C956DE-6D3E-4016-6D66-8A1C33F6B86A}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
 					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" ObjectPath="\Effects\Factory Effects\Wwise RoomVerb\Exteriors\Have_U_Ever_Been_Outside" GUID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="3442768367" Name="Hall_Large_Dark" ObjectPath="\Effects\Factory Effects\Wwise RoomVerb\Halls\Hall_Large_Dark" GUID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{7FE4E25A-DA85-4ED4-844F-FEF20822D3C6}" LibName="No Output" LibId="11862023"/>
@@ -23,6 +24,13 @@
 					<PluginRefs>
 						<ShareSets>
 							<PluginRef Id="48620415"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="4263088964" Name="DeathWhisle_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Gameplay\DeathWhisle_Reverb" GUID="{2355226F-E4CB-4F1D-AB37-7842C4BAD5C0}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3442768367"/>
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
@@ -59,5 +67,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{96C4FEB0-9EB7-1EE8-C4A0-9B487CABAB9F}</FileHash>
+	<FileHash>{6B906ABB-944A-4DB6-6D1A-DC73668DAAE2}</FileHash>
 </SoundBanksInfo>

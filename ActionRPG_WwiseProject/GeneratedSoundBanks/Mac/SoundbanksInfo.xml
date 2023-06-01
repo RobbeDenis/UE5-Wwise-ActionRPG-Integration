@@ -9,13 +9,14 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{D9599D38-5BA1-CE5B-D47D-9970C94F17E8}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{080CAC5F-85DC-2D93-4941-DAFA928438C5}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
 					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" ObjectPath="\Effects\Factory Effects\Wwise RoomVerb\Exteriors\Have_U_Ever_Been_Outside" GUID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="3442768367" Name="Hall_Large_Dark" ObjectPath="\Effects\Factory Effects\Wwise RoomVerb\Halls\Hall_Large_Dark" GUID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{7FE4E25A-DA85-4ED4-844F-FEF20822D3C6}" LibName="No Output" LibId="11862023"/>
@@ -31,6 +32,13 @@
 					<PluginRefs>
 						<ShareSets>
 							<PluginRef Id="48620415"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="4263088964" Name="DeathWhisle_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Gameplay\DeathWhisle_Reverb" GUID="{2355226F-E4CB-4F1D-AB37-7842C4BAD5C0}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3442768367"/>
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
@@ -66,7 +74,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{B7DE9FD8-C0D6-78B9-F6A4-982484A8F1E1}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{B92CE309-69AD-9AC5-A3FF-DE79118A0557}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -85,7 +93,7 @@
 				</File>
 				<File Id="126572019" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fire_campfire_looped.wav</ShortName>
-					<CachePath>SFX/Fire_campfire_looped_C24D5CCD.wem</CachePath>
+					<CachePath>SFX/Fire_campfire_looped_451D858D.wem</CachePath>
 				</File>
 				<File Id="132058878" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GroundSlam-001.wav</ShortName>
@@ -95,9 +103,21 @@
 					<ShortName>Grunt-003.wav</ShortName>
 					<CachePath>SFX/Grunt-003_10C4C929.wem</CachePath>
 				</File>
+				<File Id="154883674" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DeathWhisle-005.wav</ShortName>
+					<CachePath>SFX/DeathWhisle-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="159760995" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DeathWhisle-009.wav</ShortName>
+					<CachePath>SFX/DeathWhisle-009_10C4C929.wem</CachePath>
+				</File>
 				<File Id="160212660" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GroundSlam-004.wav</ShortName>
 					<CachePath>SFX/GroundSlam-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="189293494" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DeathWhisle-004.wav</ShortName>
+					<CachePath>SFX/DeathWhisle-004_10C4C929.wem</CachePath>
 				</File>
 				<File Id="255433557" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grunt_Hit-002.wav</ShortName>
@@ -111,9 +131,21 @@
 					<ShortName>Grunt-004.wav</ShortName>
 					<CachePath>SFX/Grunt-004_10C4C929.wem</CachePath>
 				</File>
+				<File Id="327556540" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DeathWhisle-007.wav</ShortName>
+					<CachePath>SFX/DeathWhisle-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="351961489" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DeathWhisle-003.wav</ShortName>
+					<CachePath>SFX/DeathWhisle-003_10C4C929.wem</CachePath>
+				</File>
 				<File Id="353512300" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GroundSlam-003.wav</ShortName>
 					<CachePath>SFX/GroundSlam-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="443029432" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DeathWhisle-010.wav</ShortName>
+					<CachePath>SFX/DeathWhisle-010_10C4C929.wem</CachePath>
 				</File>
 				<File Id="462682426" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Water_Impact.wav</ShortName>
@@ -121,7 +153,7 @@
 				</File>
 				<File Id="463423689" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fire_campfire_looped.wav</ShortName>
-					<CachePath>SFX/Fire_campfire_looped_2BD1DFF7.wem</CachePath>
+					<CachePath>SFX/Fire_campfire_looped_38EB4FBD.wem</CachePath>
 				</File>
 				<File Id="468771132" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GroundSlam-002.wav</ShortName>
@@ -129,15 +161,23 @@
 				</File>
 				<File Id="501518518" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fire_campfire_looped.wav</ShortName>
-					<CachePath>SFX/Fire_campfire_looped_751EBD36.wem</CachePath>
+					<CachePath>SFX/Fire_campfire_looped_0AFC011F.wem</CachePath>
 				</File>
 				<File Id="515498122" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-005.wav</ShortName>
 					<CachePath>SFX/FS_Sand-005_10C4C929.wem</CachePath>
 				</File>
+				<File Id="594466621" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DeathWhisle-001.wav</ShortName>
+					<CachePath>SFX/DeathWhisle-001_10C4C929.wem</CachePath>
+				</File>
 				<File Id="621236505" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-001.wav</ShortName>
 					<CachePath>SFX/FS_Sand-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="662637876" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DeathWhisle-002.wav</ShortName>
+					<CachePath>SFX/DeathWhisle-002_10C4C929.wem</CachePath>
 				</File>
 				<File Id="683503367" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Shot.wav</ShortName>
@@ -151,9 +191,19 @@
 					<ShortName>FS_Sand-003.wav</ShortName>
 					<CachePath>SFX/FS_Sand-003_10C4C929.wem</CachePath>
 				</File>
+				<File Id="762810824" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DeathWhisle-008.wav</ShortName>
+					<CachePath>SFX/DeathWhisle-008_10C4C929.wem</CachePath>
+				</File>
 				<File Id="767676742" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-002.wav</ShortName>
 					<CachePath>SFX/FS_Sand-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="797124082" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW.wav</ShortName>
+					<Path>Media/797124082.wem</Path>
+					<CachePath>SFX/AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW_C9E8E480.wem</CachePath>
+					<PrefetchSize>8096</PrefetchSize>
 				</File>
 				<File Id="802194300" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pickup_Item.wav</ShortName>
@@ -163,9 +213,13 @@
 					<ShortName>Player_Swing-003.wav</ShortName>
 					<CachePath>SFX/Player_Swing-003_10C4C929.wem</CachePath>
 				</File>
+				<File Id="849268683" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DeathWhisle-006.wav</ShortName>
+					<CachePath>SFX/DeathWhisle-006_10C4C929.wem</CachePath>
+				</File>
 				<File Id="852612398" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fire_campfire_looped.wav</ShortName>
-					<CachePath>SFX/Fire_campfire_looped_3AB27DD3.wem</CachePath>
+					<CachePath>SFX/Fire_campfire_looped_F4C21E0C.wem</CachePath>
 				</File>
 				<File Id="867752228" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grunt_Hit-001.wav</ShortName>
@@ -177,7 +231,7 @@
 				</File>
 				<File Id="877945358" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fire_campfire_looped.wav</ShortName>
-					<CachePath>SFX/Fire_campfire_looped_108FFB06.wem</CachePath>
+					<CachePath>SFX/Fire_campfire_looped_28A37B2F.wem</CachePath>
 				</File>
 				<File Id="937589626" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stone_Impact.wav</ShortName>
@@ -185,11 +239,11 @@
 				</File>
 				<File Id="964898346" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fire_campfire_looped.wav</ShortName>
-					<CachePath>SFX/Fire_campfire_looped_8F939083.wem</CachePath>
+					<CachePath>SFX/Fire_campfire_looped_177AA162.wem</CachePath>
 				</File>
 				<File Id="1030431893" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fire_campfire_looped.wav</ShortName>
-					<CachePath>SFX/Fire_campfire_looped_33D3BB3E.wem</CachePath>
+					<CachePath>SFX/Fire_campfire_looped_7A9B7E06.wem</CachePath>
 				</File>
 				<File Id="1045995186" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Swing-001.wav</ShortName>
@@ -201,7 +255,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="4000411161" Name="Play_Campfire" ObjectPath="\Events\Default Work Unit\Play_Campfire" GUID="{B5E84B6B-D27A-47DE-8110-AB244A8386AB}" MaxAttenuation="1350" DurationType="Infinite">
+				<Event Id="4000411161" Name="Play_Campfire" ObjectPath="\Events\Default Work Unit\Play_Campfire" GUID="{B5E84B6B-D27A-47DE-8110-AB244A8386AB}" MaxAttenuation="1350" DurationType="OneShot" DurationMin="102.32407" DurationMax="102.32407">
 					<MediaRefs>
 						<MediaRef Id="126572019"/>
 						<MediaRef Id="463423689"/>
@@ -215,6 +269,11 @@
 				<Event Id="2495770949" Name="Play_Death_Cry" ObjectPath="\Events\Default Work Unit\Play_Death_Cry" GUID="{73C1D3B6-84DF-4834-8FB2-67BA65816D2D}" DurationType="OneShot" DurationMin="5.3" DurationMax="5.3">
 					<MediaRefs>
 						<MediaRef Id="724030898"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1661060282" Name="Play_DeathWhisleLow" ObjectPath="\Events\Default Work Unit\Play_DeathWhisleLow" GUID="{E2583857-8048-48ED-AB46-406606089EAF}" DurationType="OneShot" DurationMin="154.03534" DurationMax="154.03534">
+					<MediaRefs>
+						<MediaRef Id="797124082"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" GUID="{F60C7D25-F5E7-44EC-BE4C-3BC28FC88BC2}" DurationType="OneShot" DurationMin="0" DurationMax="0.46769434">
@@ -286,6 +345,23 @@
 						<MediaRef Id="1045995186"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="832213799" Name="Play_RandomDeathWhisle" ObjectPath="\Events\Default Work Unit\Play_RandomDeathWhisle" GUID="{BCEDE4E9-3AF8-47C6-83F2-8964D204FB00}" MaxAttenuation="1400" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="154883674"/>
+						<MediaRef Id="159760995"/>
+						<MediaRef Id="189293494"/>
+						<MediaRef Id="327556540"/>
+						<MediaRef Id="351961489"/>
+						<MediaRef Id="443029432"/>
+						<MediaRef Id="594466621"/>
+						<MediaRef Id="662637876"/>
+						<MediaRef Id="762810824"/>
+						<MediaRef Id="849268683"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="4263088964" Name="DeathWhisle_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Gameplay\DeathWhisle_Reverb" GUID="{2355226F-E4CB-4F1D-AB37-7842C4BAD5C0}"/>
+					</AuxBusRefs>
+				</Event>
 				<Event Id="3187507146" Name="Play_Test" ObjectPath="\Events\Default Work Unit\Play_Test" GUID="{72C814D5-F2EE-4A26-9D04-DCB4C83E7589}" DurationType="OneShot" DurationMin="1.1973469" DurationMax="1.1973469">
 					<MediaRefs>
 						<MediaRef Id="683503367"/>
@@ -315,5 +391,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1616A4AD-1163-8290-D4B5-4B4751718837}</FileHash>
+	<FileHash>{3248C61A-BB60-EB4F-4D55-19E05B8DA3B8}</FileHash>
 </SoundBanksInfo>

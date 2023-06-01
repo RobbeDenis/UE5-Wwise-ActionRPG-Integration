@@ -13,6 +13,14 @@
 							<ObjectRef Name="Play_Footsteps" ID="{F60C7D25-F5E7-44EC-BE4C-3BC28FC88BC2}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_DeathWhisleLow" ID="{E2583857-8048-48ED-AB46-406606089EAF}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_RandomDeathWhisle" ID="{BCEDE4E9-3AF8-47C6-83F2-8964D204FB00}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}"/>
+							<Position X="3" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
