@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	390202731	Play_Grunt_Swing			\Default Work Unit\Play_Grunt_Swing	
 	832213799	Play_RandomDeathWhisle			\Default Work Unit\Play_RandomDeathWhisle	
+	876482232	Play_Pickup_Soul			\Default Work Unit\Play_Pickup_Soul	
 	1055240968	Play_GroundSlam			\Default Work Unit\Play_GroundSlam	
 	1661060282	Play_DeathWhisleLow			\Default Work Unit\Play_DeathWhisleLow	
 	2495770949	Play_Death_Cry			\Default Work Unit\Play_Death_Cry	
@@ -45,6 +46,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	327704554	Roll-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Roll-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Roll\Roll-003		47134
 	351961489	DeathWhisle-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\DeathWhisle-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\RandomDeathWhisle\DeathWhisle-003		239138
 	353512300	GroundSlam-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\GroundSlam-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Low\GroundSlam-003		259764
+	403653278	Pickup_Soul	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Soul_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Pickup_Soul		87582
 	424450536	Roll-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Roll-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Roll\Roll-002		47364
 	443029432	DeathWhisle-010	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\DeathWhisle-010_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\RandomDeathWhisle\DeathWhisle-010		124164
 	462682426	Water_Impact	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Water_Impact_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Impact\Water_Impact		282050

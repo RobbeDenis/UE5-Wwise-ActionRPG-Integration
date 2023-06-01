@@ -421,6 +421,7 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="Sand" ID="{34D9B54A-8B67-46EF-B870-E50B9F1C1E7A}" ShortID="54691960">
 									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -1132,6 +1133,48 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Pickup_Item" ID="{0E25FDAA-5895-4C1E-BBCC-25113B7406E3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pickup_Soul" ID="{CCCE7371-A7E7-418A-97FE-F625FBAE2C6C}" ShortID="138924658">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E5F04CFD-2224-4BD1-B84D-AEC2AE48CBC3}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="500"/>
+													<Property Name="Min" Type="Real64" Value="-500"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Soul" ID="{033927B2-1A22-4525-BF9C-960F24659652}">
+									<Language>SFX</Language>
+									<AudioFile>Soul.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="403653278"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Soul" ID="{033927B2-1A22-4525-BF9C-960F24659652}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

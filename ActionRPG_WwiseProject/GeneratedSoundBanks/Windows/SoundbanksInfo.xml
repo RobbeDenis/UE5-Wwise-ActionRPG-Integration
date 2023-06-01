@@ -74,7 +74,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{7E9FA3D5-B0C6-3E6F-E19E-3CE8180D3C5C}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{180D0E77-D95E-CFA4-C050-5657EDCC0824}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -150,6 +150,10 @@
 				<File Id="353512300" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GroundSlam-003.wav</ShortName>
 					<CachePath>SFX/GroundSlam-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="403653278" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soul.wav</ShortName>
+					<CachePath>SFX/Soul_10C4C929.wem</CachePath>
 				</File>
 				<File Id="424450536" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Roll-002.wav</ShortName>
@@ -370,6 +374,11 @@
 						<MediaRef Id="802194300"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="876482232" Name="Play_Pickup_Soul" ObjectPath="\Events\Default Work Unit\Play_Pickup_Soul" GUID="{E98FAC64-537B-4345-8875-2012A4F0FFD4}" DurationType="OneShot" DurationMin="0.68271303" DurationMax="1.2164563">
+					<MediaRefs>
+						<MediaRef Id="403653278"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2517823277" Name="Play_PlayerSwing" ObjectPath="\Events\Default Work Unit\Play_PlayerSwing" GUID="{AFA713F3-4D2D-4FBC-AC0E-B6907EA6D895}" DurationType="OneShot" DurationMin="0.76057065" DurationMax="0.91239566">
 					<MediaRefs>
 						<MediaRef Id="214131361"/>
@@ -432,5 +441,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9D79EF24-64FB-E3F5-1FF7-1747971324CD}</FileHash>
+	<FileHash>{4F69CC85-AA9E-1911-3C00-A3EDC2A3423E}</FileHash>
 </SoundBanksInfo>
