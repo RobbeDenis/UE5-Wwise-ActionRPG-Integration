@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{81F9B5BE-9569-1CA4-3DED-E3B8C81097D8}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{6A5538DC-A42F-D3CB-ED70-B3EF9768D155}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -13,6 +13,14 @@
 				<File Id="31203274" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dirt_Impact.wav</ShortName>
 					<CachePath>SFX/Dirt_Impact_10C4C929.wem</CachePath>
+				</File>
+				<File Id="33923621" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Dirt-003.wav</ShortName>
+					<CachePath>SFX/FS_Dirt-003_E3EE6E83.wem</CachePath>
+				</File>
+				<File Id="89571094" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Dirt-002.wav</ShortName>
+					<CachePath>SFX/FS_Dirt-002_1C8381BD.wem</CachePath>
 				</File>
 				<File Id="98455453" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Goblin_Hit-003.wav</ShortName>
@@ -61,6 +69,10 @@
 				<File Id="255433557" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grunt_Hit-002.wav</ShortName>
 					<CachePath>SFX/Grunt_Hit-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="260312320" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Dirt-004.wav</ShortName>
+					<CachePath>SFX/FS_Dirt-004_10C4C929.wem</CachePath>
 				</File>
 				<File Id="272739410" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Goblin_SwingGrunt-005.wav</ShortName>
@@ -240,6 +252,10 @@
 					<ShortName>Goblin_SwingGrunt-006.wav</ShortName>
 					<CachePath>SFX/Goblin_SwingGrunt-006_10C4C929.wem</CachePath>
 				</File>
+				<File Id="916982560" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Dirt-005.wav</ShortName>
+					<CachePath>SFX/FS_Dirt-005_C9452DEC.wem</CachePath>
+				</File>
 				<File Id="924407592" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Goblin_Hit-002.wav</ShortName>
 					<CachePath>SFX/Goblin_Hit-002_10C4C929.wem</CachePath>
@@ -247,6 +263,10 @@
 				<File Id="964898346" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fire_campfire_looped.wav</ShortName>
 					<CachePath>SFX/Fire_campfire_looped_177AA162.wem</CachePath>
+				</File>
+				<File Id="984305080" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Dirt-001.wav</ShortName>
+					<CachePath>SFX/FS_Dirt-001_A1F1066C.wem</CachePath>
 				</File>
 				<File Id="1029893350" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Axe_Woosh-002.wav</ShortName>
@@ -310,6 +330,16 @@
 								<MediaRef Id="730473686"/>
 								<MediaRef Id="767676742"/>
 								<MediaRef Id="876443643"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2195636714" GUID="{99AE1BB1-0840-4DA3-8906-184B4A011CBE}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="33923621"/>
+								<MediaRef Id="89571094"/>
+								<MediaRef Id="260312320"/>
+								<MediaRef Id="916982560"/>
+								<MediaRef Id="984305080"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -475,5 +505,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4B876A7F-A8F6-E82C-1315-83D991F0F205}</FileHash>
+	<FileHash>{24AED74A-3FD1-E562-EC36-B83DC643DCDE}</FileHash>
 </SoundBanksInfo>

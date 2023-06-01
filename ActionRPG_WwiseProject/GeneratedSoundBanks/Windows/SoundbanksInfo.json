@@ -210,7 +210,7 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{81F9B5BE-9569-1CA4-3DED-E3B8C81097D8}",
+    "Hash": "{6A5538DC-A42F-D3CB-ED70-B3EF9768D155}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -230,6 +230,22 @@
       "Location": "Memory",
       "ShortName": "Dirt_Impact.wav",
       "CachePath": "SFX/Dirt_Impact_10C4C929.wem"
+     },
+     {
+      "Id": "33923621",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Dirt-003.wav",
+      "CachePath": "SFX/FS_Dirt-003_E3EE6E83.wem"
+     },
+     {
+      "Id": "89571094",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Dirt-002.wav",
+      "CachePath": "SFX/FS_Dirt-002_1C8381BD.wem"
      },
      {
       "Id": "98455453",
@@ -326,6 +342,14 @@
       "Location": "Memory",
       "ShortName": "Grunt_Hit-002.wav",
       "CachePath": "SFX/Grunt_Hit-002_10C4C929.wem"
+     },
+     {
+      "Id": "260312320",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Dirt-004.wav",
+      "CachePath": "SFX/FS_Dirt-004_10C4C929.wem"
      },
      {
       "Id": "272739410",
@@ -682,6 +706,14 @@
       "CachePath": "SFX/Goblin_SwingGrunt-006_10C4C929.wem"
      },
      {
+      "Id": "916982560",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Dirt-005.wav",
+      "CachePath": "SFX/FS_Dirt-005_C9452DEC.wem"
+     },
+     {
       "Id": "924407592",
       "Language": "SFX",
       "Streaming": "false",
@@ -696,6 +728,14 @@
       "Location": "Memory",
       "ShortName": "Fire_campfire_looped.wav",
       "CachePath": "SFX/Fire_campfire_looped_177AA162.wem"
+     },
+     {
+      "Id": "984305080",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Dirt-001.wav",
+      "CachePath": "SFX/FS_Dirt-001_A1F1066C.wem"
      },
      {
       "Id": "1029893350",
@@ -873,6 +913,32 @@
          },
          {
           "Id": "876443643"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "2195636714",
+         "GUID": "{99AE1BB1-0840-4DA3-8906-184B4A011CBE}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "33923621"
+         },
+         {
+          "Id": "89571094"
+         },
+         {
+          "Id": "260312320"
+         },
+         {
+          "Id": "916982560"
+         },
+         {
+          "Id": "984305080"
          }
         ]
        }
@@ -1310,6 +1376,6 @@
     ]
    }
   ],
-  "FileHash": "{7AD2DAB3-D2C9-2A19-C169-CA4B2EFFAE37}"
+  "FileHash": "{43EE9D07-3C08-B074-12FE-A6DD48BA84FB}"
  }
 }

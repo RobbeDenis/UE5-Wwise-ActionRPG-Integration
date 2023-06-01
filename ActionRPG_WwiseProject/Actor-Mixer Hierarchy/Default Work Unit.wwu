@@ -599,6 +599,22 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Dirt" ID="{9B2901F3-CF03-4B37-BD55-CA93524EAF15}" ShortID="481397612">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{65D74C54-36D3-49CB-B024-FDE9A4B90382}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
@@ -607,6 +623,136 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FS_Dirt-001" ID="{2CC5B9A2-4A88-49CB-BA57-06D00BF602EE}" ShortID="591226610">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Dirt-001" ID="{CB01A288-C909-4E27-9973-5465FB70A9C3}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0417370188816267"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>FS_Dirt-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="984305080"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Dirt-001" ID="{CB01A288-C909-4E27-9973-5465FB70A9C3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Dirt-002" ID="{047AC4DA-59A0-45F0-8069-6342797CF463}" ShortID="894616281">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Dirt-002" ID="{1A20062C-9A53-42C2-A224-6192C52573ED}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0213353304284677"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0213353304284677"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>FS_Dirt-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="89571094"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Dirt-002" ID="{1A20062C-9A53-42C2-A224-6192C52573ED}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Dirt-003" ID="{054715BE-3B79-4470-B485-6D6A172665F8}" ShortID="683057257">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Dirt-003" ID="{8087175F-5C87-4E29-BCE5-42F4F117E978}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.00749571078431372"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.00749571078431372"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>FS_Dirt-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="33923621"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Dirt-003" ID="{8087175F-5C87-4E29-BCE5-42F4F117E978}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Dirt-004" ID="{C31E49E1-9D9B-4C04-AB4B-5054F564FF9A}" ShortID="774359716">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Dirt-004" ID="{018C1B2C-D641-46A4-B703-4D167491D654}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Dirt-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="260312320"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Dirt-004" ID="{018C1B2C-D641-46A4-B703-4D167491D654}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Dirt-005" ID="{8F514EE4-F789-4F43-8B32-8A6739F13E93}" ShortID="86687392">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Dirt-005" ID="{E77BCBDA-F2CC-42C2-BF45-A12775A10B76}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0304727668845316"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>FS_Dirt-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="916982560"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Dirt-005" ID="{E77BCBDA-F2CC-42C2-BF45-A12775A10B76}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Water" ID="{8208ABB0-CCDB-4AFC-9E91-E29A97D38E4F}" ShortID="6727566">
 									<ReferenceList>
