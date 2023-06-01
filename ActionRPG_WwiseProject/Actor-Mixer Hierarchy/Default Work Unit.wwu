@@ -173,7 +173,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Player_Swing-001" ID="{C858E3B1-7B61-4ADE-B689-BFC1529FF4C6}" ShortID="452588255">
+								<Sound Name="Axe_Woosh-001" ID="{5EBCFBEB-986D-4A54-84B8-3924F398A1F3}" ShortID="923494225">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
@@ -183,19 +183,24 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Player_Swing-001" ID="{610CC276-977A-472E-A594-3686A47F4A6A}">
+										<AudioFileSource Name="Axe_Woosh-001" ID="{26A7C2D3-7F0C-4A73-B0F0-852CFCD25EDA}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0422144380900508"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0736298338779956"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Player_Swing-001.wav</AudioFile>
+											<AudioFile>Axe_Woosh-001.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1045995186"/>
+												<MediaID ID="739363478"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Player_Swing-001" ID="{610CC276-977A-472E-A594-3686A47F4A6A}" Platform="Linked"/>
+										<ActiveSource Name="Axe_Woosh-001" ID="{26A7C2D3-7F0C-4A73-B0F0-852CFCD25EDA}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Player_Swing-002" ID="{DDFBD3CE-D7E5-4009-B862-586E0B2C4631}" ShortID="898603194">
+								<Sound Name="Axe_Woosh-002" ID="{A0746401-FAAA-4A87-B85E-0C947604B8CF}" ShortID="41492628">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
@@ -205,19 +210,24 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Player_Swing-002" ID="{0BA0E697-24F2-4A60-85BA-F1C49B796A46}">
+										<AudioFileSource Name="Axe_Woosh-002" ID="{E9A9EC03-B91C-4AA0-A4C9-1D48926ED7BE}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0710147058823529"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0503020833333333"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Player_Swing-002.wav</AudioFile>
+											<AudioFile>Axe_Woosh-002.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="120915605"/>
+												<MediaID ID="1029893350"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Player_Swing-002" ID="{0BA0E697-24F2-4A60-85BA-F1C49B796A46}" Platform="Linked"/>
+										<ActiveSource Name="Axe_Woosh-002" ID="{E9A9EC03-B91C-4AA0-A4C9-1D48926ED7BE}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Player_Swing-003" ID="{4F6F18A6-6DCA-4DFE-A4BD-D11D1E6ADC57}" ShortID="296477872">
+								<Sound Name="Axe_Woosh-003" ID="{AC5C485B-C997-4ADB-807D-D30153EAF0D6}" ShortID="137427600">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
@@ -227,16 +237,48 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Player_Swing-003" ID="{DE1F495F-4B96-4266-B857-686457228A0A}">
+										<AudioFileSource Name="Axe_Woosh-003" ID="{AB0F76A2-A1DB-4D56-AA22-B6C5762B7AEA}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0321938997821351"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0623756808278867"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Player_Swing-003.wav</AudioFile>
+											<AudioFile>Axe_Woosh-003.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="823668392"/>
+												<MediaID ID="214131361"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Player_Swing-003" ID="{DE1F495F-4B96-4266-B857-686457228A0A}" Platform="Linked"/>
+										<ActiveSource Name="Axe_Woosh-003" ID="{AB0F76A2-A1DB-4D56-AA22-B6C5762B7AEA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Axe_Woosh-004" ID="{3FC9044A-B0B7-41E0-87BA-A9C29E128229}" ShortID="679096938">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Axe_Woosh-004" ID="{410AC800-365E-48A1-AC95-F66680250F54}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.015931712962963"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0909044798474945"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Axe_Woosh-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="655223332"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Axe_Woosh-004" ID="{410AC800-365E-48A1-AC95-F66680250F54}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

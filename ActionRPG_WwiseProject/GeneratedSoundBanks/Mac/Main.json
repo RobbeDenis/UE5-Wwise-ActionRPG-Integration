@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{B92CE309-69AD-9AC5-A3FF-DE79118A0557}",
+    "Hash": "{6CAC1C79-3091-D263-B91F-B5E4B4A19254}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -30,14 +30,6 @@
       "Location": "Memory",
       "ShortName": "Dirt_Impact.wav",
       "CachePath": "SFX/Dirt_Impact_10C4C929.wem"
-     },
-     {
-      "Id": "120915605",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player_Swing-002.wav",
-      "CachePath": "SFX/Player_Swing-002_10C4C929.wem"
      },
      {
       "Id": "126572019",
@@ -94,6 +86,14 @@
       "Location": "Memory",
       "ShortName": "DeathWhisle-004.wav",
       "CachePath": "SFX/DeathWhisle-004_10C4C929.wem"
+     },
+     {
+      "Id": "214131361",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Axe_Woosh-003.wav",
+      "CachePath": "SFX/Axe_Woosh-003_200A8291.wem"
      },
      {
       "Id": "255433557",
@@ -208,6 +208,14 @@
       "CachePath": "SFX/FS_Sand-001_10C4C929.wem"
      },
      {
+      "Id": "655223332",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Axe_Woosh-004.wav",
+      "CachePath": "SFX/Axe_Woosh-004_7935DE21.wem"
+     },
+     {
       "Id": "662637876",
       "Language": "SFX",
       "Streaming": "false",
@@ -238,6 +246,14 @@
       "Location": "Memory",
       "ShortName": "FS_Sand-003.wav",
       "CachePath": "SFX/FS_Sand-003_10C4C929.wem"
+     },
+     {
+      "Id": "739363478",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Axe_Woosh-001.wav",
+      "CachePath": "SFX/Axe_Woosh-001_60014CC6.wem"
      },
      {
       "Id": "762810824",
@@ -272,14 +288,6 @@
       "Location": "Memory",
       "ShortName": "Pickup_Item.wav",
       "CachePath": "SFX/Pickup_Item_10C4C929.wem"
-     },
-     {
-      "Id": "823668392",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player_Swing-003.wav",
-      "CachePath": "SFX/Player_Swing-003_10C4C929.wem"
      },
      {
       "Id": "849268683",
@@ -338,20 +346,20 @@
       "CachePath": "SFX/Fire_campfire_looped_177AA162.wem"
      },
      {
+      "Id": "1029893350",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Axe_Woosh-002.wav",
+      "CachePath": "SFX/Axe_Woosh-002_561844A0.wem"
+     },
+     {
       "Id": "1030431893",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Fire_campfire_looped.wav",
       "CachePath": "SFX/Fire_campfire_looped_7A9B7E06.wem"
-     },
-     {
-      "Id": "1045995186",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player_Swing-001.wav",
-      "CachePath": "SFX/Player_Swing-001_10C4C929.wem"
      },
      {
       "Id": "1072310648",
@@ -588,17 +596,20 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_PlayerSwing",
       "GUID": "{AFA713F3-4D2D-4FBC-AC0E-B6907EA6D895}",
       "DurationType": "OneShot",
-      "DurationMin": "0.19313008",
-      "DurationMax": "0.32862577",
+      "DurationMin": "0.76057065",
+      "DurationMax": "0.91239566",
       "MediaRefs": [
        {
-        "Id": "120915605"
+        "Id": "214131361"
        },
        {
-        "Id": "823668392"
+        "Id": "655223332"
        },
        {
-        "Id": "1045995186"
+        "Id": "739363478"
+       },
+       {
+        "Id": "1029893350"
        }
       ]
      },
@@ -741,6 +752,6 @@
     ]
    }
   ],
-  "FileHash": "{7328E366-9EA3-1FCA-97F5-B732ED5FED1A}"
+  "FileHash": "{26E062AE-6A66-4381-BC02-93DE31109FA0}"
  }
 }
