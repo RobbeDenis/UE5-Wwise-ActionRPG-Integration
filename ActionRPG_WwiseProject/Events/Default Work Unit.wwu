@@ -246,6 +246,21 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_Music" ID="{0296327F-F16E-41CC-AE60-3798B1512ACC}">
+					<ChildrenList>
+						<Action Name="" ID="{A936080B-65EC-42DB-B734-FB39286370B8}" ShortID="315675322">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{A354C0BC-E36A-472B-88E8-F444382974A0}" WorkUnitID="{E568648E-848D-4356-9975-9FE0592165FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

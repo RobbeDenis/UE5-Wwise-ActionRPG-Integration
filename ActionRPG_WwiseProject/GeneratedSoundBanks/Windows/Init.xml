@@ -44,6 +44,7 @@
 						<State Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\Player\Alive" GUID="{46EF42CB-0A3A-4B30-9381-5009C43676DA}"/>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Player\None" GUID="{2344529B-7E6C-4653-88D8-C07CCD441EEA}"/>
 						<State Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\Player\Dead" GUID="{0536CE74-4099-4668-85B0-BC25C1594966}"/>
+						<State Id="3552757243" Name="Away" ObjectPath="\States\Default Work Unit\Player\Away" GUID="{62F92134-CF67-4E1E-A09C-D3C97E49AA30}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
@@ -67,5 +68,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{43360A53-744B-F552-6B84-6591BE13351F}</FileHash>
+	<FileHash>{F5C7A6AA-F765-3C9A-8624-28CCF01BD356}</FileHash>
 </SoundBanksInfo>

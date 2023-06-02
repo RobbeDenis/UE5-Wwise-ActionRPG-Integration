@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Stop_Music" ID="{0296327F-F16E-41CC-AE60-3798B1512ACC}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Roll" ID="{15BD5FA2-3632-4298-AF18-6DE42A2CC5EE}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Pickup_Soul" ID="{E98FAC64-537B-4345-8875-2012A4F0FFD4}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Goblin_SwingGrunt" ID="{2E89F717-9215-43A4-ADA0-EC4D34E498A0}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
@@ -18,6 +19,7 @@
 						<ObjectRef Name="Play_Goblin_Decay" ID="{7370D543-1732-4937-9FC9-FE6003AB77DD}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GroundSlam" ID="{156CA5F1-0D54-4975-AF58-D2814988E804}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Test" ID="{72C814D5-F2EE-4A26-9D04-DCB4C83E7589}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Music" ID="{EBD174DD-0A79-4AA3-AD01-44F4A8133679}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Goblin_Swing" ID="{D2CAE08E-D7CA-4AE1-B9BF-D88B8A9179BB}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Goblin_Hit" ID="{88D2793B-0B11-4B43-9418-705193C74F91}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Grunt_Hit" ID="{37E88AAD-7729-4CB0-BB5D-F4390FA81F32}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>

@@ -134,6 +134,12 @@
         "Name": "Dead",
         "ObjectPath": "\\States\\Default Work Unit\\Player\\Dead",
         "GUID": "{0536CE74-4099-4668-85B0-BC25C1594966}"
+       },
+       {
+        "Id": "3552757243",
+        "Name": "Away",
+        "ObjectPath": "\\States\\Default Work Unit\\Player\\Away",
+        "GUID": "{62F92134-CF67-4E1E-A09C-D3C97E49AA30}"
        }
       ]
      }
@@ -210,7 +216,7 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{A58FBC2E-34EF-14B9-5C69-F1B311B84198}",
+    "Hash": "{6BDCD7B8-04C3-BDC0-048B-0C5914EF718F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -272,6 +278,14 @@
       "CachePath": "SFX/FS_Dirt-008_10C4C929.wem"
      },
      {
+      "Id": "76166652",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Percussion-001.wav",
+      "CachePath": "SFX/Percussion-001_D79FB2B7.wem"
+     },
+     {
       "Id": "84288158",
       "Language": "SFX",
       "Streaming": "false",
@@ -285,7 +299,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Dirt-002.wav",
-      "CachePath": "SFX/FS_Dirt-002_6D629569.wem"
+      "CachePath": "SFX/FS_Dirt-002_344C3DD1.wem"
      },
      {
       "Id": "98455453",
@@ -309,7 +323,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Fire_campfire_looped.wav",
-      "CachePath": "SFX/Fire_campfire_looped_451D858D.wem"
+      "CachePath": "SFX/Fire_campfire_looped_0DBC95BB.wem"
      },
      {
       "Id": "127295719",
@@ -376,6 +390,14 @@
       "CachePath": "SFX/Goblin_SwingGrunt-004_10C4C929.wem"
      },
      {
+      "Id": "184965853",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vocals-001.wav",
+      "CachePath": "SFX/Vocals-001_D79FB2B7.wem"
+     },
+     {
       "Id": "189293494",
       "Language": "SFX",
       "Streaming": "false",
@@ -405,7 +427,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Axe_Woosh-003.wav",
-      "CachePath": "SFX/Axe_Woosh-003_200A8291.wem"
+      "CachePath": "SFX/Axe_Woosh-003_42F2BBDF.wem"
+     },
+     {
+      "Id": "226025216",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Braaam-001.wav",
+      "CachePath": "SFX/Braaam-001_D79FB2B7.wem"
+     },
+     {
+      "Id": "250639064",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cello-003.wav",
+      "CachePath": "SFX/Cello-003_D79FB2B7.wem"
      },
      {
       "Id": "255433557",
@@ -496,6 +534,22 @@
       "CachePath": "SFX/Roll-003_10C4C929.wem"
      },
      {
+      "Id": "334256685",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "pre-Intro.wav",
+      "CachePath": "SFX/pre-Intro_D79FB2B7.wem"
+     },
+     {
+      "Id": "348636664",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Braaam-002.wav",
+      "CachePath": "SFX/Braaam-002_D79FB2B7.wem"
+     },
+     {
       "Id": "351961489",
       "Language": "SFX",
       "Streaming": "false",
@@ -536,6 +590,14 @@
       "CachePath": "SFX/Goblin_HitGrunt-001_10C4C929.wem"
      },
      {
+      "Id": "416797462",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fx-002.wav",
+      "CachePath": "SFX/Fx-002_D79FB2B7.wem"
+     },
+     {
       "Id": "419227717",
       "Language": "SFX",
       "Streaming": "false",
@@ -574,6 +636,14 @@
       "Location": "Memory",
       "ShortName": "Goblin_Decay-002.wav",
       "CachePath": "SFX/Goblin_Decay-002_10C4C929.wem"
+     },
+     {
+      "Id": "448001936",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vocals-004.wav",
+      "CachePath": "SFX/Vocals-004_D79FB2B7.wem"
      },
      {
       "Id": "462467901",
@@ -621,7 +691,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Fire_campfire_looped.wav",
-      "CachePath": "SFX/Fire_campfire_looped_0AFC011F.wem"
+      "CachePath": "SFX/Fire_campfire_looped_D73F8FEC.wem"
      },
      {
       "Id": "515498122",
@@ -629,7 +699,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Sand-005.wav",
-      "CachePath": "SFX/FS_Sand-005_4A289AFC.wem"
+      "CachePath": "SFX/FS_Sand-005_BA7C2CA9.wem"
+     },
+     {
+      "Id": "518070110",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Percussion-003.wav",
+      "CachePath": "SFX/Percussion-003_D79FB2B7.wem"
+     },
+     {
+      "Id": "521147671",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Percussion-004.wav",
+      "CachePath": "SFX/Percussion-004_D79FB2B7.wem"
      },
      {
       "Id": "542846243",
@@ -648,6 +734,14 @@
       "CachePath": "SFX/Goblin_HitGrunt-004_10C4C929.wem"
      },
      {
+      "Id": "556322199",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Percussion-002.wav",
+      "CachePath": "SFX/Percussion-002_D79FB2B7.wem"
+     },
+     {
       "Id": "587868897",
       "Language": "SFX",
       "Streaming": "false",
@@ -656,12 +750,20 @@
       "CachePath": "SFX/Rock_Impact_Tail_10C4C929.wem"
      },
      {
+      "Id": "591263472",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vocals-002.wav",
+      "CachePath": "SFX/Vocals-002_D79FB2B7.wem"
+     },
+     {
       "Id": "592633598",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Stone-001.wav",
-      "CachePath": "SFX/FS_Stone-001_ADCE41BB.wem"
+      "CachePath": "SFX/FS_Stone-001_F005B686.wem"
      },
      {
       "Id": "594466621",
@@ -685,7 +787,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Dirt-007.wav",
-      "CachePath": "SFX/FS_Dirt-007_4E8974D4.wem"
+      "CachePath": "SFX/FS_Dirt-007_4FC83B41.wem"
      },
      {
       "Id": "620944675",
@@ -701,7 +803,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Sand-001.wav",
-      "CachePath": "SFX/FS_Sand-001_61907A29.wem"
+      "CachePath": "SFX/FS_Sand-001_4005A952.wem"
      },
      {
       "Id": "631851801",
@@ -741,7 +843,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Axe_Woosh-004.wav",
-      "CachePath": "SFX/Axe_Woosh-004_7935DE21.wem"
+      "CachePath": "SFX/Axe_Woosh-004_BF05057D.wem"
      },
      {
       "Id": "659526418",
@@ -760,12 +862,20 @@
       "CachePath": "SFX/DeathWhisle-002_10C4C929.wem"
      },
      {
+      "Id": "681284662",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Intro.wav",
+      "CachePath": "SFX/Intro_D79FB2B7.wem"
+     },
+     {
       "Id": "683503367",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Shot.wav",
-      "CachePath": "SFX/Shot_A60E7EF7.wem"
+      "CachePath": "SFX/Shot_DFD1FC30.wem"
      },
      {
       "Id": "721826048",
@@ -789,7 +899,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Stone-004.wav",
-      "CachePath": "SFX/FS_Stone-004_160E022F.wem"
+      "CachePath": "SFX/FS_Stone-004_31D62221.wem"
      },
      {
       "Id": "730473686",
@@ -797,7 +907,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Sand-003.wav",
-      "CachePath": "SFX/FS_Sand-003_B1DCDBD2.wem"
+      "CachePath": "SFX/FS_Sand-003_EFF60847.wem"
      },
      {
       "Id": "739363478",
@@ -805,7 +915,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Axe_Woosh-001.wav",
-      "CachePath": "SFX/Axe_Woosh-001_60014CC6.wem"
+      "CachePath": "SFX/Axe_Woosh-001_6E2B385B.wem"
      },
      {
       "Id": "757688265",
@@ -837,7 +947,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Sand-002.wav",
-      "CachePath": "SFX/FS_Sand-002_13A9FB88.wem"
+      "CachePath": "SFX/FS_Sand-002_AB1406D2.wem"
      },
      {
       "Id": "781763137",
@@ -853,7 +963,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Dirt-010.wav",
-      "CachePath": "SFX/FS_Dirt-010_9FF36FA3.wem"
+      "CachePath": "SFX/FS_Dirt-010_60582A5E.wem"
      },
      {
       "Id": "797124082",
@@ -862,7 +972,7 @@
       "Location": "Memory",
       "ShortName": "AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW.wav",
       "Path": "Media/797124082.wem",
-      "CachePath": "SFX/AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW_C9E8E480.wem",
+      "CachePath": "SFX/AMBDsgn_Aztec Death Whistle Designed Wind Drone_B00M_MBDW_96AD5391.wem",
       "PrefetchSize": "8096"
      },
      {
@@ -872,6 +982,22 @@
       "Location": "Memory",
       "ShortName": "Pickup_Item.wav",
       "CachePath": "SFX/Pickup_Item_10C4C929.wem"
+     },
+     {
+      "Id": "803295193",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cello-002.wav",
+      "CachePath": "SFX/Cello-002_D79FB2B7.wem"
+     },
+     {
+      "Id": "818235687",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Brass-001.wav",
+      "CachePath": "SFX/Brass-001_D79FB2B7.wem"
      },
      {
       "Id": "822063392",
@@ -895,7 +1021,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Fire_campfire_looped.wav",
-      "CachePath": "SFX/Fire_campfire_looped_F4C21E0C.wem"
+      "CachePath": "SFX/Fire_campfire_looped_37D54191.wem"
+     },
+     {
+      "Id": "858298654",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vocals-003.wav",
+      "CachePath": "SFX/Vocals-003_D79FB2B7.wem"
      },
      {
       "Id": "866098930",
@@ -919,7 +1053,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Sand-004.wav",
-      "CachePath": "SFX/FS_Sand-004_E11650A8.wem"
+      "CachePath": "SFX/FS_Sand-004_4D716C1C.wem"
      },
      {
       "Id": "877945358",
@@ -927,7 +1061,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Fire_campfire_looped.wav",
-      "CachePath": "SFX/Fire_campfire_looped_28A37B2F.wem"
+      "CachePath": "SFX/Fire_campfire_looped_CC0F491C.wem"
      },
      {
       "Id": "878471934",
@@ -936,6 +1070,14 @@
       "Location": "Memory",
       "ShortName": "Goblin_HitGrunt-003.wav",
       "CachePath": "SFX/Goblin_HitGrunt-003_10C4C929.wem"
+     },
+     {
+      "Id": "881449040",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cello-001.wav",
+      "CachePath": "SFX/Cello-001_D79FB2B7.wem"
      },
      {
       "Id": "900859556",
@@ -978,6 +1120,14 @@
       "CachePath": "SFX/FS_Mud-007_10C4C929.wem"
      },
      {
+      "Id": "922833828",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fx-001.wav",
+      "CachePath": "SFX/Fx-001_D79FB2B7.wem"
+     },
+     {
       "Id": "924407592",
       "Language": "SFX",
       "Streaming": "false",
@@ -999,7 +1149,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Fire_campfire_looped.wav",
-      "CachePath": "SFX/Fire_campfire_looped_177AA162.wem"
+      "CachePath": "SFX/Fire_campfire_looped_09504D91.wem"
      },
      {
       "Id": "984305080",
@@ -1010,12 +1160,20 @@
       "CachePath": "SFX/FS_Dirt-001_10C4C929.wem"
      },
      {
+      "Id": "1004451014",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Brass-002.wav",
+      "CachePath": "SFX/Brass-002_D79FB2B7.wem"
+     },
+     {
       "Id": "1029893350",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Axe_Woosh-002.wav",
-      "CachePath": "SFX/Axe_Woosh-002_561844A0.wem"
+      "CachePath": "SFX/Axe_Woosh-002_D01CAB02.wem"
      },
      {
       "Id": "1030431893",
@@ -1023,7 +1181,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Fire_campfire_looped.wav",
-      "CachePath": "SFX/Fire_campfire_looped_7A9B7E06.wem"
+      "CachePath": "SFX/Fire_campfire_looped_8AA0B7B0.wem"
+     },
+     {
+      "Id": "1031964928",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Braaam-004.wav",
+      "CachePath": "SFX/Braaam-004_D79FB2B7.wem"
      },
      {
       "Id": "1033455963",
@@ -1034,12 +1200,28 @@
       "CachePath": "SFX/Roll-004_10C4C929.wem"
      },
      {
+      "Id": "1068687593",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Brass-003.wav",
+      "CachePath": "SFX/Brass-003_D79FB2B7.wem"
+     },
+     {
       "Id": "1072310648",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Grunt-001.wav",
       "CachePath": "SFX/Grunt-001_10C4C929.wem"
+     },
+     {
+      "Id": "1072564110",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Braaam-003.wav",
+      "CachePath": "SFX/Braaam-003_D79FB2B7.wem"
      }
     ],
     "Plugins": {
@@ -1625,6 +1807,81 @@
       }
      },
      {
+      "Id": "2932040671",
+      "Name": "Play_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
+      "GUID": "{EBD174DD-0A79-4AA3-AD01-44F4A8133679}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "76166652"
+       },
+       {
+        "Id": "184965853"
+       },
+       {
+        "Id": "226025216"
+       },
+       {
+        "Id": "250639064"
+       },
+       {
+        "Id": "334256685"
+       },
+       {
+        "Id": "348636664"
+       },
+       {
+        "Id": "416797462"
+       },
+       {
+        "Id": "448001936"
+       },
+       {
+        "Id": "518070110"
+       },
+       {
+        "Id": "521147671"
+       },
+       {
+        "Id": "556322199"
+       },
+       {
+        "Id": "591263472"
+       },
+       {
+        "Id": "681284662"
+       },
+       {
+        "Id": "803295193"
+       },
+       {
+        "Id": "818235687"
+       },
+       {
+        "Id": "858298654"
+       },
+       {
+        "Id": "881449040"
+       },
+       {
+        "Id": "922833828"
+       },
+       {
+        "Id": "1004451014"
+       },
+       {
+        "Id": "1031964928"
+       },
+       {
+        "Id": "1068687593"
+       },
+       {
+        "Id": "1072564110"
+       }
+      ]
+     },
+     {
       "Id": "3128913152",
       "Name": "Play_Pickup_Item",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Pickup_Item",
@@ -1767,6 +2024,16 @@
         "GUID": "{6C93671D-1FB3-4167-8C0E-D3BA1142FA69}"
        }
       ]
+     },
+     {
+      "Id": "2837384057",
+      "Name": "Stop_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Music",
+      "GUID": "{0296327F-F16E-41CC-AE60-3798B1512ACC}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "SwitchGroups": [
@@ -1837,6 +2104,6 @@
     ]
    }
   ],
-  "FileHash": "{417167C7-8E04-59BF-FB60-9C3CAC228566}"
+  "FileHash": "{23C7495A-EBEF-A1CE-8685-83C6F420268C}"
  }
 }

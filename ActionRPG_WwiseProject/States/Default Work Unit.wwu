@@ -8,6 +8,7 @@
 						<State Name="None" ID="{2344529B-7E6C-4653-88D8-C07CCD441EEA}"/>
 						<State Name="Alive" ID="{46EF42CB-0A3A-4B30-9381-5009C43676DA}"/>
 						<State Name="Dead" ID="{0536CE74-4099-4668-85B0-BC25C1594966}"/>
+						<State Name="Away" ID="{62F92134-CF67-4E1E-A09C-D3C97E49AA30}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>

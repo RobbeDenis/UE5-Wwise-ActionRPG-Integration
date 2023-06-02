@@ -18,8 +18,16 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Music" ID="{EBD174DD-0A79-4AA3-AD01-44F4A8133679}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_DeathWhisleLow" ID="{E2583857-8048-48ED-AB46-406606089EAF}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}"/>
 							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Music" ID="{0296327F-F16E-41CC-AE60-3798B1512ACC}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}"/>
+							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_RandomDeathWhisle" ID="{BCEDE4E9-3AF8-47C6-83F2-8964D204FB00}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}"/>
@@ -33,11 +41,11 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Dead" ID="{0536CE74-4099-4668-85B0-BC25C1594966}"/>
+						<CurrentStateRef Name="None" ID="{2344529B-7E6C-4653-88D8-C07CCD441EEA}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Dirt" ID="{99AE1BB1-0840-4DA3-8906-184B4A011CBE}"/>
-						<CurrentSwitchRef Name="Water" ID="{76A15951-554F-417A-B26F-034713D0CAB1}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{D63A2816-2BF5-4E43-96BF-92ADF5EFD709}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

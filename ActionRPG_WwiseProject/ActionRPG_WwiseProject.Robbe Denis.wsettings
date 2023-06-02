@@ -3,6 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{BC4C18B4-5EFD-44D6-B3A2-F82059E04E84}">
 			<PropertyList>
+				<Property Name="Event Action List\{0296327F-F16E-41CC-AE60-3798B1512ACC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{156CA5F1-0D54-4975-AF58-D2814988E804}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{15BD5FA2-3632-4298-AF18-6DE42A2CC5EE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1BF7DE81-21DD-4880-9D2B-651089A08519}\x64_Expand States" Type="string" Value=""/>
@@ -53,7 +54,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="1G0myyP2xUiqEOY+DTScHQ=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="Interactive Music\x64_{148A19BC-6E81-4D04-B681-84CB10C03E4C} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP5qZmZmZ2VNAAAAAAAAA8D8AAAAAABB6QAAAAAAAAAAA"/>
-				<Property Name="Interactive Music\x64_{1614B5B3-03E3-4C91-9B6D-E17F4D96C77C} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP4X2EtpLaE1AAAAAAAAA8D8AAAAAAAAAAAAAAAAAfJ9A"/>
+				<Property Name="Interactive Music\x64_{1614B5B3-03E3-4C91-9B6D-E17F4D96C77C} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP4X2EtpLaE1AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{169836F7-7B03-423A-8E14-56700BC1E3A3} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPzueSK65GyJAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{2791FAE4-6F91-49CC-B140-5D0DDEBC8A4A} - SegmentEditorZoomInfo" Type="string" Value="JQ5wgkXbyz8AAAAAAADwPwAAAAAAnHJAAAAAAAAA8D8AAAAAAAAAAAAAAAAACqRA"/>
 				<Property Name="Interactive Music\x64_{3B3ED7FD-18B1-47B7-A441-BC22B84298F1} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPym/Z8BlkCJAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>

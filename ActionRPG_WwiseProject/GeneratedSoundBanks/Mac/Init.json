@@ -126,6 +126,12 @@
         "Name": "Dead",
         "ObjectPath": "\\States\\Default Work Unit\\Player\\Dead",
         "GUID": "{0536CE74-4099-4668-85B0-BC25C1594966}"
+       },
+       {
+        "Id": "3552757243",
+        "Name": "Away",
+        "ObjectPath": "\\States\\Default Work Unit\\Player\\Away",
+        "GUID": "{62F92134-CF67-4E1E-A09C-D3C97E49AA30}"
        }
       ]
      }
@@ -198,6 +204,6 @@
     ]
    }
   ],
-  "FileHash": "{00754FD6-2A4A-A69B-A858-94F6AF79366A}"
+  "FileHash": "{2C524D28-3F22-03E0-2F08-CF207CFB3318}"
  }
 }

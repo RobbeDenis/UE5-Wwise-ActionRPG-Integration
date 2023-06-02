@@ -6,13 +6,18 @@
 				<MusicPlaylistContainer Name="Music" ID="{A354C0BC-E36A-472B-88E8-F444382974A0}" ShortID="787919517">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="160"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+							<ObjectRef Name="Gameplay" ID="{35710773-A672-49E3-94CD-FEE992734CDD}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

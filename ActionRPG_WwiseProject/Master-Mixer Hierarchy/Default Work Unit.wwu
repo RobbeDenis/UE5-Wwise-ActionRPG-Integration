@@ -47,6 +47,10 @@
 										<StateRef Name="Alive" ID="{46EF42CB-0A3A-4B30-9381-5009C43676DA}"/>
 										<CustomState Name="" ID="{DD8E37EF-EEEB-4F5F-B334-AAD16D370F2C}" ShortID="60821320"/>
 									</CustomState>
+									<CustomState>
+										<StateRef Name="Away" ID="{62F92134-CF67-4E1E-A09C-D3C97E49AA30}"/>
+										<CustomState Name="" ID="{DAAE026C-1CD6-4132-8C6E-0DFCEA94EDA0}" ShortID="984024889"/>
+									</CustomState>
 								</CustomStateList>
 							</StateInfo>
 						</Bus>
