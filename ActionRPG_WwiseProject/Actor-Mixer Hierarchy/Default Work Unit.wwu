@@ -61,6 +61,7 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="Grunt_Hit" ID="{062848F3-D079-4734-92B4-571609D88197}" ShortID="42501058">
 							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -154,6 +155,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="PlayerSwing" ID="{8A5B330D-8AA7-4268-8291-ADC1AAD0A9E1}" ShortID="868701247">
 							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -290,6 +292,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Grunt_Swing" ID="{F5AD1A51-4745-40A1-BA80-931222234E79}" ShortID="459914276">
 							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -402,7 +405,7 @@
 										<ActiveSource Name="Grunt-004" ID="{22E87919-559A-4939-A7FE-AA3DEDABA1A6}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="None-001" ID="{1D8C5803-DE4A-4A30-9D68-640D009C8E70}" ShortID="9930391">
+								<Sound Name="Silence-01" ID="{1D8C5803-DE4A-4A30-9D68-640D009C8E70}" ShortID="9930391">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
@@ -420,7 +423,7 @@
 										<ActiveSource Name="Silence" ID="{597F46D7-0A3C-4B47-8F27-6ED1FA5A1ED7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="None-002" ID="{0F26BC9F-035D-4485-9C21-4279F83A9A69}" ShortID="707290094">
+								<Sound Name="Silence-02" ID="{0F26BC9F-035D-4485-9C21-4279F83A9A69}" ShortID="707290094">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
@@ -1553,7 +1556,7 @@
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>-2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1852,6 +1855,7 @@
 						</Sound>
 						<RandomSequenceContainer Name="Roll" ID="{8CE28133-B120-4645-8242-D807E6B260EA}" ShortID="879055217">
 							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -2095,6 +2099,11 @@
 				<ActorMixer Name="Ambient" ID="{9E5C6AEA-342D-4145-A9A7-D2AE5647C538}" ShortID="739169443">
 					<PropertyList>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -3188,7 +3197,7 @@
 										<ActiveSource Name="Goblin_HitGrunt-004" ID="{CCE6AAEE-0B60-4FCB-8BCD-A540DA6146DB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="New Sound SFX" ID="{E6426A44-B637-40FE-841C-1E7A87E72CDB}" ShortID="50539424">
+								<Sound Name="Silence-01" ID="{E6426A44-B637-40FE-841C-1E7A87E72CDB}" ShortID="50539424">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
@@ -3206,7 +3215,7 @@
 										<ActiveSource Name="Silence" ID="{C8FC8F3F-7462-4786-8A8A-4C53BFB9DDF8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="New Sound SFX_01" ID="{B5BAB04D-8D9C-432A-A53A-93A4C84F6F84}" ShortID="573312269">
+								<Sound Name="Silence-02" ID="{B5BAB04D-8D9C-432A-A53A-93A4C84F6F84}" ShortID="573312269">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
@@ -3222,6 +3231,114 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Silence" ID="{1A638881-209D-443B-AA28-2E394F799449}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Goblin_Decay" ID="{A12FDCD9-DF34-4EDF-8887-263A5F3AB509}" ShortID="682925064">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Goblin_Decay-001" ID="{F56D027A-C0FD-40F4-AE71-CF2F000D8DE4}" ShortID="876451272">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Goblin_Decay-001" ID="{5B9A2945-32AF-4714-B9CA-5C296F34D1CE}">
+											<Language>SFX</Language>
+											<AudioFile>Goblin_Decay-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="612045599"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Goblin_Decay-001" ID="{5B9A2945-32AF-4714-B9CA-5C296F34D1CE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Goblin_Decay-002" ID="{D79979E6-2EB9-4BD7-B1CB-D256BFFB6A95}" ShortID="806379218">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Goblin_Decay-002" ID="{64A0FBD1-02B6-49D5-B759-60941CB73883}">
+											<Language>SFX</Language>
+											<AudioFile>Goblin_Decay-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="445758644"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Goblin_Decay-002" ID="{64A0FBD1-02B6-49D5-B759-60941CB73883}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Goblin_Decay-003" ID="{93939736-2D6D-4D5E-B51E-ADC674715540}" ShortID="82529733">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Goblin_Decay-003" ID="{C8ADF39E-2BAD-495D-874F-EA9B3F44B0DC}">
+											<Language>SFX</Language>
+											<AudioFile>Goblin_Decay-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="84288158"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Goblin_Decay-003" ID="{C8ADF39E-2BAD-495D-874F-EA9B3F44B0DC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Goblin_Decay-004" ID="{24E303F5-5F99-401E-87BD-BC110BE62843}" ShortID="704377239">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Goblin_Decay-004" ID="{1FA98D3F-780E-4ED0-9C91-1E4F18F2181C}">
+											<Language>SFX</Language>
+											<AudioFile>Goblin_Decay-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="64067352"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Goblin_Decay-004" ID="{1FA98D3F-780E-4ED0-9C91-1E4F18F2181C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{306252C6-A5D1-A08B-EE87-EE358779BD8A}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{44E1B4BC-7570-DB0C-BC81-BDB0ADBC4A59}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -26,9 +26,17 @@
 					<ShortName>FS_Dirt-003.wav</ShortName>
 					<CachePath>SFX/FS_Dirt-003_10C4C929.wem</CachePath>
 				</File>
+				<File Id="64067352" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_Decay-004.wav</ShortName>
+					<CachePath>SFX/Goblin_Decay-004_10C4C929.wem</CachePath>
+				</File>
 				<File Id="75816713" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Dirt-008.wav</ShortName>
 					<CachePath>SFX/FS_Dirt-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="84288158" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_Decay-003.wav</ShortName>
+					<CachePath>SFX/Goblin_Decay-003_10C4C929.wem</CachePath>
 				</File>
 				<File Id="89571094" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Dirt-002.wav</ShortName>
@@ -170,6 +178,10 @@
 					<ShortName>DeathWhisle-010.wav</ShortName>
 					<CachePath>SFX/DeathWhisle-010_10C4C929.wem</CachePath>
 				</File>
+				<File Id="445758644" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_Decay-002.wav</ShortName>
+					<CachePath>SFX/Goblin_Decay-002_10C4C929.wem</CachePath>
+				</File>
 				<File Id="462682426" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Water_Impact.wav</ShortName>
 					<CachePath>SFX/Water_Impact_10C4C929.wem</CachePath>
@@ -213,6 +225,10 @@
 				<File Id="594466621" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DeathWhisle-001.wav</ShortName>
 					<CachePath>SFX/DeathWhisle-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="612045599" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_Decay-001.wav</ShortName>
+					<CachePath>SFX/Goblin_Decay-001_10C4C929.wem</CachePath>
 				</File>
 				<File Id="619938227" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Dirt-007.wav</ShortName>
@@ -395,10 +411,10 @@
 			</Media>
 			<Plugins>
 				<Custom>
-					<Plugin Id="257343408" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\None-001\Silence" GUID="{597F46D7-0A3C-4B47-8F27-6ED1FA5A1ED7}" LibName="Wwise Silence" LibId="6619138"/>
-					<Plugin Id="518936202" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\None-002\Silence" GUID="{F637D481-18E6-4CDF-916B-B6BCBED76C32}" LibName="Wwise Silence" LibId="6619138"/>
-					<Plugin Id="769512910" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_HitGrunt\New Sound SFX_01\Silence" GUID="{1A638881-209D-443B-AA28-2E394F799449}" LibName="Wwise Silence" LibId="6619138"/>
-					<Plugin Id="930266521" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_HitGrunt\New Sound SFX\Silence" GUID="{C8FC8F3F-7462-4786-8A8A-4C53BFB9DDF8}" LibName="Wwise Silence" LibId="6619138"/>
+					<Plugin Id="257343408" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\Silence-01\Silence" GUID="{597F46D7-0A3C-4B47-8F27-6ED1FA5A1ED7}" LibName="Wwise Silence" LibId="6619138"/>
+					<Plugin Id="518936202" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\Silence-02\Silence" GUID="{F637D481-18E6-4CDF-916B-B6BCBED76C32}" LibName="Wwise Silence" LibId="6619138"/>
+					<Plugin Id="769512910" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_HitGrunt\Silence-02\Silence" GUID="{1A638881-209D-443B-AA28-2E394F799449}" LibName="Wwise Silence" LibId="6619138"/>
+					<Plugin Id="930266521" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_HitGrunt\Silence-01\Silence" GUID="{C8FC8F3F-7462-4786-8A8A-4C53BFB9DDF8}" LibName="Wwise Silence" LibId="6619138"/>
 				</Custom>
 			</Plugins>
 			<Events>
@@ -493,6 +509,14 @@
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="1300377404" Name="Play_Goblin_Decay" ObjectPath="\Events\Default Work Unit\Play_Goblin_Decay" GUID="{7370D543-1732-4937-9FC9-FE6003AB77DD}" DurationType="OneShot" DurationMin="2.2432292" DurationMax="2.6349168">
+					<MediaRefs>
+						<MediaRef Id="64067352"/>
+						<MediaRef Id="84288158"/>
+						<MediaRef Id="445758644"/>
+						<MediaRef Id="612045599"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="76150229" Name="Play_Goblin_Hit" ObjectPath="\Events\Default Work Unit\Play_Goblin_Hit" GUID="{88D2793B-0B11-4B43-9418-705193C74F91}" DurationType="OneShot" DurationMin="0.35871154" DurationMax="1.122462">
 					<MediaRefs>
@@ -661,5 +685,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{346307E6-2E11-B3BC-346C-A222927BC39E}</FileHash>
+	<FileHash>{21463722-CEA1-702A-873A-518BB464645A}</FileHash>
 </SoundBanksInfo>

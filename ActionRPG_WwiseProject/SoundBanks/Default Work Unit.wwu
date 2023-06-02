@@ -15,6 +15,7 @@
 						<ObjectRef Name="Play_Death_Cry" ID="{73C1D3B6-84DF-4834-8FB2-67BA65816D2D}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Pickup_Item" ID="{1BF7DE81-21DD-4880-9D2B-651089A08519}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_DeathWhisleLow" ID="{E2583857-8048-48ED-AB46-406606089EAF}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Goblin_Decay" ID="{7370D543-1732-4937-9FC9-FE6003AB77DD}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GroundSlam" ID="{156CA5F1-0D54-4975-AF58-D2814988E804}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Test" ID="{72C814D5-F2EE-4A26-9D04-DCB4C83E7589}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Goblin_Hit" ID="{88D2793B-0B11-4B43-9418-705193C74F91}" WorkUnitID="{6A2FC12D-59AE-4472-8D05-F70B686FCC05}" Origin="Manual" Filter="7"/>

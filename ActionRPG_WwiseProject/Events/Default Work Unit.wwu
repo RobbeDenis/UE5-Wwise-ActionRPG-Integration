@@ -206,6 +206,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Goblin_Decay" ID="{7370D543-1732-4937-9FC9-FE6003AB77DD}">
+					<ChildrenList>
+						<Action Name="" ID="{720B9DBE-F22A-4C60-BA1A-7A720C262F23}" ShortID="348780997">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Goblin_Decay" ID="{A12FDCD9-DF34-4EDF-8887-263A5F3AB509}" WorkUnitID="{33EB04C2-FDC3-4187-98A6-35A4FFFC187E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
