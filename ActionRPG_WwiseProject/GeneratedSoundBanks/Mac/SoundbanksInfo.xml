@@ -74,7 +74,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{44E1B4BC-7570-DB0C-BC81-BDB0ADBC4A59}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{A58FBC2E-34EF-14B9-5C69-F1B311B84198}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -162,6 +162,10 @@
 				<File Id="189293494" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DeathWhisle-004.wav</ShortName>
 					<CachePath>SFX/DeathWhisle-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="189724693" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_Swing-001.wav</ShortName>
+					<CachePath>SFX/Goblin_Swing-001_10C4C929.wem</CachePath>
 				</File>
 				<File Id="204730486" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Dirt-009.wav</ShortName>
@@ -255,6 +259,10 @@
 					<ShortName>Goblin_Decay-002.wav</ShortName>
 					<CachePath>SFX/Goblin_Decay-002_10C4C929.wem</CachePath>
 				</File>
+				<File Id="462467901" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_Swing-003.wav</ShortName>
+					<CachePath>SFX/Goblin_Swing-003_10C4C929.wem</CachePath>
+				</File>
 				<File Id="462682426" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Water_Impact.wav</ShortName>
 					<CachePath>SFX/Water_Impact_10C4C929.wem</CachePath>
@@ -346,6 +354,10 @@
 				<File Id="683503367" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Shot.wav</ShortName>
 					<CachePath>SFX/Shot_A60E7EF7.wem</CachePath>
+				</File>
+				<File Id="721826048" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goblin_Swing-002.wav</ShortName>
+					<CachePath>SFX/Goblin_Swing-002_10C4C929.wem</CachePath>
 				</File>
 				<File Id="724030898" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Death_Cry.wav</ShortName>
@@ -609,6 +621,23 @@
 						</Custom>
 					</PluginRefs>
 				</Event>
+				<Event Id="1586107112" Name="Play_Goblin_Swing" ObjectPath="\Events\Default Work Unit\Play_Goblin_Swing" GUID="{D2CAE08E-D7CA-4AE1-B9BF-D88B8A9179BB}" DurationType="OneShot" DurationMin="0.6508996" DurationMax="1.122462">
+					<MediaRefs>
+						<MediaRef Id="124337950"/>
+						<MediaRef Id="189724693"/>
+						<MediaRef Id="414075697"/>
+						<MediaRef Id="462467901"/>
+						<MediaRef Id="543332638"/>
+						<MediaRef Id="721826048"/>
+						<MediaRef Id="878471934"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="769512910"/>
+							<PluginRef Id="930266521"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
 				<Event Id="2355713830" Name="Play_Goblin_SwingGrunt" ObjectPath="\Events\Default Work Unit\Play_Goblin_SwingGrunt" GUID="{2E89F717-9215-43A4-ADA0-EC4D34E498A0}" DurationType="OneShot" DurationMin="0.16810793" DurationMax="0.59272546">
 					<MediaRefs>
 						<MediaRef Id="177184956"/>
@@ -758,5 +787,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6EA9E2F3-4A19-9157-1443-2A1F57B73BD9}</FileHash>
+	<FileHash>{D21EEC88-3134-ED2F-348B-7D78FDE53CDA}</FileHash>
 </SoundBanksInfo>

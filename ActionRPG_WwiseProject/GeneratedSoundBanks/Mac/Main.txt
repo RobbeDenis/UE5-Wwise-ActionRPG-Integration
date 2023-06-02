@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	876482232	Play_Pickup_Soul			\Default Work Unit\Play_Pickup_Soul	
 	1055240968	Play_GroundSlam			\Default Work Unit\Play_GroundSlam	
 	1300377404	Play_Goblin_Decay			\Default Work Unit\Play_Goblin_Decay	
+	1586107112	Play_Goblin_Swing			\Default Work Unit\Play_Goblin_Swing	
 	1661060282	Play_DeathWhisleLow			\Default Work Unit\Play_DeathWhisleLow	
 	2355713830	Play_Goblin_SwingGrunt			\Default Work Unit\Play_Goblin_SwingGrunt	
 	2495770949	Play_Death_Cry			\Default Work Unit\Play_Death_Cry	
@@ -59,6 +60,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	160212660	GroundSlam-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\GroundSlam-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Low\GroundSlam-004		255884
 	177184956	Goblin_SwingGrunt-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Goblin_SwingGrunt-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_SwingGrunt\Goblin_SwingGrunt-004		21106
 	189293494	DeathWhisle-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\DeathWhisle-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\RandomDeathWhisle\DeathWhisle-004		270652
+	189724693	Goblin_Swing-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Goblin_Swing-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_Swing\Goblin_Swing-001		66298
 	204730486	FS_Dirt-009	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\FS_Dirt-009_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Dirt\FS_Dirt-009		21100
 	214131361	Axe_Woosh-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Axe_Woosh-003_200A8291.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerSwing\Axe_Woosh-003		82770
 	255433557	Grunt_Hit-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Grunt_Hit-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Hit\Grunt_Hit-002		55012
@@ -82,6 +84,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	427702296	FS_Mud-005	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\FS_Mud-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Mud\FS_Mud-005		35228
 	443029432	DeathWhisle-010	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\DeathWhisle-010_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\RandomDeathWhisle\DeathWhisle-010		124164
 	445758644	Goblin_Decay-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Goblin_Decay-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_Decay\Goblin_Decay-002		217156
+	462467901	Goblin_Swing-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Goblin_Swing-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_Swing\Goblin_Swing-003		66298
 	462682426	Water_Impact	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Water_Impact_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Impact\Water_Impact		282050
 	463423689	Fire_campfire_looped_03	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Fire_campfire_looped_38EB4FBD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Campfire\Fire_campfire_looped_03		1095524
 	468771132	GroundSlam-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\GroundSlam-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Low\GroundSlam-002		243294
@@ -105,6 +108,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	659526418	FS_Mud-008	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\FS_Mud-008_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Mud\FS_Mud-008		36612
 	662637876	DeathWhisle-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\DeathWhisle-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\RandomDeathWhisle\DeathWhisle-002		106556
 	683503367	Shot	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Shot_A60E7EF7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shot		175876
+	721826048	Goblin_Swing-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Goblin_Swing-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_Swing\Goblin_Swing-002		71866
 	724030898	Death_Cry	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\Death_Cry_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Death_Cry		467556
 	724375867	FS_Stone-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\FS_Stone-004_160E022F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\FS_Stone-004		17788
 	730473686	FS_Sand-003	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Mac\SFX\FS_Sand-003_B1DCDBD2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-003		20486

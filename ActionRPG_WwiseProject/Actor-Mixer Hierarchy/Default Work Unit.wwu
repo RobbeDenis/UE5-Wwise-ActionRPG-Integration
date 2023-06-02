@@ -2474,7 +2474,7 @@
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2915,6 +2915,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Goblin_SwingGrunt" ID="{5BF76CF0-6091-4CEB-AC47-F3CAF40797B5}" ShortID="96359504">
 							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -3339,6 +3340,105 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Goblin_Decay-004" ID="{1FA98D3F-780E-4ED0-9C91-1E4F18F2181C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Goblin_Swing" ID="{574D7CDB-6712-4D5A-A791-6304BE31F830}" ShortID="226259617">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>29</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A66563E4-29B6-4BCC-A10C-E9A6133EBD2D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-20"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Goblin_Swing-001" ID="{4D5827B7-62FA-44E4-97B2-582A6C54A208}" ShortID="299306742">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Goblin_Swing-001" ID="{624B7A05-53B5-4C7D-B0A5-6CD1CB43C2D0}">
+											<Language>SFX</Language>
+											<AudioFile>Goblin_Swing-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="189724693"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Goblin_Swing-001" ID="{624B7A05-53B5-4C7D-B0A5-6CD1CB43C2D0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Goblin_Swing-002" ID="{03280353-E487-4E6C-9ED6-99338173E920}" ShortID="1043210270">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Goblin_Swing-002" ID="{D304EB8A-DD1F-4596-B164-707E0F09D64F}">
+											<Language>SFX</Language>
+											<AudioFile>Goblin_Swing-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="721826048"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Goblin_Swing-002" ID="{D304EB8A-DD1F-4596-B164-707E0F09D64F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Goblin_Swing-003" ID="{A8048524-4568-400B-8B5A-C7FFEDBBDAD6}" ShortID="164841580">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Goblin_Swing-003" ID="{B2A481A8-D075-4539-9654-B76C474643A0}">
+											<Language>SFX</Language>
+											<AudioFile>Goblin_Swing-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="462467901"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Goblin_Swing-003" ID="{B2A481A8-D075-4539-9654-B76C474643A0}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

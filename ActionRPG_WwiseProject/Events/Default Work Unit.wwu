@@ -217,6 +217,24 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Goblin_Swing" ID="{D2CAE08E-D7CA-4AE1-B9BF-D88B8A9179BB}">
+					<ChildrenList>
+						<Action Name="" ID="{7AC823BA-5132-4564-A860-52A88CE7EC83}" ShortID="814590907">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Goblin_Swing" ID="{574D7CDB-6712-4D5A-A791-6304BE31F830}" WorkUnitID="{33EB04C2-FDC3-4187-98A6-35A4FFFC187E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{745DB1BC-BD48-428E-862B-20011986302A}" ShortID="457110542">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Goblin_HitGrunt" ID="{8793827E-DD5C-4AFB-BD77-3351E81E0CEF}" WorkUnitID="{33EB04C2-FDC3-4187-98A6-35A4FFFC187E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

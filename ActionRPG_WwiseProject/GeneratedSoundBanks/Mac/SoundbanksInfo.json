@@ -210,7 +210,7 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{44E1B4BC-7570-DB0C-BC81-BDB0ADBC4A59}",
+    "Hash": "{A58FBC2E-34EF-14B9-5C69-F1B311B84198}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -382,6 +382,14 @@
       "Location": "Memory",
       "ShortName": "DeathWhisle-004.wav",
       "CachePath": "SFX/DeathWhisle-004_10C4C929.wem"
+     },
+     {
+      "Id": "189724693",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Goblin_Swing-001.wav",
+      "CachePath": "SFX/Goblin_Swing-001_10C4C929.wem"
      },
      {
       "Id": "204730486",
@@ -568,6 +576,14 @@
       "CachePath": "SFX/Goblin_Decay-002_10C4C929.wem"
      },
      {
+      "Id": "462467901",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Goblin_Swing-003.wav",
+      "CachePath": "SFX/Goblin_Swing-003_10C4C929.wem"
+     },
+     {
       "Id": "462682426",
       "Language": "SFX",
       "Streaming": "false",
@@ -750,6 +766,14 @@
       "Location": "Memory",
       "ShortName": "Shot.wav",
       "CachePath": "SFX/Shot_A60E7EF7.wem"
+     },
+     {
+      "Id": "721826048",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Goblin_Swing-002.wav",
+      "CachePath": "SFX/Goblin_Swing-002_10C4C929.wem"
      },
      {
       "Id": "724030898",
@@ -1372,6 +1396,48 @@
       }
      },
      {
+      "Id": "1586107112",
+      "Name": "Play_Goblin_Swing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Goblin_Swing",
+      "GUID": "{D2CAE08E-D7CA-4AE1-B9BF-D88B8A9179BB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6508996",
+      "DurationMax": "1.122462",
+      "MediaRefs": [
+       {
+        "Id": "124337950"
+       },
+       {
+        "Id": "189724693"
+       },
+       {
+        "Id": "414075697"
+       },
+       {
+        "Id": "462467901"
+       },
+       {
+        "Id": "543332638"
+       },
+       {
+        "Id": "721826048"
+       },
+       {
+        "Id": "878471934"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "769512910"
+        },
+        {
+         "Id": "930266521"
+        }
+       ]
+      }
+     },
+     {
       "Id": "2355713830",
       "Name": "Play_Goblin_SwingGrunt",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Goblin_SwingGrunt",
@@ -1771,6 +1837,6 @@
     ]
    }
   ],
-  "FileHash": "{106352AA-2E2A-1C4B-448D-957AC0543FCC}"
+  "FileHash": "{7194C9A2-5707-DE1C-BB89-BBA45CB0A357}"
  }
 }
