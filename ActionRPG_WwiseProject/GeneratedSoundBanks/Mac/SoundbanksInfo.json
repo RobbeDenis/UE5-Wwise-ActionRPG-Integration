@@ -210,7 +210,7 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{C81DC49F-8BC4-76B9-5A4E-9C76574FE812}",
+    "Hash": "{8B39F9E6-9022-7076-F860-5C44F97D161B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -294,6 +294,14 @@
       "Location": "Memory",
       "ShortName": "GroundSlam-001.wav",
       "CachePath": "SFX/GroundSlam-001_10C4C929.wem"
+     },
+     {
+      "Id": "145900662",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Stone-003.wav",
+      "CachePath": "SFX/FS_Stone-003_10C4C929.wem"
      },
      {
       "Id": "150671417",
@@ -536,6 +544,14 @@
       "CachePath": "SFX/FS_Sand-005_975436C1.wem"
      },
      {
+      "Id": "542846243",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Stone-002.wav",
+      "CachePath": "SFX/FS_Stone-002_10C4C929.wem"
+     },
+     {
       "Id": "543332638",
       "Language": "SFX",
       "Streaming": "false",
@@ -550,6 +566,14 @@
       "Location": "Memory",
       "ShortName": "Rock_Impact_Tail.wav",
       "CachePath": "SFX/Rock_Impact_Tail_10C4C929.wem"
+     },
+     {
+      "Id": "592633598",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Stone-001.wav",
+      "CachePath": "SFX/FS_Stone-001_ADCE41BB.wem"
      },
      {
       "Id": "594466621",
@@ -616,6 +640,14 @@
       "CachePath": "SFX/Death_Cry_10C4C929.wem"
      },
      {
+      "Id": "724375867",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Stone-004.wav",
+      "CachePath": "SFX/FS_Stone-004_160E022F.wem"
+     },
+     {
       "Id": "730473686",
       "Language": "SFX",
       "Streaming": "false",
@@ -632,6 +664,14 @@
       "CachePath": "SFX/Axe_Woosh-001_60014CC6.wem"
      },
      {
+      "Id": "758842263",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Stone-006.wav",
+      "CachePath": "SFX/FS_Stone-006_10C4C929.wem"
+     },
+     {
       "Id": "762810824",
       "Language": "SFX",
       "Streaming": "false",
@@ -646,6 +686,14 @@
       "Location": "Memory",
       "ShortName": "FS_Sand-002.wav",
       "CachePath": "SFX/FS_Sand-002_0DCFD865.wem"
+     },
+     {
+      "Id": "781763137",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Stone-005.wav",
+      "CachePath": "SFX/FS_Stone-005_10C4C929.wem"
      },
      {
       "Id": "782509230",
@@ -953,6 +1001,34 @@
          },
          {
           "Id": "876443643"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "1216965916",
+         "GUID": "{81127D2F-33FA-4645-B673-AAE14C0A3834}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "145900662"
+         },
+         {
+          "Id": "542846243"
+         },
+         {
+          "Id": "592633598"
+         },
+         {
+          "Id": "724375867"
+         },
+         {
+          "Id": "758842263"
+         },
+         {
+          "Id": "781763137"
          }
         ]
        },
@@ -1431,6 +1507,6 @@
     ]
    }
   ],
-  "FileHash": "{6E58F514-CF2B-FBC4-A0BB-625339381F17}"
+  "FileHash": "{B1F80937-6BFA-916D-56C1-FE89391BEC8E}"
  }
 }
