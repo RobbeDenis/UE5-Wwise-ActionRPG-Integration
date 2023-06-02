@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{9BB6D6E7-AC9F-E6F2-2F1D-50DA19271427}",
+    "Hash": "{306252C6-A5D1-A08B-EE87-EE358779BD8A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "FS_Mud-001.wav",
       "CachePath": "SFX/FS_Mud-001_10C4C929.wem"
+     },
+     {
+      "Id": "13507026",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Water-006.wav",
+      "CachePath": "SFX/FS_Water-006_10C4C929.wem"
      },
      {
       "Id": "13622979",
@@ -304,6 +312,14 @@
       "CachePath": "SFX/Goblin_HitGrunt-001_10C4C929.wem"
      },
      {
+      "Id": "419227717",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Water-004.wav",
+      "CachePath": "SFX/FS_Water-004_10C4C929.wem"
+     },
+     {
       "Id": "424450536",
       "Language": "SFX",
       "Streaming": "false",
@@ -373,7 +389,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Sand-005.wav",
-      "CachePath": "SFX/FS_Sand-005_975436C1.wem"
+      "CachePath": "SFX/FS_Sand-005_4A289AFC.wem"
      },
      {
       "Id": "542846243",
@@ -424,12 +440,20 @@
       "CachePath": "SFX/FS_Dirt-007_4E8974D4.wem"
      },
      {
+      "Id": "620944675",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Water-005.wav",
+      "CachePath": "SFX/FS_Water-005_10C4C929.wem"
+     },
+     {
       "Id": "621236505",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Sand-001.wav",
-      "CachePath": "SFX/FS_Sand-001_10C4C929.wem"
+      "CachePath": "SFX/FS_Sand-001_61907A29.wem"
      },
      {
       "Id": "631851801",
@@ -438,6 +462,30 @@
       "Location": "Memory",
       "ShortName": "Goblin_Hit-001.wav",
       "CachePath": "SFX/Goblin_Hit-001_10C4C929.wem"
+     },
+     {
+      "Id": "649258087",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Water-003.wav",
+      "CachePath": "SFX/FS_Water-003_10C4C929.wem"
+     },
+     {
+      "Id": "651963081",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Water-001.wav",
+      "CachePath": "SFX/FS_Water-001_10C4C929.wem"
+     },
+     {
+      "Id": "653165354",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Water-002.wav",
+      "CachePath": "SFX/FS_Water-002_10C4C929.wem"
      },
      {
       "Id": "655223332",
@@ -493,7 +541,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Sand-003.wav",
-      "CachePath": "SFX/FS_Sand-003_EE252982.wem"
+      "CachePath": "SFX/FS_Sand-003_B1DCDBD2.wem"
      },
      {
       "Id": "739363478",
@@ -533,7 +581,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Sand-002.wav",
-      "CachePath": "SFX/FS_Sand-002_0DCFD865.wem"
+      "CachePath": "SFX/FS_Sand-002_13A9FB88.wem"
      },
      {
       "Id": "781763137",
@@ -615,7 +663,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Sand-004.wav",
-      "CachePath": "SFX/FS_Sand-004_AC4E9533.wem"
+      "CachePath": "SFX/FS_Sand-004_E11650A8.wem"
      },
      {
       "Id": "877945358",
@@ -856,8 +904,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
       "GUID": "{F60C7D25-F5E7-44EC-BE4C-3BC28FC88BC2}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0.4462676",
+      "DurationMin": "0.083329104",
+      "DurationMax": "0.5627924",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -909,6 +957,34 @@
          },
          {
           "Id": "781763137"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "2654748154",
+         "GUID": "{B9EA5374-CA9F-4D4B-A504-D33B42796948}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "13507026"
+         },
+         {
+          "Id": "419227717"
+         },
+         {
+          "Id": "620944675"
+         },
+         {
+          "Id": "649258087"
+         },
+         {
+          "Id": "651963081"
+         },
+         {
+          "Id": "653165354"
          }
         ]
        },
@@ -1139,6 +1215,19 @@
          "Id": "2195636714",
          "GUID": "{D63A2816-2BF5-4E43-96BF-92ADF5EFD709}",
          "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "587868897"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3257506471",
+         "Id": "2654748154",
+         "GUID": "{76A15951-554F-417A-B26F-034713D0CAB1}"
         },
         "MediaRefs": [
          {
@@ -1427,6 +1516,6 @@
     ]
    }
   ],
-  "FileHash": "{241FA208-F0D4-3BD3-6584-E9906E5E8365}"
+  "FileHash": "{93A1DA62-E21B-5DDA-D45E-B72E65BC5B51}"
  }
 }

@@ -497,6 +497,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="FS_Sand-001" ID="{8ECE2774-9151-4D28-B7BC-228CEB4E9B98}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0239195261437909"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>FS_Sand-001.wav</AudioFile>
 													<MediaIDList>
@@ -520,9 +524,8 @@
 											<ChildrenList>
 												<AudioFileSource Name="FS_Sand-002" ID="{629A240B-6311-4AAC-9D43-95A990CBCFA6}">
 													<PropertyList>
-														<Property Name="LoopBegin" Type="Real64" Value="0.0547273230279766"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.0547273230279766"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0864897594840406"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>FS_Sand-002.wav</AudioFile>
@@ -547,9 +550,8 @@
 											<ChildrenList>
 												<AudioFileSource Name="FS_Sand-003" ID="{9EB34D23-6D4A-429D-AAC3-1537DDDD96B2}">
 													<PropertyList>
-														<Property Name="LoopBegin" Type="Real64" Value="0.0511656514457635"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.0511656514457635"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0591521710536066"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>FS_Sand-003.wav</AudioFile>
@@ -575,7 +577,7 @@
 												<AudioFileSource Name="FS_Sand-004" ID="{A2DE5935-4958-4FCF-8E6E-63B48D1EBBEB}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.0903196834289271"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.103847710843597"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>FS_Sand-004.wav</AudioFile>
@@ -600,9 +602,8 @@
 											<ChildrenList>
 												<AudioFileSource Name="FS_Sand-005" ID="{828ACA43-5552-4021-927B-4C031154B79B}">
 													<PropertyList>
-														<Property Name="LoopBegin" Type="Real64" Value="0.0337604671498229"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.0337604671498229"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0501881632282542"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>FS_Sand-005.wav</AudioFile>
@@ -889,6 +890,22 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Water" ID="{8208ABB0-CCDB-4AFC-9E91-E29A97D38E4F}" ShortID="6727566">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3F667E3A-F1F1-4240-8579-3BA83835304B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="60"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
@@ -897,6 +914,140 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FS_Water-001" ID="{0D0A50C0-9800-411E-8AAE-A819DF2CA50A}" ShortID="103475061">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Water-001" ID="{837EFAF3-E875-4236-94A9-42C839DA606E}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Water-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="651963081"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Water-001" ID="{837EFAF3-E875-4236-94A9-42C839DA606E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Water-002" ID="{F8E82B70-7805-440D-955D-A6366A1DD941}" ShortID="22919539">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Water-002" ID="{B911D36F-0B41-49C0-9FCA-289A58A38893}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Water-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="653165354"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Water-002" ID="{B911D36F-0B41-49C0-9FCA-289A58A38893}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Water-003" ID="{B23A8FD5-9D2F-4C66-922E-28391A331B1B}" ShortID="1041269877">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Water-003" ID="{4B4F1E77-84D4-4657-A6EF-7EA93708FA62}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Water-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="649258087"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Water-003" ID="{4B4F1E77-84D4-4657-A6EF-7EA93708FA62}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Water-004" ID="{33993D74-CEC0-4F70-9C89-795D4094AE4B}" ShortID="248589968">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Water-004" ID="{15A8AC45-B4AA-4275-8DA0-B308941B3C2C}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Water-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="419227717"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Water-004" ID="{15A8AC45-B4AA-4275-8DA0-B308941B3C2C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Water-005" ID="{FCCF7A7E-76C4-48E9-B46A-F401C77470C8}" ShortID="347766363">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Water-005" ID="{316CD368-FF55-49FD-9309-2BA536958739}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Water-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="620944675"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Water-005" ID="{316CD368-FF55-49FD-9309-2BA536958739}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Water-006" ID="{B756CC2E-3018-4FEC-B6AD-1C50DC63ACE3}" ShortID="404698259">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Water-006" ID="{57F694D6-FF97-4D21-B73D-B2A04450D800}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Water-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="13507026"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Water-006" ID="{57F694D6-FF97-4D21-B73D-B2A04450D800}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Mud" ID="{1F4834C7-4A37-4B7B-B50B-1991DB0F8B9D}" ShortID="1072471066">
 									<PropertyList>
@@ -1508,6 +1659,11 @@
 								<SwitchContainer Name="GroundSlam_Impact" ID="{ED36791B-9F8D-4B9A-BFD5-B4DE1352B50E}" ShortID="47031437">
 									<PropertyList>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1601,13 +1757,6 @@
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="GroundSlam_Tail" ID="{6D59217E-7544-44ED-98EE-CD1FF5F9A012}" ShortID="872762317">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-11</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
@@ -1655,6 +1804,12 @@
 										<GroupingList>
 											<Grouping>
 												<SwitchRef Name="Dirt" ID="{D63A2816-2BF5-4E43-96BF-92ADF5EFD709}"/>
+												<ItemList>
+													<ItemRef Name="Rock_Impact_Tail" ID="{2ED93A60-3D7D-4EED-B2BA-B2DDBC9AD81A}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Water" ID="{76A15951-554F-417A-B26F-034713D0CAB1}"/>
 												<ItemList>
 													<ItemRef Name="Rock_Impact_Tail" ID="{2ED93A60-3D7D-4EED-B2BA-B2DDBC9AD81A}"/>
 												</ItemList>

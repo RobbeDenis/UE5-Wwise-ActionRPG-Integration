@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{9BB6D6E7-AC9F-E6F2-2F1D-50DA19271427}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{306252C6-A5D1-A08B-EE87-EE358779BD8A}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -9,6 +9,10 @@
 				<File Id="8507209" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Mud-001.wav</ShortName>
 					<CachePath>SFX/FS_Mud-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="13507026" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Water-006.wav</ShortName>
+					<CachePath>SFX/FS_Water-006_10C4C929.wem</CachePath>
 				</File>
 				<File Id="13622979" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grunt_Hit-003.wav</ShortName>
@@ -150,6 +154,10 @@
 					<ShortName>Goblin_HitGrunt-001.wav</ShortName>
 					<CachePath>SFX/Goblin_HitGrunt-001_10C4C929.wem</CachePath>
 				</File>
+				<File Id="419227717" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Water-004.wav</ShortName>
+					<CachePath>SFX/FS_Water-004_10C4C929.wem</CachePath>
+				</File>
 				<File Id="424450536" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Roll-002.wav</ShortName>
 					<CachePath>SFX/Roll-002_10C4C929.wem</CachePath>
@@ -184,7 +192,7 @@
 				</File>
 				<File Id="515498122" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-005.wav</ShortName>
-					<CachePath>SFX/FS_Sand-005_975436C1.wem</CachePath>
+					<CachePath>SFX/FS_Sand-005_4A289AFC.wem</CachePath>
 				</File>
 				<File Id="542846243" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Stone-002.wav</ShortName>
@@ -210,13 +218,29 @@
 					<ShortName>FS_Dirt-007.wav</ShortName>
 					<CachePath>SFX/FS_Dirt-007_4E8974D4.wem</CachePath>
 				</File>
+				<File Id="620944675" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Water-005.wav</ShortName>
+					<CachePath>SFX/FS_Water-005_10C4C929.wem</CachePath>
+				</File>
 				<File Id="621236505" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-001.wav</ShortName>
-					<CachePath>SFX/FS_Sand-001_10C4C929.wem</CachePath>
+					<CachePath>SFX/FS_Sand-001_61907A29.wem</CachePath>
 				</File>
 				<File Id="631851801" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Goblin_Hit-001.wav</ShortName>
 					<CachePath>SFX/Goblin_Hit-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="649258087" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Water-003.wav</ShortName>
+					<CachePath>SFX/FS_Water-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="651963081" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Water-001.wav</ShortName>
+					<CachePath>SFX/FS_Water-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="653165354" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Water-002.wav</ShortName>
+					<CachePath>SFX/FS_Water-002_10C4C929.wem</CachePath>
 				</File>
 				<File Id="655223332" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Axe_Woosh-004.wav</ShortName>
@@ -244,7 +268,7 @@
 				</File>
 				<File Id="730473686" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-003.wav</ShortName>
-					<CachePath>SFX/FS_Sand-003_EE252982.wem</CachePath>
+					<CachePath>SFX/FS_Sand-003_B1DCDBD2.wem</CachePath>
 				</File>
 				<File Id="739363478" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Axe_Woosh-001.wav</ShortName>
@@ -264,7 +288,7 @@
 				</File>
 				<File Id="767676742" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-002.wav</ShortName>
-					<CachePath>SFX/FS_Sand-002_0DCFD865.wem</CachePath>
+					<CachePath>SFX/FS_Sand-002_13A9FB88.wem</CachePath>
 				</File>
 				<File Id="781763137" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Stone-005.wav</ShortName>
@@ -306,7 +330,7 @@
 				</File>
 				<File Id="876443643" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-004.wav</ShortName>
-					<CachePath>SFX/FS_Sand-004_AC4E9533.wem</CachePath>
+					<CachePath>SFX/FS_Sand-004_E11650A8.wem</CachePath>
 				</File>
 				<File Id="877945358" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fire_campfire_looped.wav</ShortName>
@@ -404,7 +428,7 @@
 						<MediaRef Id="797124082"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" GUID="{F60C7D25-F5E7-44EC-BE4C-3BC28FC88BC2}" DurationType="OneShot" DurationMin="0" DurationMax="0.4462676">
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" GUID="{F60C7D25-F5E7-44EC-BE4C-3BC28FC88BC2}" DurationType="OneShot" DurationMin="0.083329104" DurationMax="0.5627924">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="803837735" GUID="{07261111-85DA-4848-9D5C-4590F83E2574}"/>
@@ -425,6 +449,17 @@
 								<MediaRef Id="724375867"/>
 								<MediaRef Id="758842263"/>
 								<MediaRef Id="781763137"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2654748154" GUID="{B9EA5374-CA9F-4D4B-A504-D33B42796948}"/>
+							<MediaRefs>
+								<MediaRef Id="13507026"/>
+								<MediaRef Id="419227717"/>
+								<MediaRef Id="620944675"/>
+								<MediaRef Id="649258087"/>
+								<MediaRef Id="651963081"/>
+								<MediaRef Id="653165354"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
@@ -515,6 +550,12 @@
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3257506471" Id="2195636714" GUID="{D63A2816-2BF5-4E43-96BF-92ADF5EFD709}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="587868897"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3257506471" Id="2654748154" GUID="{76A15951-554F-417A-B26F-034713D0CAB1}"/>
 							<MediaRefs>
 								<MediaRef Id="587868897"/>
 							</MediaRefs>
@@ -620,5 +661,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1971CFA5-4B4F-88D0-ADD4-3D6E5E021A06}</FileHash>
+	<FileHash>{346307E6-2E11-B3BC-346C-A222927BC39E}</FileHash>
 </SoundBanksInfo>
