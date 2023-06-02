@@ -83,7 +83,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{9B148E24-81F1-0706-FECF-81E922F87FED}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{06425207-D205-5B68-FD7C-B474FD63C0EA}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -891,6 +891,9 @@
 				</Event>
 				<Event Id="2837384057" Name="Stop_Music" ObjectPath="\Events\Default Work Unit\Stop_Music" GUID="{0296327F-F16E-41CC-AE60-3798B1512ACC}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="215992295" Name="Player_Health" ObjectPath="\Game Parameters\Default Work Unit\Player_Health" GUID="{076122B2-10D5-4975-8283-FB2CEF599DE9}"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="1834394558" Name="Surface" ObjectPath="\Switches\Default Work Unit\Surface" GUID="{DAA0AC4F-CD6C-4725-9736-F10D4275C9F1}">
 					<Switches>
@@ -911,5 +914,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D03C3079-AE53-8C18-747B-7014050E854D}</FileHash>
+	<FileHash>{FC834F11-28E4-F14E-B521-6CBDD633AFB1}</FileHash>
 </SoundBanksInfo>

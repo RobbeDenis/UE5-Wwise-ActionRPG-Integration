@@ -34,6 +34,9 @@ Switch	ID	Name	Switch Group			Notes
 	2195636714	Dirt	Impact			
 	2654748154	Water	Impact			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	215992295	Player_Health			\Default Work Unit\Player_Health	
+
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	257343408	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\Silence-01\Silence	
 	518936202	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\Silence-02\Silence	
