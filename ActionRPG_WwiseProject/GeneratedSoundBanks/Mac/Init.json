@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{47215EE6-669D-D22A-59F9-EF5802715D3B}",
+    "Hash": "{49B459F5-8A2D-A5AD-B690-AE0181C2353B}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -58,6 +58,12 @@
       "Name": "Gameplay",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Gameplay",
       "GUID": "{35710773-A672-49E3-94CD-FEE992734CDD}"
+     },
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Gameplay\\Footsteps",
+      "GUID": "{D3922855-B1DF-4A12-BDBD-2624D52D5A17}"
      },
      {
       "Id": "3803692087",
@@ -134,6 +140,32 @@
         "GUID": "{62F92134-CF67-4E1E-A09C-D3C97E49AA30}"
        }
       ]
+     },
+     {
+      "Id": "4276063004",
+      "Name": "Player_FS",
+      "ObjectPath": "\\States\\Default Work Unit\\Player_FS",
+      "GUID": "{E7E2706F-A190-4612-AB2C-0957B7F9F91A}",
+      "States": [
+       {
+        "Id": "712161704",
+        "Name": "Run",
+        "ObjectPath": "\\States\\Default Work Unit\\Player_FS\\Run",
+        "GUID": "{00BE85AA-55D1-47BF-823F-011BEF8D49EB}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Player_FS\\None",
+        "GUID": "{C278E887-E12C-4442-8F65-38CEB540DE16}"
+       },
+       {
+        "Id": "2108779966",
+        "Name": "Walk",
+        "ObjectPath": "\\States\\Default Work Unit\\Player_FS\\Walk",
+        "GUID": "{E7F5507F-2175-427C-BAAF-8AE08DCFB3B3}"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -204,6 +236,6 @@
     ]
    }
   ],
-  "FileHash": "{2C524D28-3F22-03E0-2F08-CF207CFB3318}"
+  "FileHash": "{F3CB30C8-6021-81E2-03CF-A54BCEC9EFA4}"
  }
 }

@@ -1,16 +1,23 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	1069431850	Player			\Default Work Unit\Player	
+	4276063004	Player_FS			\Default Work Unit\Player_FS	
 
 State	ID	Name	State Group			Notes
 	655265632	Alive	Player			
 	748895195	None	Player			
 	2044049779	Dead	Player			
+	3552757243	Away	Player			
+	712161704	Run	Player_FS			
+	748895195	None	Player_FS			
+	2108779966	Walk	Player_FS			
 
 Custom State	ID	Name	State Group	Owner		Notes
 	360277910	Dead	Player	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Gameplay		
+	425001062	Walk	Player_FS	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Gameplay\Footsteps		
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	89505537	Gameplay			\Default Work Unit\Master Audio Bus\Gameplay	
+	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\Gameplay\Footsteps	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes

@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{55A8B452-780A-F354-2D4B-3DA7689F1752}",
+    "Hash": "{907780EB-B9AA-F69A-8092-72201AD5C665}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -66,6 +66,12 @@
       "Name": "Gameplay",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Gameplay",
       "GUID": "{35710773-A672-49E3-94CD-FEE992734CDD}"
+     },
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Gameplay\\Footsteps",
+      "GUID": "{D3922855-B1DF-4A12-BDBD-2624D52D5A17}"
      },
      {
       "Id": "3803692087",
@@ -142,6 +148,32 @@
         "GUID": "{62F92134-CF67-4E1E-A09C-D3C97E49AA30}"
        }
       ]
+     },
+     {
+      "Id": "4276063004",
+      "Name": "Player_FS",
+      "ObjectPath": "\\States\\Default Work Unit\\Player_FS",
+      "GUID": "{E7E2706F-A190-4612-AB2C-0957B7F9F91A}",
+      "States": [
+       {
+        "Id": "712161704",
+        "Name": "Run",
+        "ObjectPath": "\\States\\Default Work Unit\\Player_FS\\Run",
+        "GUID": "{00BE85AA-55D1-47BF-823F-011BEF8D49EB}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Player_FS\\None",
+        "GUID": "{C278E887-E12C-4442-8F65-38CEB540DE16}"
+       },
+       {
+        "Id": "2108779966",
+        "Name": "Walk",
+        "ObjectPath": "\\States\\Default Work Unit\\Player_FS\\Walk",
+        "GUID": "{E7F5507F-2175-427C-BAAF-8AE08DCFB3B3}"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -216,7 +248,7 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{6BDCD7B8-04C3-BDC0-048B-0C5914EF718F}",
+    "Hash": "{9B148E24-81F1-0706-FECF-81E922F87FED}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -2104,6 +2136,6 @@
     ]
    }
   ],
-  "FileHash": "{23C7495A-EBEF-A1CE-8685-83C6F420268C}"
+  "FileHash": "{6DB8AC3A-1146-010E-0E69-9084F4B6FAC5}"
  }
 }

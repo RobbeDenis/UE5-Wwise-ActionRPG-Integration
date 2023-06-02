@@ -26,6 +26,30 @@
 										</Reference>
 									</ReferenceList>
 								</AuxBus>
+								<Bus Name="Footsteps" ID="{D3922855-B1DF-4A12-BDBD-2624D52D5A17}">
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Player_FS" ID="{E7E2706F-A190-4612-AB2C-0957B7F9F91A}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Walk" ID="{E7F5507F-2175-427C-BAAF-8AE08DCFB3B3}"/>
+												<CustomState Name="" ID="{3458BD5D-5C16-47C1-847F-A8C4B0B3CCCB}" ShortID="425001062">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-2"/>
+														<Property Name="Highpass" Type="int16" Value="25"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Run" ID="{00BE85AA-55D1-47BF-823F-011BEF8D49EB}"/>
+												<CustomState Name="" ID="{FBD84F18-A0FF-4794-8FB8-0EFA08D0A40E}" ShortID="986134140"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
 							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>

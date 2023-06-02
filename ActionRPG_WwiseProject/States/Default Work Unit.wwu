@@ -25,6 +25,16 @@
 						</Transition>
 					</TransitionList>
 				</StateGroup>
+				<StateGroup Name="Player_FS" ID="{E7E2706F-A190-4612-AB2C-0957B7F9F91A}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{C278E887-E12C-4442-8F65-38CEB540DE16}"/>
+						<State Name="Walk" ID="{E7F5507F-2175-427C-BAAF-8AE08DCFB3B3}"/>
+						<State Name="Run" ID="{00BE85AA-55D1-47BF-823F-011BEF8D49EB}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

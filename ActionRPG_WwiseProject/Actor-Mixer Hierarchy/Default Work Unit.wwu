@@ -446,11 +446,7 @@
 						<SwitchContainer Name="Footsteps" ID="{69C8AF63-68D1-4FEB-BAA6-D41270CEE3BE}" ShortID="713270333">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
-								<Property Name="Highpass" Type="int16">
-									<ValueList>
-										<Value>10</Value>
-									</ValueList>
-								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -461,7 +457,7 @@
 									<ObjectRef Name="Dirt" ID="{99AE1BB1-0840-4DA3-8906-184B4A011CBE}" WorkUnitID="{A0404599-0CB4-46FE-92E6-B5F3C8CE9CEA}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Gameplay" ID="{35710773-A672-49E3-94CD-FEE992734CDD}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+									<ObjectRef Name="Footsteps" ID="{D3922855-B1DF-4A12-BDBD-2624D52D5A17}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
 								</Reference>
 								<Reference Name="SwitchGroupOrStateGroup">
 									<ObjectRef Name="Surface" ID="{DAA0AC4F-CD6C-4725-9736-F10D4275C9F1}" WorkUnitID="{A0404599-0CB4-46FE-92E6-B5F3C8CE9CEA}"/>
@@ -2810,7 +2806,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
