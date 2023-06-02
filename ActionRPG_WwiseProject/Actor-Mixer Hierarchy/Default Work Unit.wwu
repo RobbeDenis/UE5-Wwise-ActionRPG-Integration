@@ -899,6 +899,27 @@
 									</ReferenceList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Mud" ID="{1F4834C7-4A37-4B7B-B50B-1991DB0F8B9D}" ShortID="1072471066">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8779C22D-9647-4FE8-A5C5-4F227050AC3F}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="30"/>
+															<Property Name="Min" Type="Real64" Value="-70"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
@@ -907,9 +928,232 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FS_Mud-001" ID="{05036EEA-0B34-4B0A-B678-9BB2E0902889}" ShortID="261241643">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Mud-001" ID="{A7418259-7A43-4400-9F98-EE12A441701F}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Mud-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="8507209"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Mud-001" ID="{A7418259-7A43-4400-9F98-EE12A441701F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Mud-002" ID="{EE190307-45DA-481B-8959-D8B9B4A0BB9E}" ShortID="973363840">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Mud-002" ID="{1B78312A-162B-4EBD-8783-CDC95E18374A}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Mud-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="964787260"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Mud-002" ID="{1B78312A-162B-4EBD-8783-CDC95E18374A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Mud-003" ID="{DB9447FD-8C07-45A6-95CF-95E12A8D7C84}" ShortID="1039094085">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Mud-003" ID="{169F833E-71FE-448D-9E78-23987339CE53}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Mud-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="866098930"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Mud-003" ID="{169F833E-71FE-448D-9E78-23987339CE53}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Mud-004" ID="{B1A8FF4D-E170-4348-AB0D-C18CB139A4BC}" ShortID="759227421">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Mud-004" ID="{28D27CC5-3134-47B0-BB6C-8E131E022812}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Mud-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="908841761"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Mud-004" ID="{28D27CC5-3134-47B0-BB6C-8E131E022812}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Mud-005" ID="{2B4E7CBE-FA74-4AD1-BF75-99E9D4A31280}" ShortID="465089235">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Mud-005" ID="{226651FB-B260-4D21-807C-93B8913A5532}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Mud-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="427702296"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Mud-005" ID="{226651FB-B260-4D21-807C-93B8913A5532}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Mud-006" ID="{4C9E14C6-4EB0-43E0-BF4F-4E64EFC03015}" ShortID="1070685926">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Mud-006" ID="{815B3747-257C-4285-9813-C41FAB76CA0B}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Mud-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="494478198"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Mud-006" ID="{815B3747-257C-4285-9813-C41FAB76CA0B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Mud-007" ID="{DB70456A-D33E-4F6A-BC6B-5F1A88C5DA2C}" ShortID="445280213">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Mud-007" ID="{23C79DE1-28FB-4D02-A5C3-95D0B21EAAF7}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Mud-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="917990580"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Mud-007" ID="{23C79DE1-28FB-4D02-A5C3-95D0B21EAAF7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Mud-008" ID="{412E49C6-DAA3-41B7-AEFC-DD6BBDFC484D}" ShortID="584638222">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Mud-008" ID="{DAF07FC9-A220-4B5F-A1FC-8A89AC7DD3EE}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Mud-008.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="659526418"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Mud-008" ID="{DAF07FC9-A220-4B5F-A1FC-8A89AC7DD3EE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Mud-009" ID="{2479877C-04BD-4F3C-85AD-9D5443C51BB6}" ShortID="422916133">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Mud-009" ID="{65246D20-D6CB-44FB-A66C-605DB2CA4E0D}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Mud-009.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="757688265"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Mud-009" ID="{65246D20-D6CB-44FB-A66C-605DB2CA4E0D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Mud-010" ID="{3173E413-6BAA-40E1-9726-16B585D71D87}" ShortID="983955276">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8AA05FA-6217-4813-BF82-4A2E7143F06B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E179F03-6D80-4050-9752-3D4D5F1F45F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Mud-010" ID="{69B8906F-5736-4635-940A-B72731C80E53}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Mud-010.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="281993574"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Mud-010" ID="{69B8906F-5736-4635-940A-B72731C80E53}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Stone" ID="{8CB859CC-EF63-4C58-A3BB-CAB7D71D1A24}" ShortID="291648639">
 									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
