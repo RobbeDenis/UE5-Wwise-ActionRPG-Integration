@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{907780EB-B9AA-F69A-8092-72201AD5C665}",
+    "Hash": "{7E1EB820-10B8-2F96-4029-BB762A3B1A8A}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -53,6 +53,12 @@
      ]
     },
     "Busses": [
+     {
+      "Id": "77978275",
+      "Name": "Ambient",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient",
+      "GUID": "{49353111-DCF2-4931-A3BD-AF55B89292FA}"
+     },
      {
       "Id": "89505537",
       "Name": "Gameplay",
@@ -236,6 +242,6 @@
     ]
    }
   ],
-  "FileHash": "{A07C62CF-C500-7157-AE12-2847CDF2FA25}"
+  "FileHash": "{E6787972-6218-8E63-3A92-2D9AFA8F5A5D}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{06425207-D205-5B68-FD7C-B474FD63C0EA}",
+    "Hash": "{A3E7B258-E632-BFD4-2B23-64232A7E33C1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -536,6 +536,14 @@
       "CachePath": "SFX/Percussion-002_D79FB2B7.wem"
      },
      {
+      "Id": "584932003",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vocals-005.wav",
+      "CachePath": "SFX/Vocals-005_D79FB2B7.wem"
+     },
+     {
       "Id": "587868897",
       "Language": "SFX",
       "Streaming": "false",
@@ -670,6 +678,14 @@
       "Location": "Memory",
       "ShortName": "Shot.wav",
       "CachePath": "SFX/Shot_DFD1FC30.wem"
+     },
+     {
+      "Id": "692337791",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stinger.wav",
+      "CachePath": "SFX/Stinger_D79FB2B7.wem"
      },
      {
       "Id": "721826048",
@@ -1121,9 +1137,7 @@
       "Name": "Play_DeathWhisleLow",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_DeathWhisleLow",
       "GUID": "{E2583857-8048-48ED-AB46-406606089EAF}",
-      "DurationType": "OneShot",
-      "DurationMin": "154.03534",
-      "DurationMax": "154.03534",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "797124082"
@@ -1641,10 +1655,16 @@
         "Id": "556322199"
        },
        {
+        "Id": "584932003"
+       },
+       {
         "Id": "591263472"
        },
        {
         "Id": "681284662"
+       },
+       {
+        "Id": "692337791"
        },
        {
         "Id": "803295193"
@@ -1903,9 +1923,17 @@
        }
       ]
      }
+    ],
+    "Triggers": [
+     {
+      "Id": "3635630799",
+      "Name": "NewRound",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\NewRound",
+      "GUID": "{FD023478-8280-45E3-AE0A-67A38C4DA27C}"
+     }
     ]
    }
   ],
-  "FileHash": "{12AF77B7-A3D6-EA0B-295B-4B5E1FC40674}"
+  "FileHash": "{7308AFB7-C95F-A63C-5A7C-31286766A776}"
  }
 }

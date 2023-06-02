@@ -37,6 +37,9 @@ Switch	ID	Name	Switch Group			Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	215992295	Player_Health			\Default Work Unit\Player_Health	
 
+Trigger	ID	Name			Wwise Object Path	Notes
+	3635630799	NewRound			\Default Work Unit\NewRound	
+
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	257343408	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\Silence-01\Silence	
 	518936202	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Player\Grunt_Swing\Silence-02\Silence	
@@ -109,6 +112,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	542846243	FS_Stone-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Stone-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\FS_Stone-002		26844
 	543332638	Goblin_HitGrunt-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Goblin_HitGrunt-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_HitGrunt\Goblin_HitGrunt-004		32350
 	556322199	Percussion-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Percussion-002_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Loop\Percussion-001		2304096
+	584932003	Vocals-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Vocals-005_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Loop\Vocals-001		2304096
 	587868897	Rock_Impact_Tail	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Rock_Impact_Tail_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\GroundSlam_Tail\Rock_Impact_Tail		311698
 	591263472	Vocals-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Vocals-002_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Loop\Vocals-001		2277732
 	592633598	FS_Stone-001	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Stone-001_F005B686.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\FS_Stone-001		18818
@@ -126,6 +130,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	662637876	DeathWhisle-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\DeathWhisle-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\RandomDeathWhisle\DeathWhisle-002		106556
 	681284662	Intro	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Intro_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Intro\Intro		3744096
 	683503367	Shot	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Shot_DFD1FC30.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shot		175876
+	692337791	Stinger	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Stinger_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stinger\Stinger		1440096
 	721826048	Goblin_Swing-002	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Goblin_Swing-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goblin\Goblin_Swing\Goblin_Swing-002		71866
 	724030898	Death_Cry	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\Death_Cry_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Death_Cry		467556
 	724375867	FS_Stone-004	B:\Exams_2023\UE5-Wwise-ActionRPG-Integration\ActionRPG_WwiseProject\.cache\Windows\SFX\FS_Stone-004_31D62221.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\FS_Stone-004		17788

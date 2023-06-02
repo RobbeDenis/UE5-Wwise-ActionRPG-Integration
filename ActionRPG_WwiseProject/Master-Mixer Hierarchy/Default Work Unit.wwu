@@ -38,8 +38,8 @@
 												<StateRef Name="Walk" ID="{E7F5507F-2175-427C-BAAF-8AE08DCFB3B3}"/>
 												<CustomState Name="" ID="{3458BD5D-5C16-47C1-847F-A8C4B0B3CCCB}" ShortID="425001062">
 													<PropertyList>
-														<Property Name="BusVolume" Type="Real64" Value="-2"/>
-														<Property Name="Highpass" Type="int16" Value="25"/>
+														<Property Name="BusVolume" Type="Real64" Value="-3"/>
+														<Property Name="Highpass" Type="int16" Value="28"/>
 													</PropertyList>
 												</CustomState>
 											</CustomState>
@@ -74,6 +74,33 @@
 									<CustomState>
 										<StateRef Name="Away" ID="{62F92134-CF67-4E1E-A09C-D3C97E49AA30}"/>
 										<CustomState Name="" ID="{DAAE026C-1CD6-4132-8C6E-0DFCEA94EDA0}" ShortID="984024889"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+						<Bus Name="Ambient" ID="{49353111-DCF2-4931-A3BD-AF55B89292FA}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Player" ID="{87B4E536-9AE8-48BB-A0CF-8B42EF7E7C4E}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Dead" ID="{0536CE74-4099-4668-85B0-BC25C1594966}"/>
+										<CustomState Name="" ID="{1B552B08-3CE4-488D-ABA8-A213886CC9FF}" ShortID="1022152839">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="5"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Alive" ID="{46EF42CB-0A3A-4B30-9381-5009C43676DA}"/>
+										<CustomState Name="" ID="{65C48036-4386-4519-A182-4E2A24C4E4CB}" ShortID="381253294"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Away" ID="{62F92134-CF67-4E1E-A09C-D3C97E49AA30}"/>
+										<CustomState Name="" ID="{B0754F05-AA10-4E45-A36B-4BE3FD67FB6D}" ShortID="228256437"/>
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>

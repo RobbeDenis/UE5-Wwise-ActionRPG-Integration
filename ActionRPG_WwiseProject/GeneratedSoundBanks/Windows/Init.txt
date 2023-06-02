@@ -14,8 +14,10 @@ State	ID	Name	State Group			Notes
 Custom State	ID	Name	State Group	Owner		Notes
 	360277910	Dead	Player	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Gameplay		
 	425001062	Walk	Player_FS	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Gameplay\Footsteps		
+	1022152839	Dead	Player	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient		
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	77978275	Ambient			\Default Work Unit\Master Audio Bus\Ambient	
 	89505537	Gameplay			\Default Work Unit\Master Audio Bus\Gameplay	
 	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\Gameplay\Footsteps	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	

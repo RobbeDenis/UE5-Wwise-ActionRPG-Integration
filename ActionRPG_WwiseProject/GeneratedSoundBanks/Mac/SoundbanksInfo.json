@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{49B459F5-8A2D-A5AD-B690-AE0181C2353B}",
+    "Hash": "{93041C0F-074D-7CDD-9F34-75E9D28548D2}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -61,6 +61,12 @@
      ]
     },
     "Busses": [
+     {
+      "Id": "77978275",
+      "Name": "Ambient",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient",
+      "GUID": "{49353111-DCF2-4931-A3BD-AF55B89292FA}"
+     },
      {
       "Id": "89505537",
       "Name": "Gameplay",
@@ -248,7 +254,7 @@
     "Type": "User",
     "GUID": "{CB266DD4-F623-48C5-AA10-E63E0D349C1D}",
     "Language": "SFX",
-    "Hash": "{06425207-D205-5B68-FD7C-B474FD63C0EA}",
+    "Hash": "{A3E7B258-E632-BFD4-2B23-64232A7E33C1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -774,6 +780,14 @@
       "CachePath": "SFX/Percussion-002_D79FB2B7.wem"
      },
      {
+      "Id": "584932003",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Vocals-005.wav",
+      "CachePath": "SFX/Vocals-005_D79FB2B7.wem"
+     },
+     {
       "Id": "587868897",
       "Language": "SFX",
       "Streaming": "false",
@@ -908,6 +922,14 @@
       "Location": "Memory",
       "ShortName": "Shot.wav",
       "CachePath": "SFX/Shot_DFD1FC30.wem"
+     },
+     {
+      "Id": "692337791",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stinger.wav",
+      "CachePath": "SFX/Stinger_D79FB2B7.wem"
      },
      {
       "Id": "721826048",
@@ -1359,9 +1381,7 @@
       "Name": "Play_DeathWhisleLow",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_DeathWhisleLow",
       "GUID": "{E2583857-8048-48ED-AB46-406606089EAF}",
-      "DurationType": "OneShot",
-      "DurationMin": "154.03534",
-      "DurationMax": "154.03534",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "797124082"
@@ -1879,10 +1899,16 @@
         "Id": "556322199"
        },
        {
+        "Id": "584932003"
+       },
+       {
         "Id": "591263472"
        },
        {
         "Id": "681284662"
+       },
+       {
+        "Id": "692337791"
        },
        {
         "Id": "803295193"
@@ -2141,9 +2167,17 @@
        }
       ]
      }
+    ],
+    "Triggers": [
+     {
+      "Id": "3635630799",
+      "Name": "NewRound",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\NewRound",
+      "GUID": "{FD023478-8280-45E3-AE0A-67A38C4DA27C}"
+     }
     ]
    }
   ],
-  "FileHash": "{87E914A0-DEBB-AC32-0C55-3D576D0B0016}"
+  "FileHash": "{F370322B-457E-8371-618E-F9D18F4CAEB8}"
  }
 }

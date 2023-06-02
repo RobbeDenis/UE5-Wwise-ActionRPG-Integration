@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{06425207-D205-5B68-FD7C-B474FD63C0EA}">
+		<SoundBank Id="3161908922" Type="User" GUID="{CB266DD4-F623-48C5-AA10-E63E0D349C1D}" Language="SFX" Hash="{A3E7B258-E632-BFD4-2B23-64232A7E33C1}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -266,6 +266,10 @@
 					<ShortName>Percussion-002.wav</ShortName>
 					<CachePath>SFX/Percussion-002_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="584932003" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vocals-005.wav</ShortName>
+					<CachePath>SFX/Vocals-005_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="587868897" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rock_Impact_Tail.wav</ShortName>
 					<CachePath>SFX/Rock_Impact_Tail_10C4C929.wem</CachePath>
@@ -333,6 +337,10 @@
 				<File Id="683503367" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Shot.wav</ShortName>
 					<CachePath>SFX/Shot_DFD1FC30.wem</CachePath>
+				</File>
+				<File Id="692337791" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stinger.wav</ShortName>
+					<CachePath>SFX/Stinger_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="721826048" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Goblin_Swing-002.wav</ShortName>
@@ -539,7 +547,7 @@
 						<MediaRef Id="724030898"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1661060282" Name="Play_DeathWhisleLow" ObjectPath="\Events\Default Work Unit\Play_DeathWhisleLow" GUID="{E2583857-8048-48ED-AB46-406606089EAF}" DurationType="OneShot" DurationMin="154.03534" DurationMax="154.03534">
+				<Event Id="1661060282" Name="Play_DeathWhisleLow" ObjectPath="\Events\Default Work Unit\Play_DeathWhisleLow" GUID="{E2583857-8048-48ED-AB46-406606089EAF}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="797124082"/>
 					</MediaRefs>
@@ -743,8 +751,10 @@
 						<MediaRef Id="518070110"/>
 						<MediaRef Id="521147671"/>
 						<MediaRef Id="556322199"/>
+						<MediaRef Id="584932003"/>
 						<MediaRef Id="591263472"/>
 						<MediaRef Id="681284662"/>
+						<MediaRef Id="692337791"/>
 						<MediaRef Id="803295193"/>
 						<MediaRef Id="818235687"/>
 						<MediaRef Id="858298654"/>
@@ -830,7 +840,10 @@
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
+			<Triggers>
+				<Trigger Id="3635630799" Name="NewRound" ObjectPath="\Triggers\Default Work Unit\NewRound" GUID="{FD023478-8280-45E3-AE0A-67A38C4DA27C}"/>
+			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{ADB13C21-7C32-9F69-825E-CD1BE7E07992}</FileHash>
+	<FileHash>{3EEC2737-9198-7459-DEB4-BBCBDB09548A}</FileHash>
 </SoundBanksInfo>
